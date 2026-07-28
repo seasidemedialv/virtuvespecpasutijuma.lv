@@ -5,7 +5,7 @@ Last updated: 2026-07-28
 - **Workflow state:** MEASURED_DEMAND_PLAN_APPROVED
 - **Build allowed:** NO — required page briefs and missing business facts must be resolved first
 - **Required SEO build plan:** `SEO-BUILD-PLAN.md`
-- **DataForSEO research ID:** `virtuvespecpasutijuma-full-research-2026-07-28`
+- **DataForSEO research ID:** `virtuvespecpasutijuma-topic-led-research-2026-07-28`
 - **Generated evidence commit:** `0bcf238ff4bcef78e8a0f77f02fe440d3176a17c`
 - **AI evidence review:** approved
 - **Research cost:** $0.346720 main + $0.090000 location follow-up = **$0.436720 total**
