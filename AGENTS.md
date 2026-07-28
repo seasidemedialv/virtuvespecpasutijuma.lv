@@ -16,7 +16,21 @@ The Work agent is responsible for the complete research-to-build process. It mus
 
 Continue autonomously through every permitted workflow gate. Ask only when a genuinely unknowable business fact, missing credential, consequential paid/irreversible action, material brand choice or production approval blocks progress.
 
-## Current hard gate
+## Current rebuild gate
+
+The implementation committed in `e82378357d386e644885ce94215ec209dcd654e3` used a Sites/Vinext starter instead of the required website template. It is a rejected preview, not an approved implementation.
+
+Before continuing:
+
+- Read the restored `seasidemedialv/website-template`, including `AGENTS.md`, `NICHE-SETUP.md`, `IMAGE-PROMPTS.md` and all page templates.
+- Audit the current build file by file against that template.
+- Rebuild or adapt the implementation to the template's structure, density, conversion flow and SEO/content system.
+- Preserve valid research and verified facts, but rewrite thin or generic content from approved page briefs.
+- Create and complete `TEMPLATE-COMPLIANCE.md`.
+- Compare the rendered result to the owner-approved reference family in `PROJECT-STATUS.md`.
+- Do not describe the current preview as completed, premium or approved.
+
+## Previous research gate
 
 DataForSEO research and its AI review are mandatory. Until the successful result and reports exist, `reviews/<research-id>.md` has `review_status: approved`, the evidence is recorded in this repository, and `WEBSITE-FOUNDATION.md` is approved:
 
