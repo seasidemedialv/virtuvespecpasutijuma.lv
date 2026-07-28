@@ -85,10 +85,13 @@ existing framework remains only as the build/runtime layer.
 - [x] `npm run lint`
 - [x] `npm test`
 - [x] Production artifact validation
+- [x] GitHub Pages preview replaced
 - [ ] Live desktop visual comparison
 - [ ] Live mobile visual comparison
-- [ ] GitHub Pages preview replaced
 - [ ] Owner visual review requested
 
-The remaining boxes are deployment-stage checks. Passing this document means
-the source is ready for preview QA, not approved for production launch.
+GitHub Actions run `30374616213` deployed the rebuilt preview successfully.
+Automated browser access to `seasidemedialv.github.io` was denied by the active
+browser permission policy, so the desktop/mobile visual boxes remain open.
+Passing this document means the source and deployment are ready for visual QA,
+not approved for production launch.
