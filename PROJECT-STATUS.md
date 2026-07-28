@@ -2,14 +2,14 @@
 
 Last updated: 2026-07-28
 
-- **Workflow state:** RESEARCH_RUNNING
+- **Workflow state:** RESEARCH_FAILED
 - **Build allowed:** NO
-- **Mandatory next action:** Verify the current DataForSEO workflow output, then complete and approve the AI review
-- **DataForSEO research ID:** TBD — copy from the completed request
+- **Mandatory next action:** Rerun the repaired DataForSEO request, inspect the exact run immediately, and verify all expected artifacts
+- **DataForSEO research ID:** `virtuvespecpasutijuma-full-research-2026-07-28`
 - **Workflow run URL:** TBD — copy from GitHub Actions
 - **Result/report paths:** TBD — verify after completion
 - **AI review path:** TBD — expected `reviews/<research-id>.md`
-- **AI review status:** not_verified
+- **AI review status:** blocked_by_failed_run
 - **Research cost:** TBD
 
 ## Current stage
@@ -53,20 +53,22 @@ Discovery / Foundation
 ## Blockers
 
 - `WEBSITE-FOUNDATION.md` is not marked **Gatavs būvniecībai**.
-- DataForSEO research was reported as submitted, but its completed output, request ID, cost, reports, and approved AI review have not yet been verified in this repository.
+- DataForSEO request `virtuvespecpasutijuma-full-research-2026-07-28` failed before any API call because the shared runner contained a stray plain-text line before its JavaScript imports.
+- The shared runner syntax defect was removed in commit `e6d42a2100ae15a65e4229f2917d6e7094249bda`; the request still requires a successful rerun and artifact verification.
 - Business truth is partially confirmed; contact identity, offer boundaries, proof, and conversion process remain incomplete.
 - Template repository currently has no reusable implementation beyond its README.
 
 ## Next actions
 
 1. Collect and verify the remaining business inputs listed in `PROJECT-BRIEF.md`.
-2. Verify the submitted DataForSEO run; record its ID, workflow URL, outputs, locale/device settings, and cost.
-3. Complete the mandatory AI review and require `reviews/<research-id>.md` with `review_status: approved`.
-4. Import only approved evidence and page decisions into `WEBSITE-FOUNDATION.md`.
-5. Approve positioning, information architecture, conversion path, and visual direction.
-6. Mark the foundation **Gatavs būvniecībai**.
-7. Build a mobile-first, accessible, noindex preview and run full QA.
-8. Obtain explicit approval before any production deployment.
+2. Rerun the repaired DataForSEO request and inspect its exact Actions status and logs immediately; do not create an hourly watch.
+3. Verify `results/virtuvespecpasutijuma-full-research-2026-07-28.json`, all expected reports, and the review worksheet; record the workflow URL, locale/device settings, and cost.
+4. Complete the mandatory AI review and require `reviews/<research-id>.md` with `review_status: approved`.
+5. Import only approved evidence and page decisions into `WEBSITE-FOUNDATION.md`.
+6. Approve positioning, information architecture, conversion path, and visual direction.
+7. Mark the foundation **Gatavs būvniecībai**.
+8. Build a mobile-first, accessible, noindex preview and run full QA.
+9. Obtain explicit approval before any production deployment.
 
 ## Checks last run
 
