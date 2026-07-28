@@ -1,124 +1,124 @@
-# virtuvespecpasutijuma.lv — vietnes SEO un izveides pamata dokuments
+# virtuvespecpasutijuma.lv — vietnes pamata dokuments
 
-> **Workflow state:** RESEARCH_APPROVED  
-> **Build allowed:** NO  
-> **Hard gate:** DataForSEO un obligātā AI pārbaude ir pabeigta. Arhitektūras paplašināšana, copywriting, dizains un vietnes ražošana nav sākta; tā paliek bloķēta līdz biznesa, konversijas un fonda lēmumu apstiprināšanai.
+> **Workflow state:** MEASURED_DEMAND_PLAN_APPROVED  
+> **Build allowed:** NO — vispirms jāizveido unikāli lapu briefs un jāapstiprina trūkstošie biznesa fakti  
+> **SEO build scope:** `SEO-BUILD-PLAN.md`
 
-> **Statuss:** Pētījuma vārti apstiprināti; fonds vēl nav gatavs būvniecībai  
 > **Pēdējoreiz atjaunināts:** 2026-07-28  
 > **Atbildīgais:** TBD
 
-Šis ir galvenais avots vietnes stratēģijai, saturam, SEO un konversijām. Nezināma informācija ir `TBD` un nav publicējama kā fakts.
+Nezināma informācija ir `TBD` un nav publicējama kā fakts.
 
-## 1. Projekta kopsavilkums
+## 1. Projekts un biznesa patiesība
 
-- Vietnes tips: potenciālo klientu piesaistes vietne
-- Galvenais biznesa mērķis: kvalificēti pieprasījumi par virtuvēm pēc pasūtījuma
-- Galvenā un sekundārā konversija: TBD
-- Ražošanas repozitorijs: `seasidemedialv/virtuvespecpasutijuma.lv`
-- Ražošanas domēns: `https://virtuvespecpasutijuma.lv/`
-- Priekšskatījums un palaišanas statuss: TBD; nekas nav publiski izvietots
-
-## 2. Biznesa patiesība
-
+- Domēns: `https://virtuvespecpasutijuma.lv/`
 - Vietnes īpašnieks: Seaside Media
-- Publiskais zīmols, juridiskais operators, adrese, tālrunis, e-pasts un darba laiks: TBD
-- Apstiprinātais pakalpojums: virtuvju pēc pasūtījuma projektēšana, izgatavošana, piegāde un uzstādīšana, precīzi pielāgojot virtuvi katra klienta mājoklim un vajadzībām
-- Apstiprinātā apkalpošanas teritorija: Rīga, Mārupe, Stopiņi, Ulbroka, Ķekava, Babīte, Garkalne, Salaspils, Ādaži, Jūrmala, Olaine, Piņķi, Carnikava, Ropaži, Ikšķile, Ogre, Baldone, Saulkrasti, Jelgava, Sigulda
-- Piedāvājuma izņēmumi, cenas, garantijas, termiņi un pierādījumi: TBD
+- Publiskais zīmols un juridiskais operators: TBD
+- Apstiprinātais pakalpojums: pēc pasūtījuma izgatavotu virtuvju projektēšana, izgatavošana, piegāde un uzstādīšana, pielāgojot katra klienta mājoklim un vajadzībām
+- Apstiprinātās teritorijas: Rīga, Mārupe, Stopiņi, Ulbroka, Ķekava, Babīte, Garkalne, Salaspils, Ādaži, Jūrmala, Olaine, Piņķi, Carnikava, Ropaži, Ikšķile, Ogre, Baldone, Saulkrasti, Jelgava un Sigulda
+- Kontakti, cenas, garantijas, termiņi, materiāli, partneri, atsauksmes un projektu pierādījumi: TBD
 
-| Apgalvojums | Statuss | Avots | Drīkst publicēt? |
-|---|---|---|---|
-| Projektējam, izgatavojam, piegādājam un uzstādām virtuves pēc pasūtījuma | Verified | Īpašnieka informācija, 2026-07-28 | Jā |
-| Apkalpojam norādītās 20 pilsētas/teritorijas | Verified | Īpašnieka informācija, 2026-07-28 | Jā |
-| Pieredze, sertifikāti, atsauksmes, pabeigto darbu skaits | TBD | — | Nē |
-| Garantija, cena un termiņš | TBD | — | Nē |
-
-## 3. Apstiprinātā pētījuma konfigurācija
+## 2. Pētījuma avots
 
 | Parametrs | Vērtība |
 |---|---|
-| Galvenā pētījuma ID | `virtuvespecpasutijuma-full-research-2026-07-28` |
-| Izpētes datums | 2026-07-28 |
-| Avots | DataForSEO API v3 / Google |
-| Lokalizācija | Latvia, `lv` |
-| Ierīces | desktop un mobile |
+| Research ID | `virtuvespecpasutijuma-full-research-2026-07-28` |
+| Datums | 2026-07-28 |
+| Avots | DataForSEO API v3 / Google Latvia / `lv` |
+| Rezultāts | 675 kandidāti; 153 kvalificēti atslēgvārdi; 8 SERP; 8 konkurentu lapas |
 | Galvenā pētījuma izmaksas | $0.346720 |
-| Lokāciju follow-up izmaksas | $0.090000 |
-| Kopējās reģistrētās izmaksas | $0.436720 no $1.00 limita |
-| Galvenā pētījuma apjoms | 675 raw candidates; 153 qualified keywords; 4 clusters; 8 SERPs; 8 competitor pages |
-| AI review | `reviews/virtuvespecpasutijuma-full-research-2026-07-28.md` — `approved` |
+| Lokāciju follow-up | 40 frāzes; $0.090000; nevienai nebija uzrādāma apjoma |
+| Kopējās izmaksas | $0.436720 no $1.00 limita |
+| AI evidence review | `approved` |
 
-Runneris sekmīgi sasniedza rezultātu ģenerēšanu pēc `npm run check` vārtiem. Pārbaudīti: neapstrādātais rezultāts, galvenais reports, keyword map, site architecture, content gaps, internal links, visu četru kandidātlapu briefs un review fails.
+Automātiskais review sākotnēji ieteica konservatīvu vienas lapas arhitektūru. Īpašnieks pēc review izvēlējās plašāku stratēģiju: izveidot atsevišķas lapas visiem biznesam atbilstošajiem tematiem, kuriem pabeigtajā datasetā ir izmērāms pieprasījums. Šis lēmums ir dokumentēts `SEO-BUILD-PLAN.md` un nedrīkst tikt attēlots kā automātiskā klastera rekomendācija.
 
-## 4. Apstiprinātais SEO pētījuma lēmums
+## 3. Obligātās izmērāmā pieprasījuma lapas
 
-Pētījuma vārtos apstiprināta viena atsevišķa komerciāla pakalpojuma lapa:
+Jāizveido visas 16 lapas:
 
-- `/pakalpojumi/virtuves-pec-pasutijuma/` — `approve_page`
+1. `/` — virtuves pēc pasūtījuma
+2. `/virtuves-iekartas-pec-pasutijuma/`
+3. `/virtuves-izgatavosana/`
+4. `/iebuvetas-virtuves/`
+5. `/virtuves-cenas/`
+6. `/virtuves-dizains-un-projektesana/`
+7. `/virtuves-planosana/`
+8. `/virtuves-uzstadisana/`
+9. `/stura-un-l-veida-virtuves/`
+10. `/mazas-virtuves/`
+11. `/modernas-virtuves/`
+12. `/virtuves-ar-salu/`
+13. `/virtuves-skapisi/`
+14. `/virtuves-fasades/`
+15. `/virtuves-furnitura/`
+16. `/virtuves-interjers/`
 
-Automātiski piedāvāto lapu lēmumi:
+Precīzie primārie un atbalsta atslēgvārdi, apjomi, nolūks un lapu robežas ir `SEO-BUILD-PLAN.md`.
 
-- `/pakalpojumi/virtuves-iekartas/` — `merge` galvenajā pakalpojuma lapā, lai izvairītos no jaukta produktu/pakalpojuma nolūka un kanibalizācijas;
-- `/pakalpojumi/interjers-dizains/` — `exclude`, jo vispārējs interjera dizains nav apstiprināts pakalpojums; virtuves dizaina nolūks ir tikai atbalsta tēma;
-- `/pakalpojumi/kondicionieru-uzstadisana-dzivokli/` — `exclude`, jo tas ir nepareizs pakalpojums; virtuves uzstādīšanas nolūks ir tikai atbalsta tēma.
+## 4. Satura un kanibalizācijas noteikumi
 
-Apstiprinātajā virtuves pakalpojuma lapā drīkst apvienot tikai faktiski atbilstošu nodomu: virtuves izgatavošana, projektēšana, plānojums, iebūvējamās virtuves, dizains, cenu faktori un virtuves uzstādīšana. Produktu, veikalu/zīmolu, vispārēja interjera dizaina, HVAC, atsevišķu iekārtu uzstādīšanas un citi neatbilstoši vaicājumi ir izslēgti review failā.
+- Katrai lapai vajadzīgs savs primārais nolūks, title, H1, struktūra, FAQ, piemēri un iekšējo saišu loma.
+- Neviena lapa nedrīkst būt citas lapas pārfrāzēta kopija.
+- Līdzīgas lapas jāatšķir pēc klienta jautājuma un pakalpojuma posma, nevis tikai pēc sinonīma.
+- `virtuves iekārtas` ir plašs jaukts produktu/pakalpojuma vaicājums; tas jāizmanto uzmanīgi.
+- Izmērāms apjoms nav satiksmes garantija un neattaisno neatbalstītus apgalvojumus.
+- Ja unikālam saturam trūkst biznesa faktu vai pierādījumu, lapa paliek nepublicēta vai `noindex` līdz to saņemšanai.
 
-Šis ir pētījuma lēmums, nevis pilna vietnes informācijas arhitektūras vai copy apstiprinājums.
+## 5. Izslēgtais SEO apjoms
 
-## 5. Lokāciju lēmums
+Atsevišķas SEO lapas pašreiz nav paredzētas:
 
-Visas 20 vietas ir apstiprinātas kā reālas apkalpošanas teritorijas. Vienā mērķētā follow-up tika pārbaudītas 40 lokālas komerciālas frāzes — divas katrai vietai. API atbildēja sekmīgi, bet nevienai frāzei nebija uzrādāma Google Ads mēneša apjoma.
+- vispārējam interjera dizainam;
+- HVAC, elektrības, santehnikas vai citiem neapstiprinātiem uzstādīšanas darbiem;
+- gatavu/mazumtirdzniecības virtuvju komplektiem;
+- krēsliem, galdiem, tehnikai, maisītājiem, nosūcējiem un aksesuāriem;
+- konkurentu un veikalu nosaukumiem;
+- U veida, klasiskām, privātmāju un dzīvokļu sēriju lapām, jo pabeigtais datasets tām neuzrādīja pārbaudītu pieprasījumu;
+- lokāciju lapām, jo 40 pārbaudītajām lokālajām frāzēm nebija uzrādāma apjoma.
 
-Tādēļ pašreizējais lēmums ir:
+Visas 20 vietas joprojām jānorāda kā patiesas apkalpošanas teritorijas.
 
-- visas 20 vietas drīkst patiesi norādīt kā apkalpošanas teritorijas un izmantot `section_only` galvenajā pakalpojuma lapā vai kontaktinformācijā;
-- 20 atsevišķās lokāciju SEO lapas ir `manual_review` un atliktas; tās nav pašreiz apstiprinātajā lapu skaitā;
-- lokācijas lapu nedrīkst veidot ar vietvārda nomaiņu vienā veidnē;
-- katru atsevišķo URL drīkst pārskatīt tikai tad, ja ir atšķirīgs lokālais SERP nolūks un pietiekami publicējami vietējie fakti, projekti vai citi pierādījumi unikāli noderīgam saturam.
+## 6. Funkcionālās lapas
 
-Negatīvs apjoma signāls nenozīmē, ka uzņēmums tur nestrādā; tas nozīmē, ka dati pašlaik nepamato 20 atsevišķus SEO URL.
+Tās nav keyword-demand lapas, bet vietnei var būt nepieciešamas:
 
-## 6. Zīmols, saturs un vizuālais virziens
+- realizēto projektu pārskats un reālu projektu lapas;
+- procesa lapa;
+- par mums;
+- kontakti un pieteikšanās;
+- privātuma, sīkdatņu un citi juridiskie dokumenti.
 
-- Valoda: latviešu; citas valodas TBD
-- Pozicionējums, publiskais solījums, CTA un balss: TBD
-- Vizuālais virziens: TBD
-- Esošie aktīvi, logo un licences: TBD
-- Nekādu izdomātu cenu, garantiju, atsauksmju, termiņu, lokālu īpašību vai statistikas
-- Ģenerēti attēli nedrīkst izlikties par paveiktiem klientu projektiem
+## 7. Faktiskie bloķētāji
 
-## 7. Konversija, juridika un tehniskais minimums
+Pirms copy un publicēšanas jāapstiprina:
 
-- CTA, formas lauki, saņēmējs, spam aizsardzība, piekrišana un success/error scenāriji: TBD
-- Publisku formu nepieslēgt pirms datu apstrādes un galamērķa apstiprināšanas
-- Priekšskatījumam jābūt `noindex, nofollow`
+- kontaktinformācija, juridiskais operators un publiskais zīmols;
+- projektēšanas, plānošanas, uzmērīšanas un uzstādīšanas precīzs apjoms;
+- vai tiek pieņemti tikai uzstādīšanas pasūtījumi;
+- faktiski piedāvātās fasādes, furnitūra un materiāli;
+- reālas cenas vai cenu piemēri;
+- garantija, termiņi un pēcpārdošanas kārtība;
+- reāli projekti, atsauksmes, attēli un to publicēšanas tiesības;
+- CTA, formas lauki, saņēmējs, piekrišana un lead apstrāde.
+
+## 8. Tehniskais un drošības minimums
+
 - Mobile-first, semantisks HTML, redzams fokuss, kontrasts un reduced-motion atbalsts
-- Canonical, sitemap, robots un schema tikai pēc galīgās arhitektūras un redzamo faktu apstiprināšanas
+- Priekšskatījums: `noindex, nofollow`
+- Unikāli title/meta/H1, canonical, sitemap un iekšējās saites
+- Schema tikai redzamiem un pārbaudītiem faktiem
+- Nekādu izdomātu cenu, garantiju, atsauksmju, sertifikātu, termiņu, statistikas vai lokālu īpašību
+- Ģenerēti attēli nedrīkst izlikties par reāliem klientu projektiem
 
-## 8. Atvērtie biznesa lēmumi
+## 9. Nākamais vārts
 
-| Jautājums | Kāpēc nepieciešams | Statuss |
-|---|---|---|
-| Publiskais zīmols un juridiskais operators | Saturs, footer, juridika, schema | TBD |
-| Kontaktinformācija un pieprasījuma process | Konversija un forma | TBD |
-| Piedāvājuma robežas, cenas, garantijas un termiņi | Precīzs saturs un kvalifikācija | TBD |
-| Reāli projekti, atsauksmes, attēli un izmantošanas tiesības | Uzticība un lokālo lapu pierādījumi | TBD |
-| Valodas | SEO un hreflang | TBD |
-| Analītika, consent un juridiskie teksti | Atbilstība un mērīšana | TBD |
+- [x] Pētījums un izmaksas ir pārbaudītas
+- [x] Tikai biznesam atbilstoši temati ar izmērāmu pieprasījumu ir iekļauti SEO plānā
+- [x] Īpašnieka prasītais 16 lapu measured-demand scope ir dokumentēts
+- [ ] Katrai lapai ir unikāls brief un keyword-to-URL robeža
+- [ ] Trūkstošie biznesa fakti ir apstiprināti
+- [ ] Konversijas un juridiskais process ir apstiprināts
+- [ ] Copy, dizains un implementācija ir pabeigta un pārbaudīta
 
-## 9. Gatavības lēmums
-
-- [x] Galvenais pakalpojums un 20 apkalpošanas teritorijas ir apstiprinātas kā biznesa fakti
-- [x] DataForSEO konfigurācija, datums un izmaksas ir dokumentētas
-- [x] Katram no četriem automātiskajiem klasteriem ir galīgs AI lēmums
-- [x] Atslēgvārdu izņēmumi un šaurais lokāciju follow-up ir dokumentēts
-- [x] Review statuss ir `approved`; pētījuma vārti ir pabeigti
-- [ ] Kontaktinformācija, piedāvājuma robežas, pierādījumi un konversijas process ir apstiprināti
-- [ ] Pilnā informācijas arhitektūra, saturs un dizains ir apstiprināts atsevišķā nākamajā posmā
-
-**Lēmums:** Pētījuma vārti apstiprināti; vietne vēl nav gatava būvniecībai  
-**Apstiprināja:** AI relevance review  
-**Datums:** 2026-07-28  
-**Piezīmes:** Nav sākta arhitektūra, copywriting, dizains, implementācija vai publiska izvietošana.
+**Lēmums:** lapu plāns ir atjaunināts; būvniecība vēl nav sākta.
