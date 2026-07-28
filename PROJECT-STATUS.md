@@ -2,7 +2,7 @@
 
 Last updated: 2026-07-28
 
-- **Workflow state:** TEMPLATE_REBUILD_QA
+- **Workflow state:** VISUAL_QA_BLOCKED
 - **Private build:** REBUILT — template compliance and preview QA in progress
 - **Production deployment:** NO — explicit approval and launch-critical facts are required
 - **Required SEO build plan:** `SEO-BUILD-PLAN.md`
@@ -20,7 +20,9 @@ The rejected visual implementation has been rebuilt from
 `6164a5664c46ca45a8386c829646facf1c9b4dca`. The framework is retained only as
 the build/runtime layer. The rendered layout now follows the template’s dense
 homepage, service-page, price/process/FAQ, lead-form, navigation and mobile
-system. `TEMPLATE-COMPLIANCE.md` contains the exact source mapping.
+system. `TEMPLATE-COMPLIANCE.md` contains the exact source mapping. The rebuilt
+preview is live at
+`https://seasidemedialv.github.io/website-preview/virtuvespecpasutijuma/`.
 
 ## Superseded implementation
 
@@ -109,12 +111,16 @@ The contact page is informational and the lead form is intentionally not activat
 - Automated HTML/route/accessibility-oriented checks passed
 - Rendered word-count QA: homepage 787 words; supporting demand pages 569–714 words
 - Every supporting demand page has one H1, canonical metadata and FAQ structured data
+- GitHub Pages workflow run `30374616213` completed successfully
+- Homepage, price page, FAQ page, preview script and favicon return HTTP 200
+- Live visual inspection is not complete because browser permission to
+  `seasidemedialv.github.io` was denied
 
 ## Remaining preview and launch gates
 
-1. Replace the rejected GitHub Pages artifact with the rebuilt preview.
-2. Complete live desktop and mobile visual comparison.
-3. Request owner visual review of the improved preview.
+1. Permit browser access to the GitHub Pages preview, then complete live
+   desktop and mobile visual comparison.
+2. Request owner visual review after those comparisons pass.
 4. Before production, confirm the final brand direction and supply
    launch-critical legal, contact and lead-handling facts.
 5. Activate and test the form only after its destination and consent
