@@ -7,7 +7,7 @@ Use `TBD` for unknown information. Do not invent missing facts.
 ## Ownership and goal
 
 - Site owner: Seaside Media
-- Working brand: virtuvespecpasutijuma.lv (working domain name; public brand TBD)
+- Working brand/domain: virtuvespecpasutijuma.lv (public-facing brand name beyond the domain remains TBD)
 - Primary business goal: Generate qualified enquiries for custom-made kitchens
 - Lead destination/business model: TBD
 - Success measurement: Qualified enquiries, organic clicks, organic conversions — targets TBD
@@ -16,15 +16,15 @@ Use `TBD` for unknown information. Do not invent missing facts.
 
 - Primary audience: People researching or planning a made-to-measure kitchen — inference, pending validation
 - Secondary audience: TBD
-- Countries/cities/service area: Latvia is implied by the .lv domain; exact service area TBD
+- Countries/cities/service area: Rīga, Mārupe, Stopiņi, Ulbroka, Ķekava, Babīte, Garkalne, Salaspils, Ādaži, Jūrmala, Olaine, Piņķi, Carnikava, Ropaži, Ikšķile, Ogre, Baldone, Saulkrasti, Jelgava, Sigulda
 - Languages: Latvian expected; confirm additional languages
 - Main customer problems: Fit, layout, materials, budget, installation, and supplier trust — research hypotheses only
 - Main objections or trust concerns: Price transparency, delivery/installation responsibility, workmanship, materials, warranty, and proof — research hypotheses only
 
 ## Offer
 
-- Primary service: Custom-made kitchens — inferred from domain; exact scope TBD
-- Supporting services: TBD
+- Primary service: Design, manufacture, delivery, and installation of custom kitchens tailored precisely to each customer’s home and needs
+- Supporting services included in the primary offer: kitchen design, manufacturing, delivery, and installation
 - Explicit exclusions: TBD
 - Primary call to action: TBD
 - Secondary call to action: TBD
@@ -43,7 +43,7 @@ Use `TBD` for unknown information. Do not invent missing facts.
 - Guarantees: TBD
 - Pricing: TBD
 - Response time: TBD
-- Verified service areas: TBD
+- Verified service areas: Rīga, Mārupe, Stopiņi, Ulbroka, Ķekava, Babīte, Garkalne, Salaspils, Ādaži, Jūrmala, Olaine, Piņķi, Carnikava, Ropaži, Ikšķile, Ogre, Baldone, Saulkrasti, Jelgava, Sigulda
 
 ## Proof and trust
 
@@ -79,7 +79,7 @@ Use `TBD` for unknown information. Do not invent missing facts.
 - Production repository: `seasidemedialv/virtuvespecpasutijuma.lv`
 - Default branch: `main`
 - Preview path/URL: TBD
-- Production domain: `https://virtuvespecpasutijuma.lv/` (domain inferred; DNS/ownership TBD)
+- Production domain: `https://virtuvespecpasutijuma.lv/` (confirmed website domain; DNS/launch status TBD)
 - Cloudflare project: TBD
 - Form endpoint: TBD
 - Analytics: TBD
@@ -106,8 +106,8 @@ Use `TBD` for unknown information. Do not invent missing facts.
 ## Open questions
 
 - [ ] Confirm public brand and legal operator.
-- [ ] Confirm exact product/service scope and exclusions.
-- [ ] Confirm service area and languages.
+- [ ] Confirm explicit exclusions and detailed boundaries of design, manufacturing, delivery, and installation.
+- [ ] Confirm site language(s); service areas are verified.
 - [ ] Supply verified contact details and enquiry destination.
 - [ ] Supply real proof, portfolio assets, reviews, and usage permissions.
 - [ ] Confirm pricing, guarantees, process, timing, and differentiators.
