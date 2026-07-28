@@ -14,6 +14,8 @@ Discovery and foundation. Full production build is blocked until `WEBSITE-FOUNDA
 
 ## Working rules
 
-Follow `seasidemedialv/website-building-guide`, then the applicable instructions in `seasidemedialv/website-template` and `seasidemedialv/seo-guidelines`.
+Follow `seasidemedialv/website-building-guide`, including `WORKFLOW-GATES.md`, then the applicable instructions in `seasidemedialv/website-template`, `seasidemedialv/seo-guidelines`, and `seasidemedialv/website-seo-plugin-dataforseo`.
+
+Mandatory DataForSEO research and an approved AI review are required before final architecture, SEO copy, or production page building. Read this repository's `AGENTS.md` before every continuation.
 
 Unknown business facts stay `TBD`. Do not publish invented claims, contact details, reviews, prices, service areas, guarantees, or structured data.
