@@ -30,6 +30,7 @@ Discovery / Foundation
 - Production repository and domain `virtuvespecpasutijuma.lv` are confirmed.
 - Verified offer: design, manufacture, delivery, and installation of custom kitchens tailored to each customer’s home and needs.
 - Verified service areas: Rīga, Mārupe, Stopiņi, Ulbroka, Ķekava, Babīte, Garkalne, Salaspils, Ādaži, Jūrmala, Olaine, Piņķi, Carnikava, Ropaži, Ikšķile, Ogre, Baldone, Saulkrasti, Jelgava, Sigulda.
+- Each verified service area will have a dedicated page with independently researched local intent, content, characteristics, questions, and evidence; superficial location-name substitutions are prohibited.
 - Unknown business facts remain `TBD`.
 - No production deployment or full build before foundation approval.
 - Noindex is required for any temporary preview.
