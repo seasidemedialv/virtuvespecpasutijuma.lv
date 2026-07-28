@@ -1,7 +1,8 @@
 import type { NextConfig } from "next";
 
 const isGitHubPages = process.env.GITHUB_PAGES === "true";
-const githubPagesBasePath = "/virtuvespecpasutijuma.lv";
+const githubPagesBasePath =
+  process.env.GITHUB_PAGES_BASE_PATH ?? "/virtuvespecpasutijuma.lv";
 
 const nextConfig: NextConfig = {
   trailingSlash: true,
