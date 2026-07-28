@@ -1,6 +1,8 @@
 import type { MetadataRoute } from "next";
 import { seoPages } from "@/lib/site-data";
 
+export const dynamic = "force-static";
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = "https://virtuvespecpasutijuma.lv";
   const staticRoutes = [
