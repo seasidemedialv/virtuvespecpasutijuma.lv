@@ -53,6 +53,7 @@ const requiredRoutes = [
   "/realizetie-projekti/",
   "/par-mums/",
   "/kontakti/",
+  "/buj/",
   "/privatuma-politika/",
 ];
 
