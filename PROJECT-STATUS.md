@@ -2,6 +2,16 @@
 
 Last updated: 2026-07-28
 
+- **Workflow state:** RESEARCH_RUNNING
+- **Build allowed:** NO
+- **Mandatory next action:** Verify the current DataForSEO workflow output, then complete and approve the AI review
+- **DataForSEO research ID:** TBD — copy from the completed request
+- **Workflow run URL:** TBD — copy from GitHub Actions
+- **Result/report paths:** TBD — verify after completion
+- **AI review path:** TBD — expected `reviews/<research-id>.md`
+- **AI review status:** not_verified
+- **Research cost:** TBD
+
 ## Current stage
 
 Discovery / Foundation
@@ -43,18 +53,20 @@ Discovery / Foundation
 ## Blockers
 
 - `WEBSITE-FOUNDATION.md` is not marked **Gatavs būvniecībai**.
-- Required DataForSEO research has not been run.
+- DataForSEO research was reported as submitted, but its completed output, request ID, cost, reports, and approved AI review have not yet been verified in this repository.
 - Business truth is partially confirmed; contact identity, offer boundaries, proof, and conversion process remain incomplete.
 - Template repository currently has no reusable implementation beyond its README.
 
 ## Next actions
 
 1. Collect and verify the remaining business inputs listed in `PROJECT-BRIEF.md`.
-2. Configure and run DataForSEO keyword, SERP, and competitor research.
-3. Approve positioning, information architecture, conversion path, and visual direction.
-4. Mark the foundation **Gatavs būvniecībai**.
-5. Build a mobile-first, accessible, noindex preview and run full QA.
-6. Obtain explicit approval before any production deployment.
+2. Verify the submitted DataForSEO run; record its ID, workflow URL, outputs, locale/device settings, and cost.
+3. Complete the mandatory AI review and require `reviews/<research-id>.md` with `review_status: approved`.
+4. Import only approved evidence and page decisions into `WEBSITE-FOUNDATION.md`.
+5. Approve positioning, information architecture, conversion path, and visual direction.
+6. Mark the foundation **Gatavs būvniecībai**.
+7. Build a mobile-first, accessible, noindex preview and run full QA.
+8. Obtain explicit approval before any production deployment.
 
 ## Checks last run
 
