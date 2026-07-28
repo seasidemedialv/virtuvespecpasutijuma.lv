@@ -2,8 +2,8 @@
 
 Last updated: 2026-07-28
 
-- **Workflow state:** BUILD_COMPLETE_AWAITING_APPROVAL
-- **Private build:** COMPLETE
+- **Workflow state:** REBUILD_REQUIRED
+- **Private build:** REJECTED — wrong implementation foundation
 - **Production deployment:** NO — explicit approval and launch-critical facts are required
 - **Required SEO build plan:** `SEO-BUILD-PLAN.md`
 - **Keyword-to-page map:** `docs/KEYWORD-TO-PAGE-MAP.csv`
@@ -15,9 +15,21 @@ Last updated: 2026-07-28
 
 ## Current stage
 
-The complete private website has been implemented and technically verified. It remains unpublished and `noindex` pending final brand approval, launch-critical business/legal details and explicit production-deployment approval.
+The deployed preview is technically reachable but rejected. It was built from a Sites/Vinext starter instead of the mandatory `seasidemedialv/website-template`, and it does not meet the required visual, content, SEO or conversion standard. A template-based rebuild is required before approval.
 
-## Completed
+## Rejected implementation
+
+- Commit `e82378357d386e644885ce94215ec209dcd654e3` used the wrong starter.
+- The GitHub Pages deployment proves availability only, not quality or compliance.
+- The current preview must be replaced after a template-based rebuild.
+
+## Approved reference family
+
+`atkritumuizvesanariga.lv`, `atsledznieksriga.lv`, `iztiripats.lv`, `kondicionierauzstadisana.lv`, `kurjersriga.lv`, `parvaksanaskastes.lv`, `rigaselektrikis.lv`, `sadzivestehnikasremonts.lv`, `santehnikisriga.lv`, `saulespaneluuzstadisana.lv`, `siltumsuknuuzstadisana.lv`, `uzladesstacijas.lv`.
+
+Use their shared structural qualities: dense service coverage, prominent forms, repeated CTAs, price/process/FAQ content, service/location navigation, long-form intent coverage and strong mobile conversion. Do not copy their unsupported claims or exact branding.
+
+## Previously completed evidence and assets
 
 - Completed and approved the DataForSEO research gate.
 - Reviewed all 153 qualified keywords, automated clusters and proposed pages against the verified business scope.
@@ -100,4 +112,4 @@ The contact page is informational and the lead form is intentionally not activat
 4. Activate and test the contact form once its destination and consent requirements are known.
 5. Perform the final launch review and obtain explicit production-deployment approval.
 
-**Decision:** the permitted private website-building stages are complete. Public launch remains intentionally blocked at the defined approval gate.
+**Decision:** the current implementation is rejected. Rebuild from the restored template, complete `TEMPLATE-COMPLIANCE.md`, redeploy the preview, and request owner review.
