@@ -9,12 +9,12 @@
 ## 1. Projekta kopsavilkums
 
 - Vietnes tips: potenciālo klientu piesaistes vietne
-- Galvenais biznesa mērķis: kvalificēti pieprasījumi par virtuvēm pēc pasūtījuma — jāapstiprina
+- Galvenais biznesa mērķis: kvalificēti pieprasījumi par virtuvēm pēc pasūtījuma
 - Galvenā konversija: TBD
 - Sekundārā konversija: TBD
 - Ražošanas repozitorijs: `seasidemedialv/virtuvespecpasutijuma.lv`
 - Priekšskatījuma URL: TBD
-- Ražošanas domēns: `https://virtuvespecpasutijuma.lv/` — domēna/DNS statuss TBD
+- Ražošanas domēns: `https://virtuvespecpasutijuma.lv/` — domēns apstiprināts; DNS/palaišanas statuss TBD
 
 ### Darba stratēģijas hipotēze
 
@@ -26,13 +26,15 @@ Latviešu valodas vietne cilvēkiem, kuri plāno virtuvi pēc pasūtījuma. Viet
 - Publiskais zīmols: TBD
 - Juridiskais operators: TBD
 - Adrese, tālrunis, e-pasts, darba laiks: TBD
-- Galvenais pakalpojums: virtuves pēc pasūtījuma — secināts no domēna, jāapstiprina
-- Papildu pakalpojumi, izņēmumi, teritorija, cenas, garantijas un termiņi: TBD
+- Galvenais pakalpojums: virtuvju pēc pasūtījuma projektēšana, izgatavošana, piegāde un uzstādīšana, precīzi pielāgojot virtuvi katra klienta mājoklim un vajadzībām
+- Apstiprinātā apkalpošanas teritorija: Rīga, Mārupe, Stopiņi, Ulbroka, Ķekava, Babīte, Garkalne, Salaspils, Ādaži, Jūrmala, Olaine, Piņķi, Carnikava, Ropaži, Ikšķile, Ogre, Baldone, Saulkrasti, Jelgava, Sigulda
+- Piedāvājuma izņēmumi, cenas, garantijas un termiņi: TBD
 - Auditorija un galvenie iebildumi: jāapstiprina
 
 | Apgalvojums | Statuss | Avots | Drīkst publicēt? |
 |---|---|---|---|
-| Virtuves pēc pasūtījuma | Inference | Domēna nosaukums | Nē, līdz apstiprinājumam |
+| Projektējam, izgatavojam, piegādājam un uzstādām virtuves pēc pasūtījuma | Verified | Īpašnieka sniegtā informācija, 2026-07-28 | Jā |
+| Apkalpojam norādītās 20 pilsētas/teritorijas | Verified | Īpašnieka sniegtā informācija, 2026-07-28 | Jā |
 | Pieredzes gadi | TBD | | Nē |
 | Sertifikāti/licences | TBD | | Nē |
 | Atsauksmes/vērtējums | TBD | | Nē |
@@ -56,7 +58,7 @@ Latviešu valodas vietne cilvēkiem, kuri plāno virtuvi pēc pasūtījuma. Viet
 | Datu avots | DataForSEO API v3 |
 | Meklētājprogramma | Google |
 | Valsts | Latvia |
-| Pilsēta/reģions | TBD |
+| Pilsēta/reģions | Rīga un apstiprinātās apkārtējās pilsētas/teritorijas |
 | Valodas kods | lv |
 | Ierīce | desktop + mobile |
 | Mērķa domēns | virtuvespecpasutijuma.lv |
@@ -117,8 +119,8 @@ Lokāciju un papildu pakalpojumu lapas neveidot bez reāla piedāvājuma un atš
 | Jautājums | Kāpēc nepieciešams | Statuss |
 |---|---|---|
 | Publiskais zīmols un juridiskais operators | Saturs, footer, juridika, schema | TBD |
-| Precīzs piedāvājums un izņēmumi | Arhitektūra, copy, SEO | TBD |
-| Teritorija un valodas | SEO, saturs, hreflang | TBD |
+| Piedāvājuma izņēmumi un detalizētas robežas | Arhitektūra, copy, SEO | TBD |
+| Valodas | SEO, saturs, hreflang | TBD |
 | Kontaktinformācija un pieprasījuma process | Konversija, forma | TBD |
 | Reāli pierādījumi un aktīvu tiesības | Uzticība, attēli | TBD |
 | DataForSEO piekļuve/izmaksu limits | Atslēgvārdi, SERP, konkurenti | TBD |
@@ -127,8 +129,8 @@ Lokāciju un papildu pakalpojumu lapas neveidot bez reāla piedāvājuma un atš
 
 ## 10. Gatavības lēmums
 
-- [ ] Biznesa piedāvājums un robežas ir apstiprinātas
-- [ ] Kontaktinformācija un apkalpošanas teritorija ir pārbaudīta
+- [ ] Biznesa piedāvājuma pamatpakalpojumi ir apstiprināti; izņēmumi un detalizētās robežas vēl jāapstiprina
+- [ ] Apkalpošanas teritorija ir pārbaudīta; kontaktinformācija vēl jāapstiprina
 - [ ] DataForSEO konfigurācija un datums ir dokumentēti
 - [ ] Prioritārie atslēgvārdi un P1 SERP nolūks ir pārbaudīts
 - [ ] Arhitektūra, kanibalizācijas karte un P1 specifikācijas ir apstiprinātas
