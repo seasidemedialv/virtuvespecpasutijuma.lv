@@ -2,9 +2,12 @@
 
 Last updated: 2026-07-28
 
-- **Workflow state:** MEASURED_DEMAND_PLAN_APPROVED
-- **Build allowed:** NO — required page briefs and missing business facts must be resolved first
+- **Workflow state:** BUILD_COMPLETE_AWAITING_APPROVAL
+- **Private build:** COMPLETE
+- **Production deployment:** NO — explicit approval and launch-critical facts are required
 - **Required SEO build plan:** `SEO-BUILD-PLAN.md`
+- **Keyword-to-page map:** `docs/KEYWORD-TO-PAGE-MAP.csv`
+- **Page briefs:** `docs/PAGE-BRIEFS.md`
 - **DataForSEO research ID:** `virtuvespecpasutijuma-topic-led-research-2026-07-28`
 - **Generated evidence commit:** `0bcf238ff4bcef78e8a0f77f02fe440d3176a17c`
 - **AI evidence review:** approved
@@ -12,22 +15,25 @@ Last updated: 2026-07-28
 
 ## Current stage
 
-Discovery / Foundation — measurable-demand page scope defined; copy, design and implementation not started
+The complete private website has been implemented and technically verified. It remains unpublished and `noindex` pending final brand approval, launch-critical business/legal details and explicit production-deployment approval.
 
 ## Completed
 
-- Completed and verified the DataForSEO research workflow and artifact set.
-- Reviewed all 153 qualified keywords, all four automated clusters and proposed pages against the verified business scope.
-- Excluded competitor, product, unrelated-service and unsupported-business queries.
-- Completed a 40-keyword location follow-up; all tested location phrases returned no reportable volume.
-- Recorded the owner’s decision to pursue broad coverage across relevant topics with measurable keyword demand.
-- Created `SEO-BUILD-PLAN.md` as the required page-building scope.
-- Kept functional/legal pages separate from measurable-demand SEO pages.
-- Did not start copywriting, design, implementation or deployment.
+- Completed and approved the DataForSEO research gate.
+- Reviewed all 153 qualified keywords, automated clusters and proposed pages against the verified business scope.
+- Excluded competitor, retail-product, unrelated-service and unsupported-business queries.
+- Completed the 40-keyword location follow-up; none of the tested local phrases returned reportable volume.
+- Created the evidence-backed 16-page keyword-to-URL map and a unique brief for every required demand page.
+- Wrote distinct Latvian copy for all 16 demand pages with separate intent boundaries, headings, content sections and FAQs.
+- Implemented five supporting pages: process, projects, about, contact and privacy.
+- Created a responsive information architecture, navigation, footer and internal-link system.
+- Created three logo concepts, a provisional geometric technical-plan mark and a matching favicon.
+- Implemented the provisional **Nordic Technical Precision** visual system: off-white, charcoal, forest green, oak and stone.
+- Generated and optimized illustrative kitchen imagery; it is identified as illustrative and is not presented as customer work.
+- Added unique metadata, canonical URLs, sitemap generation, robots controls, Latvian document language, accessible focus states and reduced-motion support.
+- Kept the complete private build `noindex`; no public deployment was made.
 
-## Required measurable-demand pages
-
-The build plan now requires 16 keyword-demand pages:
+## Implemented measurable-demand pages
 
 1. `/` — `virtuves pēc pasūtījuma`
 2. `/virtuves-iekartas-pec-pasutijuma/`
@@ -46,61 +52,52 @@ The build plan now requires 16 keyword-demand pages:
 15. `/virtuves-furnitura/`
 16. `/virtuves-interjers/`
 
-Every page is tied to at least one relevant keyword with measurable volume in the completed dataset. `SEO-BUILD-PLAN.md` contains the exact primary/supporting keywords, recorded volumes, intent boundaries and build order.
-
-This expanded owner-directed build scope is intentionally broader than the automated research architecture. Measured demand supports the topics; separate page quality must be protected through unique briefs and strict cannibalization boundaries.
+Every page is tied to measurable demand in the completed dataset. The map and briefs preserve separate search intent and reduce cannibalization risk.
 
 ## Location-page status
 
-- All 20 named areas remain verified service areas.
-- Location pages are not included in the measurable-demand plan because all 40 tested local phrases returned no reportable volume.
-- The locations must still be presented as factual service coverage.
-- Standalone location pages remain deferred unless later evidence supports them.
+- All 20 named areas remain verified service areas and are presented as factual coverage.
+- Standalone location pages were not created because all 40 tested local phrases returned no reportable volume.
+- Location pages remain deferred unless later evidence or a deliberate non-SEO business requirement supports them.
 
-## Functional pages tracked separately
-
-These may be required without being represented as keyword-demand landing pages:
-
-- Projects overview and real individual projects
-- Process
-- About
-- Contact
-- Privacy, cookie and other legal pages
-
-## Confirmed business facts
+## Confirmed business facts used
 
 - Domain: `virtuvespecpasutijuma.lv`
 - Offer: design, manufacture, delivery and installation of custom kitchens tailored to each customer’s home and needs
 - Verified service areas: Rīga, Mārupe, Stopiņi, Ulbroka, Ķekava, Babīte, Garkalne, Salaspils, Ādaži, Jūrmala, Olaine, Piņķi, Carnikava, Ropaži, Ikšķile, Ogre, Baldone, Saulkrasti, Jelgava and Sigulda
-- Unknown claims remain `TBD`; no invented business or local claims are allowed
+- No exact brands, prices, warranty duration, production times, certifications, customer examples or reviews were invented
 
-## Remaining blockers
+## Launch gates and unresolved facts
 
-- Public brand, legal operator and contact details
-- Lead-handling and form destination
-- Precise scope of design, planning, measurement and installation
-- Whether installation-only work is accepted
-- Materials, fittings and facade options actually offered
-- Genuine pricing examples, guarantees and timelines
-- Real projects, reviews, images and publication rights
-- Page briefs and overlap boundaries for all 16 required SEO pages
+- Final public brand choice and approval of the provisional logo direction
+- Public business name, legal operator and required legal details
+- Phone, email and other publishable contact details
+- Form destination, consent wording and lead-handling process
+- Exact accepted service scope, including whether installation-only work is accepted
+- Materials, fittings and facade options that may be stated publicly
+- Real pricing examples, guarantee terms and production timelines, if they are to be published
+- Real project images, reviews and publication rights, if they are to be added
+- Explicit approval for production deployment
 
-## Next actions
+The contact page is informational and the lead form is intentionally not activated until its destination and privacy requirements are confirmed.
 
-1. Build the keyword-to-URL map and unique brief for each of the 16 required pages.
-2. Resolve the factual blockers for the relevant pages; keep unsupported sections `TBD` or unpublished.
-3. Approve the complete foundation, conversion path and content inputs.
-4. Produce factual Latvian copy for every required page.
-5. Design and implement the full measured-demand scope plus required functional/legal pages.
-6. Run cannibalization, claims, technical SEO, accessibility, responsive and performance QA.
-7. Keep preview environments `noindex`; obtain explicit approval before production deployment.
+## QA completed
 
-## Checks last run
+- `npm run lint` — passed
+- `npm test` — passed, including 21 required routes, Latvian language, H1 checks, trailing-slash handling and 404 behavior
+- `npm run validate:artifact` — passed
+- 15 unique SEO slugs plus the homepage = 16 required demand pages
+- 15 unique SEO titles, 45 content sections and 30 FAQs verified
+- Production build completed successfully
+- Automated HTML/route/accessibility-oriented checks passed
+- A bounded cloud-browser visual pass was unavailable because browser-preview access was not granted; source, build and route validation remain complete
 
-- DataForSEO main run: passed
-- Location follow-up: passed; API status `20000`
-- Research review: approved
-- Measured-demand build plan: created
-- Unsupported keyword pages: excluded
-- Claims safety: passed; unknowns remain `TBD`
-- Production build/deployment: intentionally not started
+## Next actions at the approval gate
+
+1. Confirm the final brand direction or request a materially different direction.
+2. Supply launch-critical legal, contact and lead-handling facts.
+3. Replace illustrative imagery with approved real project media when available; this is optional for private-build completion but recommended for launch credibility.
+4. Activate and test the contact form once its destination and consent requirements are known.
+5. Perform the final launch review and obtain explicit production-deployment approval.
+
+**Decision:** the permitted private website-building stages are complete. Public launch remains intentionally blocked at the defined approval gate.
