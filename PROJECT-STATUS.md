@@ -2,8 +2,8 @@
 
 Last updated: 2026-07-28
 
-- **Workflow state:** REBUILD_REQUIRED
-- **Private build:** REJECTED — wrong implementation foundation
+- **Workflow state:** TEMPLATE_REBUILD_QA
+- **Private build:** REBUILT — template compliance and preview QA in progress
 - **Production deployment:** NO — explicit approval and launch-critical facts are required
 - **Required SEO build plan:** `SEO-BUILD-PLAN.md`
 - **Keyword-to-page map:** `docs/KEYWORD-TO-PAGE-MAP.csv`
@@ -15,13 +15,18 @@ Last updated: 2026-07-28
 
 ## Current stage
 
-The deployed preview is technically reachable but rejected. It was built from a Sites/Vinext starter instead of the mandatory `seasidemedialv/website-template`, and it does not meet the required visual, content, SEO or conversion standard. A template-based rebuild is required before approval.
+The rejected visual implementation has been rebuilt from
+`seasidemedialv/website-template` commit
+`6164a5664c46ca45a8386c829646facf1c9b4dca`. The framework is retained only as
+the build/runtime layer. The rendered layout now follows the template’s dense
+homepage, service-page, price/process/FAQ, lead-form, navigation and mobile
+system. `TEMPLATE-COMPLIANCE.md` contains the exact source mapping.
 
-## Rejected implementation
+## Superseded implementation
 
 - Commit `e82378357d386e644885ce94215ec209dcd654e3` used the wrong starter.
 - The GitHub Pages deployment proves availability only, not quality or compliance.
-- The current preview must be replaced after a template-based rebuild.
+- It is retained in history only and is not the acceptance baseline.
 
 ## Approved reference family
 
@@ -93,23 +98,28 @@ Every page is tied to measurable demand in the completed dataset. The map and br
 
 The contact page is informational and the lead form is intentionally not activated until its destination and privacy requirements are confirmed.
 
-## QA completed
+## QA completed for the rebuilt source
 
 - `npm run lint` — passed
-- `npm test` — passed, including 21 required routes, Latvian language, H1 checks, trailing-slash handling and 404 behavior
+- `npm test` — passed, including 22 required routes, Latvian language, H1 checks, trailing-slash handling and 404 behavior
 - `npm run validate:artifact` — passed
 - 15 unique SEO slugs plus the homepage = 16 required demand pages
-- 15 unique SEO titles, 45 content sections and 30 FAQs verified
+- 15 unique SEO titles, 45 brief-led content sections, topic-specific decision sections and intent-specific FAQs verified
 - Production build completed successfully
 - Automated HTML/route/accessibility-oriented checks passed
-- A bounded cloud-browser visual pass was unavailable because browser-preview access was not granted; source, build and route validation remain complete
+- Rendered word-count QA: homepage 787 words; supporting demand pages 569–714 words
+- Every supporting demand page has one H1, canonical metadata and FAQ structured data
 
-## Next actions at the approval gate
+## Remaining preview and launch gates
 
-1. Confirm the final brand direction or request a materially different direction.
-2. Supply launch-critical legal, contact and lead-handling facts.
-3. Replace illustrative imagery with approved real project media when available; this is optional for private-build completion but recommended for launch credibility.
-4. Activate and test the contact form once its destination and consent requirements are known.
-5. Perform the final launch review and obtain explicit production-deployment approval.
+1. Replace the rejected GitHub Pages artifact with the rebuilt preview.
+2. Complete live desktop and mobile visual comparison.
+3. Request owner visual review of the improved preview.
+4. Before production, confirm the final brand direction and supply
+   launch-critical legal, contact and lead-handling facts.
+5. Activate and test the form only after its destination and consent
+   requirements are known.
+6. Obtain explicit production-deployment approval.
 
-**Decision:** the current implementation is rejected. Rebuild from the restored template, complete `TEMPLATE-COMPLIANCE.md`, redeploy the preview, and request owner review.
+**Decision:** the template rebuild may replace the rejected preview after live
+deployment and visual QA. It is not approved for production.
