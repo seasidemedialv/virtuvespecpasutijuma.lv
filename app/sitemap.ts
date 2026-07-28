@@ -12,6 +12,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/par-mums",
     "/kontakti",
     "/privatuma-politika",
+    "/buj",
   ];
 
   return [
