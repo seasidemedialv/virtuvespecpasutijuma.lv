@@ -1,5 +1,9 @@
 # virtuvespecpasutijuma.lv — vietnes SEO un izveides pamata dokuments
 
+> **Workflow state:** RESEARCH_RUNNING  
+> **Build allowed:** NO  
+> **Hard gate:** Final architecture, SEO copy and production building remain blocked until DataForSEO outputs are verified, `reviews/<research-id>.md` is approved, and this foundation is approved.
+
 > **Statuss:** Melnraksts  
 > **Pēdējoreiz atjaunināts:** 2026-07-28  
 > **Atbildīgais:** TBD
