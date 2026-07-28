@@ -1,7 +1,11 @@
 import type { Metadata } from "next";
-import "./globals.css";
-import { SiteHeader } from "@/components/site-header";
-import { SiteFooter } from "@/components/site-footer";
+import "./template.css";
+import { TemplateFooter, TemplateHeader } from "@/components/template-shell";
+
+const publicBasePath =
+  process.env.GITHUB_PAGES === "true"
+    ? process.env.GITHUB_PAGES_BASE_PATH ?? "/virtuvespecpasutijuma.lv"
+    : "";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://virtuvespecpasutijuma.lv"),
@@ -11,6 +15,7 @@ export const metadata: Metadata = {
   },
   description:
     "Projektējam, izgatavojam, piegādājam un uzstādām virtuves pēc pasūtījuma, pielāgojot tās telpai un vajadzībām.",
+  alternates: { canonical: "/" },
   robots: {
     index: false,
     follow: false,
@@ -19,8 +24,8 @@ export const metadata: Metadata = {
     "codex-preview": "development",
   },
   icons: {
-    icon: "/favicon.svg",
-    shortcut: "/favicon.svg",
+    icon: `${publicBasePath}/favicon.svg`,
+    shortcut: `${publicBasePath}/favicon.svg`,
   },
   openGraph: {
     locale: "lv_LV",
@@ -36,9 +41,10 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         <a className="skip-link" href="#saturs">
           Pāriet uz saturu
         </a>
-        <SiteHeader />
+        <TemplateHeader />
         <main id="saturs">{children}</main>
-        <SiteFooter />
+        <TemplateFooter />
+        <script src={`${publicBasePath}/script.js`} defer />
       </body>
     </html>
   );
