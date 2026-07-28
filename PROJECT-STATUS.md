@@ -14,6 +14,7 @@ Discovery / Foundation
 - Identified the applicable Google and AI-search SEO rules.
 - Initialized the project brief and foundation with verified facts separated from hypotheses.
 - Added a safe candidate architecture and research seed list without approving them as final.
+- Confirmed the production domain, core end-to-end custom-kitchen service, and 20 service areas.
 
 ## Current branch and URLs
 
@@ -26,26 +27,28 @@ Discovery / Foundation
 ## Confirmed decisions
 
 - Site owner: Seaside Media
-- Production repository and working domain name are established.
+- Production repository and domain `virtuvespecpasutijuma.lv` are confirmed.
+- Verified offer: design, manufacture, delivery, and installation of custom kitchens tailored to each customer’s home and needs.
+- Verified service areas: Rīga, Mārupe, Stopiņi, Ulbroka, Ķekava, Babīte, Garkalne, Salaspils, Ādaži, Jūrmala, Olaine, Piņķi, Carnikava, Ropaži, Ikšķile, Ogre, Baldone, Saulkrasti, Jelgava, Sigulda.
 - Unknown business facts remain `TBD`.
 - No production deployment or full build before foundation approval.
 - Noindex is required for any temporary preview.
 
 ## Facts awaiting verification
 
-- Public brand, legal operator, contact details, service area, languages, offer scope, exclusions, process, pricing, guarantees, timing, proof, portfolio permissions, form destination, analytics, consent, and legal content.
+- Public brand beyond the domain, legal operator, contact details, languages, exclusions, detailed process, pricing, guarantees, timing, proof, portfolio permissions, form destination, analytics, consent, and legal content.
 - DataForSEO research configuration and paid-request limit.
 
 ## Blockers
 
 - `WEBSITE-FOUNDATION.md` is not marked **Gatavs būvniecībai**.
 - Required DataForSEO research has not been run.
-- Business truth and conversion process are incomplete.
+- Business truth is partially confirmed; contact identity, offer boundaries, proof, and conversion process remain incomplete.
 - Template repository currently has no reusable implementation beyond its README.
 
 ## Next actions
 
-1. Collect and verify the business inputs listed in `PROJECT-BRIEF.md`.
+1. Collect and verify the remaining business inputs listed in `PROJECT-BRIEF.md`.
 2. Configure and run DataForSEO keyword, SERP, and competitor research.
 3. Approve positioning, information architecture, conversion path, and visual direction.
 4. Mark the foundation **Gatavs būvniecībai**.
