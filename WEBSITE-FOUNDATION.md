@@ -90,7 +90,22 @@ Drošs minimālās arhitektūras kandidāts (nav apstiprināts):
 - `/kontakti/` vai `/pieteikums/` — pēc konversijas procesa apstiprināšanas
 - `/privatuma-politika/` — pēc juridiskā satura saņemšanas
 
-Lokāciju un papildu pakalpojumu lapas neveidot bez reāla piedāvājuma un atšķirīga meklējumu nolūka.
+### Apstiprinātā lokāciju lapu stratēģija
+
+Visām 20 apstiprinātajām apkalpošanas teritorijām ir paredzēta sava lokācijas lapa, jo uzņēmums reāli projektē, izgatavo, piegādā un uzstāda virtuves katrā no šīm teritorijām.
+
+Katra lokācijas lapa jāveido kā patstāvīgs, vietēji noderīgs resurss:
+
+- atsevišķa atslēgvārdu un SERP izpēte konkrētajai vietai;
+- unikāls primārais nolūks, title, meta description, H1, sadaļu struktūra un BUJ;
+- pārbaudīti vietējie apstākļi, mājokļu/telpu īpatnības, piegādes un uzstādīšanas apsvērumi;
+- vietai atbilstoši virtuves plānošanas scenāriji un klientu jautājumi;
+- reāli vietējie projekti, attēli, atsauksmes un pierādījumi, kad tie ir pieejami un publicējami;
+- savas iekšējās saites un skaidrs nākamais solis.
+
+Nepietiek tikai pārrakstīt vienu veidni vai nomainīt vietvārdu un sinonīmus. Vietējās atšķirības drīkst izmantot tikai pēc izpētes; tās nedrīkst izdomāt.
+
+Plānotās lokācijas: Rīga, Mārupe, Stopiņi, Ulbroka, Ķekava, Babīte, Garkalne, Salaspils, Ādaži, Jūrmala, Olaine, Piņķi, Carnikava, Ropaži, Ikšķile, Ogre, Baldone, Saulkrasti, Jelgava un Sigulda.
 
 ## 6. Sākumlapas specifikācija
 
