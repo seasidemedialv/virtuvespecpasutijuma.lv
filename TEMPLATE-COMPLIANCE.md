@@ -118,6 +118,10 @@ Functional pages are `/ka-mes-stradajam/`, `/realizetie-projekti/`,
 
 ## Static-stack evidence
 
+- Premium-content static-stack run `30442112887`: passed.
+- Premium-content GitHub Pages deployment run `30442186176`: passed.
+- Served HTML spot-check confirms the new page-specific guide and trust content
+  on sampled service URLs.
 - Required root `index.html`, `styles.css` and `script.js`: present.
 - React, Next.js, Vinext, Vite, TypeScript/TSX, Node/npm, Wrangler, Drizzle,
   Cloudflare worker code, Sites files and build output: absent.

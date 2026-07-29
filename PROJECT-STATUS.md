@@ -106,6 +106,12 @@ production promise while retaining the non-transmitting demo notice.
 
 ## GitHub checks completed
 
+- Premium-content source commit: `1f666c390ea80a688b665f5bbcc6af8fb37b079f`
+- Static-stack policy run `30442112887`: passed
+- Refreshed premium-content preview run `30442186176`: passed
+- Live preview verification: sampled planning, cabinet and price service pages
+  plus the shared stylesheet return HTTP 200; newly added page-specific content
+  is present in the served HTML
 - Nested-route source commit: `f5288b4fb40fa65d332e9d4f38a4850ba158f6ac`
 - Static-stack policy run `30432498216`: passed
 - Direct static preview deployment run `30432537869`: passed
