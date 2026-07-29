@@ -38,3 +38,7 @@ Follow `seasidemedialv/website-template/FORM-STANDARD.md`. Every qualifying page
 ## Mandatory URL architecture
 
 Follow `seasidemedialv/website-template/URL-STANDARD.md`. Move every service page under `/pakalpojumi/`, create `/pakalpojumi/index.html`, and use `/pilsetas/<service>-<city>/` with `/pilsetas/index.html` for any future approved city pages. Update navigation, internal links, breadcrumbs, canonicals, sitemap and schema as one atomic migration. Root-level service pages are not acceptable final URLs.
+
+## Mandatory response message
+
+Follow `seasidemedialv/website-template/RESPONSE-MESSAGE-STANDARD.md`. Use `Virtuves pēc pasūtījuma — Pēc formas aizpildīšanas sazināmies 5 minūšu laikā!` in the notification bar on every page. Repeat the core message beside every canonical form and once more in a prominent conversion location on every conversion page. Keep the demo notice while forms do not transmit; before production, test the webhook, success/failure states and five-minute operational process.
