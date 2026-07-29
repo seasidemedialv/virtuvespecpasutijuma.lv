@@ -1,7 +1,7 @@
 # virtuvespecpasutijuma.lv — vietnes pamata dokuments
 
-> **Workflow state:** BUILD_COMPLETE_AWAITING_APPROVAL  
-> **Privātā būve:** PABEIGTA  
+> **Workflow state:** STATIC_POLICY_PENDING
+> **Privātā būve:** STATISKAIS AVOTS SAGATAVOTS; GITHUB POLICY VĒL JĀIZPILDA
 > **Produkcijas publicēšana:** NĒ — vajadzīgs gala zīmola lēmums, palaišanas fakti un skaidrs apstiprinājums  
 > **SEO build scope:** `SEO-BUILD-PLAN.md`  
 > **Keyword-to-page map:** `docs/KEYWORD-TO-PAGE-MAP.csv`  
@@ -100,20 +100,20 @@ Projektu lapa neizliek ilustrācijas par klientu projektiem. Kontaktu forma nav 
 - Izveidoti un WebP formātā optimizēti trīs ilustratīvi attēli; tie netiek pasniegti kā reāli projekti
 - Responsīva navigācija, konsekventa tipogrāfija, redzams fokuss un reduced-motion atbalsts
 
-## 8. Tehniskais SEO un QA
+## 8. Tehniskais SEO un statiskā avota QA
 
 - Latvian `lang=lv`
 - Unikāli title, description, H1 un canonical ieraksti
-- Sitemap un robots ģenerēšana
+- Statisks `sitemap.xml` un `robots.txt`
 - Privātajam preview iestatīts `noindex`; publiska indeksācija nav aktivizēta
 - Semantisks HTML, tastatūras fokuss un responsīva uzvedība
 - Nezināms URL atgriež 404
-- `npm run lint` — passed
-- `npm test` — passed; pārbaudīts 21 obligātais maršruts
-- `npm run validate:artifact` — passed
-- Production build — passed
-- Automātiski pārbaudīti 15 unikāli SEO slugi, 15 unikāli SEO title, 45 satura bloki un 30 FAQ
-- Cloud-browser vizuālā pārbaude nebija pieejama pārlūka priekšskatījuma piekļuves ierobežojuma dēļ; source, build un route pārbaudes ir pabeigtas
+- Vietne ir tiešs HTML/CSS/JS avots bez instalēšanas vai būvēšanas soļa
+- Lokālā static-stack policy ekvivalents — passed
+- Pārbaudīti 23 HTML dokumenti, H1, title, description un canonical
+- Iekšējo saišu pārbaude — broken links nav atrasti
+- JSON-LD sintakse — valid
+- GitHub static-stack policy — pending; līdz tam vizuālais QA nav atļauts
 
 ## 9. Palaišanas bloķētāji
 
@@ -135,11 +135,13 @@ Pirms publiskas palaišanas jāapstiprina vai jāsaņem:
 - [x] SEO plānā iekļauti biznesam atbilstoši temati ar izmērāmu pieprasījumu
 - [x] 16 lapu measured-demand scope ir dokumentēts
 - [x] Katrai lapai ir unikāls brief un keyword-to-URL robeža
-- [x] Latvian copy, arhitektūra, dizains un implementācija ir pabeigta
-- [x] Tehniskais SEO, route, lint, build un artifact QA ir pabeigts
+- [x] Latvian copy, arhitektūra un statiskā HTML/CSS/JS implementācija ir sagatavota
+- [ ] GitHub static-stack policy ir izpildīta
+- [ ] Desktop un mobile vizuālais QA ir izpildīts
 - [ ] Trūkstošie palaišanas biznesa un juridiskie fakti ir apstiprināti
 - [ ] Konversijas process ir savienots un pārbaudīts
 - [ ] Gala zīmols ir apstiprināts
 - [ ] Produkcijas deployment ir skaidri apstiprināts
 
-**Lēmums:** visas atļautās privātās būvniecības stadijas ir pabeigtas. Vietne nav publiski izvietota un paliek aiz definētā apstiprināšanas vārta.
+**Lēmums:** nākamais obligātais solis ir GitHub static-stack policy. Preview
+atjaunošana un vizuālais QA drīkst sākties tikai pēc zaļa policy run.
