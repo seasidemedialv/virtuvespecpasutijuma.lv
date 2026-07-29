@@ -14,9 +14,12 @@ Last updated: 2026-07-29
 1. Update every canonical form so name, phone, address, requested service and
    more-information controls are all marked required and validate consistently.
 2. Add `Cits` as the final selectable option in every service-area dropdown.
-3. Pass the canonical-form and local-CTA automated policy across every HTML page.
-4. Then complete desktop/mobile visual comparison, interaction and console QA.
-5. Do not mark the preview compliant before these checks pass.
+3. Migrate every service route to `/pakalpojumi/<service>/` and create the substantive `/pakalpojumi/` hub.
+4. Reserve `/pilsetas/<service>-<city>/` and create a substantive `/pilsetas/` hub when approved city pages are introduced.
+5. Update all navigation, internal links, breadcrumbs, canonicals, sitemap and schema to the new route inventory.
+6. Pass the canonical-form, local-CTA and URL-architecture checks.
+7. Then complete desktop/mobile visual comparison, interaction and console QA.
+8. Do not mark the preview compliant before these checks pass.
 
 ## Research and architecture preserved
 
