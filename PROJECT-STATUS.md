@@ -13,9 +13,10 @@ Last updated: 2026-07-29
 
 1. Update every canonical form so name, phone, address, requested service and
    more-information controls are all marked required and validate consistently.
-2. Pass the canonical-form and local-CTA automated policy across every HTML page.
-3. Then complete desktop/mobile visual comparison, interaction and console QA.
-4. Do not mark the preview compliant before these checks pass.
+2. Add `Cits` as the final selectable option in every service-area dropdown.
+3. Pass the canonical-form and local-CTA automated policy across every HTML page.
+4. Then complete desktop/mobile visual comparison, interaction and console QA.
+5. Do not mark the preview compliant before these checks pass.
 
 ## Research and architecture preserved
 
