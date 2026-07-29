@@ -29,7 +29,7 @@ compilation, server or build command.
 | Template source/system | Exact static implementation |
 |---|---|
 | `index.html` | root `index.html`: announcement bar, sticky navigation, mobile navigation, dense hero, one canonical embedded form, benefit list, trust bar, service cards, process, planning content, all demand-page links, service areas and FAQ |
-| `service-page.html` | fifteen `pakalpojumi/<slug>/index.html` files with breadcrumb hero, brief-led long-form content, keyword boundary, topic entities, internal links, process, FAQ schema and one canonical form |
+| `service-page.html` | fifteen `pakalpojumi/<slug>/index.html` files with breadcrumb hero, brief-led long-form content, practical guide, decision matrix, failure-mode cards, preparation panel, contextual internal links, FAQ schema, trust evidence and one canonical form |
 | `prices.html` | `pakalpojumi/virtuves-cenas/index.html`: price factors and six comparable scope categories without invented monetary values |
 | `faq.html` | `buj/index.html` plus visible, intent-specific FAQ sections on every demand page |
 | `geo-page.html` | `/pilsetas/index.html` is the substantive verified-coverage hub; individual geo pages remain deferred until independently approved |
@@ -75,9 +75,18 @@ Functional pages are `/ka-mes-stradajam/`, `/realizetie-projekti/`,
 
 - All 25 HTML documents have exactly one H1, a title, description and canonical.
 - Homepage rendered-text count: 787 words.
-- Demand-page rendered-text range: 573–733 words.
+- Service-page rendered-text range: 687–853 words; total: 11,198 words.
 - Each demand page preserves its unique primary keyword, supporting terms,
   approved sections, topic-specific entities, questions and internal links.
+- Every service page contains unique subject paragraphs, a page-specific
+  three-row decision matrix, three page-specific mistakes and tailored
+  consultation-preparation guidance. Exposed SEO labels and repetitive generic
+  process paragraphs were removed.
+- Every approved primary, secondary and long-tail term was checked against its
+  mapped service page. No unresearched page or unsupported intent was added.
+- The shared three-card trust section is limited to verified facts: the solution
+  is tailored to the room, important scope is aligned before manufacture, and
+  the confirmed offer includes design, manufacture, delivery and installation.
 - Every demand page has valid visible FAQ content and matching JSON-LD.
 - Homepage has valid WebSite JSON-LD.
 - `robots.txt` blocks indexing and every page has `noindex, nofollow`.

@@ -74,7 +74,17 @@ production promise while retaining the non-transmitting demo notice.
 - Local static-stack policy equivalent: passed
 - HTML documents checked after the hierarchy change: 25
 - Every document: one H1, title, description and canonical
-- Demand-page content: 573–733 rendered words
+- Service-page content: 687–853 rendered words; 11,198 words across the 15
+  DataForSEO-backed service pages
+- Every service page now includes a unique practical guide, page-specific
+  decision matrix, three intent-specific failure modes and a preparation panel
+- User-facing SEO-template labels and duplicated generic preparation/process
+  copy were removed
+- Approved primary, secondary and long-tail phrases: present on their mapped
+  pages; no new unsupported landing-page intent was introduced
+- Evidence-safe trust system: three in-page signals explain the verified
+  tailored-project, pre-production-scope and end-to-end service facts without
+  fabricated statistics, reviews or credentials
 - Homepage content: 787 rendered words
 - JSON-LD syntax: valid
 - Internal links: no broken targets
@@ -89,6 +99,9 @@ production promise while retaining the non-transmitting demo notice.
 - Every page repeats the five-minute response message in its notification bar,
   a large non-floating trust panel placed between relevant content sections and
   a high-contrast card inside the canonical form
+- Service-page subject copy was checked for cross-page sentence duplication;
+  shared navigation, forms, verified process language and trust components are
+  treated as deliberate site-wide interface content
 - Preview indexing: blocked by both meta robots and `robots.txt`
 
 ## GitHub checks completed
@@ -115,6 +128,10 @@ production promise while retaining the non-transmitting demo notice.
 continue because the saved browser permission blocks the preview domain and
 forbids a workaround.
 
-## Premium-content finding
+## Premium-content review
 
-The existing service pages are acceptable scaffolding but are not approved premium content. Their approximately 500–660-word bodies rely too heavily on repeated process and CTA language, several sections are thin, and visitor-facing internal SEO terminology remains. All 15 service pages are now `PREMIUM_CONTENT_REWRITE_REQUIRED` until independently reviewed and rewritten from their approved research-backed briefs. Verified trust signals may be added; fabricated reviews or claims remain forbidden.
+The required rewrite is implemented and recorded page by page in
+`PREMIUM-CONTENT-REVIEW.md`. All 15 pages pass the research, differentiation,
+trust, content and static SEO checks. They remain `VISUAL_REVIEW_PENDING`, so
+premium preview approval is not granted until desktop and mobile visual QA can
+be completed.
