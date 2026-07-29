@@ -2,7 +2,7 @@
 
 Last updated: 2026-07-29
 
-- **Workflow state:** QA
+- **Workflow state:** VISUAL_QA_BLOCKED
 - **Build allowed:** Static source passed the hard policy gate
 - **Preview:** direct static preview deployed; visual approval pending
 - **Production deployment:** NO
@@ -11,10 +11,10 @@ Last updated: 2026-07-29
 
 ## Mandatory next action
 
-Run and pass the static-stack policy after the approved URL hierarchy change,
-deploy the refreshed preview, then complete desktop and mobile visual
-comparison, interaction checks and console review. Do not mark the preview
-compliant before those checks pass.
+Allow cloud-browser access to `seasidemedialv.github.io`, then complete desktop
+and mobile visual comparison, interaction checks and console review for the
+new hubs and nested service routes. Do not mark the preview compliant before
+those checks pass.
 
 ## Research and architecture preserved
 
@@ -65,7 +65,7 @@ invented.
 ## Local QA completed
 
 - Local static-stack policy equivalent: passed
-- HTML documents checked before the hierarchy change: 23
+- HTML documents checked after the hierarchy change: 25
 - Every document: one H1, title, description and canonical
 - Demand-page content: 573–733 rendered words
 - Homepage content: 787 rendered words
@@ -83,21 +83,22 @@ invented.
 
 ## GitHub checks completed
 
-- Static source commit: `8e1372e1f5efffa940628b189a911db1a16a9999`
-- Static-stack policy run `30429879248`: passed
-- Direct static preview deployment run `30429932394`: passed
+- Nested-route source commit: `f5288b4fb40fa65d332e9d4f38a4850ba158f6ac`
+- Static-stack policy run `30432498216`: passed
+- Direct static preview deployment run `30432537869`: passed
+- HTTP verification: both hubs and sampled nested service pages return 200;
+  the obsolete flat service URL returns 404
 - Preview homepage, price page, FAQ, stylesheet, script and hero image: HTTP 200
 - Preview URL:
   `https://seasidemedialv.github.io/website-preview/virtuvespecpasutijuma/`
 
 ## Remaining gates
 
-1. Static-stack policy and link/SEO QA must pass for the new hierarchy.
-2. Desktop and mobile visual QA must pass.
-3. Browser console and interaction checks must pass.
-4. Content/SEO visual comparison must be recorded.
-5. Owner visual review is then required.
-6. Production still requires final brand, legal/contact/form facts and explicit
+1. Desktop and mobile visual QA must pass.
+2. Browser console and interaction checks must pass.
+3. Content/SEO visual comparison must be recorded.
+4. Owner visual review is then required.
+5. Production still requires final brand, legal/contact/form facts and explicit
    deployment approval.
 
 **Decision:** static policy and deployment gates passed. Visual QA cannot
