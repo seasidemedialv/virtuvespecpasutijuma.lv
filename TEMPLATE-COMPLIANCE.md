@@ -108,8 +108,8 @@ Functional pages are `/ka-mes-stradajam/`, `/realizetie-projekti/`,
 - Local equivalent of `.github/workflows/static-stack-policy.yml`: passed.
 - Local canonical-form, `Cits`, local-CTA and URL-architecture audit: passed
   across 25 pages, 25 forms and 92 local CTAs.
-- GitHub Actions static-stack policy run `30429879248`: passed.
-- Direct static preview deployment run `30429932394`: passed.
+- GitHub Actions static-stack policy run `30432498216`: passed.
+- Direct static preview deployment run `30432537869`: passed.
 
 ## Remaining gates
 
