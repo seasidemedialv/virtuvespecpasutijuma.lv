@@ -1,0 +1,59 @@
+name: Static stack policy
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  enforce-static-html:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Require plain HTML CSS and JavaScript
+        shell: bash
+        run: |
+          set -euo pipefail
+          failed=0
+
+          for required in index.html styles.css script.js; do
+            if [ ! -f "$required" ]; then
+              echo "::error file=$required::Required static source file is missing."
+              failed=1
+            fi
+          done
+
+          forbidden_files=(
+            package.json package-lock.json yarn.lock pnpm-lock.yaml
+            tsconfig.json next.config.js next.config.mjs next.config.ts
+            vite.config.js vite.config.mjs vite.config.ts
+            wrangler.toml wrangler.json wrangler.jsonc
+            .openai/hosting.json
+          )
+
+          for path in "${forbidden_files[@]}"; do
+            if [ -e "$path" ]; then
+              echo "::error file=$path::Forbidden framework/build/runtime file."
+              failed=1
+            fi
+          done
+
+          for dir in app components node_modules .next; do
+            if [ -d "$dir" ]; then
+              echo "::error file=$dir::Forbidden framework/build directory."
+              failed=1
+            fi
+          done
+
+          while IFS= read -r path; do
+            echo "::error file=$path::TypeScript/TSX is forbidden; use static HTML/CSS/JS."
+            failed=1
+          done < <(find . -type f \( -name '*.ts' -o -name '*.tsx' \) -not -path './.git/*')
+
+          if [ "$failed" -ne 0 ]; then
+            echo "Static stack policy failed. Rebuild from website-template as direct HTML/CSS/JS."
+            exit 1
+          fi
+
+          echo "Static stack policy passed."
