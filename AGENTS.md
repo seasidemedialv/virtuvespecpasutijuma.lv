@@ -34,3 +34,7 @@ The agent owns research-to-build delivery. DataForSEO research and AI review rem
 ## Mandatory form contract
 
 Follow `seasidemedialv/website-template/FORM-STANDARD.md`. Every qualifying page must contain the same canonical `#lead-form`. The mandatory required fields, in order, are name, phone, address, requested service and more information. Service area may remain as an additional field. Every primary lead CTA must point to the current page's own `#lead-form`. Verify this across all HTML pages and record the result before visual approval.
+
+## Mandatory URL architecture
+
+Follow `seasidemedialv/website-template/URL-STANDARD.md`. Move every service page under `/pakalpojumi/`, create `/pakalpojumi/index.html`, and use `/pilsetas/<service>-<city>/` with `/pilsetas/index.html` for any future approved city pages. Update navigation, internal links, breadcrumbs, canonicals, sitemap and schema as one atomic migration. Root-level service pages are not acceptable final URLs.
