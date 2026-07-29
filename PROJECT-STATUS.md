@@ -2,62 +2,82 @@
 
 Last updated: 2026-07-29
 
-- **Workflow state:** STATIC_REBUILD_REQUIRED
-- **Build allowed:** NO
-- **Current implementation:** REJECTED
-- **Current preview:** REJECTED — availability only
-- **Visual QA:** BLOCKED until static-stack compliance passes
+- **Workflow state:** STATIC_POLICY_PENDING
+- **Build allowed:** NO until the GitHub static-stack policy passes
+- **Preview:** existing framework preview remains rejected until replaced
 - **Production deployment:** NO
-- **DataForSEO research ID:** `virtuvespecpasutijuma-topic-led-research-2026-07-28`
-- **Research evidence:** retained and approved
-- **Approved demand-page inventory:** 16 pages
-
-## Why the current implementation is rejected
-
-Repository inspection found:
-
-- `package.json` identifying `site-creator-vinext-starter`;
-- Next.js, React, Vinext, Vite and TypeScript dependencies;
-- Wrangler, Cloudflare Vite tooling, Drizzle and npm scripts;
-- TSX components and application routes;
-- no root `index.html`.
-
-This violates the required `website-template` technology contract. Styling framework-rendered pages to resemble the template is not a valid rebuild.
-
-Previous claims such as “rebuilt,” “template compliance passed,” successful npm checks, successful GitHub Pages deployment and HTTP 200 responses are superseded. They demonstrate technical execution only.
+- **Template source:** `seasidemedialv/website-template` commit `6164a5664c46ca45a8386c829646facf1c9b4dca`
+- **DataForSEO research:** approved and preserved
 
 ## Mandatory next action
 
-1. Preserve approved research, verified facts, keyword mapping, page briefs, usable Latvian content and suitable static assets.
-2. Rebuild from the actual static `website-template` files.
-3. Create root `index.html`, `styles.css`, `script.js` and individual static HTML files for all approved URLs.
-4. Remove all framework, TypeScript, package-manager, build, Worker, database and Sites-starter source/configuration.
-5. Make GitHub Pages publish the static source directly without npm or a build step.
-6. Pass `.github/workflows/static-stack-policy.yml`.
-7. Recreate `TEMPLATE-COMPLIANCE.md` with honest static-file mapping.
-8. Only then perform desktop/mobile visual, content, SEO, accessibility and form QA.
+Commit the plain static source and framework removals, inspect the exact
+`.github/workflows/static-stack-policy.yml` run, and proceed to preview
+deployment only if that run succeeds.
 
-## Preserved evidence and scope
+## Research and architecture preserved
 
-Keep the approved DataForSEO evidence, 16-page keyword map, independent page briefs, verified service offer and verified 20-area coverage. Location pages remain a separate evidence/owner-strategy decision.
+- Research ID: `virtuvespecpasutijuma-topic-led-research-2026-07-28`
+- Evidence commit: `0bcf238ff4bcef78e8a0f77f02fe440d3176a17c`
+- Locale: Google Latvia / Latvian
+- Qualified keywords reviewed: 153
+- Main research cost: $0.346720
+- Location follow-up: $0.090000
+- Total research cost: $0.436720
+- Review status: approved
+- Approved demand architecture: homepage plus 15 supporting pages
+- Location pages: deferred; 20 areas remain verified service coverage
 
-Approved reference family:
+## Current static source
 
-- atkritumuizvesanariga.lv
-- atsledznieksriga.lv
-- iztiripats.lv
-- kondicionierauzstadisana.lv
-- kurjersriga.lv
-- parvaksanaskastes.lv
-- rigaselektrikis.lv
-- sadzivestehnikasremonts.lv
-- santehnikisriga.lv
-- saulespaneluuzstadisana.lv
-- siltumsuknuuzstadisana.lv
-- uzladesstacijas.lv
+- Root `index.html`, `styles.css`, `script.js`
+- One directory `index.html` for every approved URL
+- Six functional/trust pages
+- `404.html`, `robots.txt`, `sitemap.xml`, `favicon.svg`
+- Three compressed illustrative WebP images
+- Static-stack policy workflow
+- Project, research, keyword-map and page-brief documentation
 
-The rebuild must preserve their useful shared qualities—dense service coverage, prominent forms, repeated CTAs, price/process/FAQ sections, long-form intent coverage and strong mobile conversion—without copying unsupported claims or branding.
+The rejected React/Next/Vinext/Vite/npm/Wrangler/Drizzle/Cloudflare/Sites
+implementation has been removed from the repository working tree. A recoverable
+local backup exists outside the repository and will not be committed.
 
-## Completion condition
+## Verified business facts used
 
-The state may move to `QA` only when the static-stack workflow passes and source inspection confirms direct static HTML/CSS/JS. A successful deployment cannot override this requirement.
+- Domain: `virtuvespecpasutijuma.lv`
+- Offer: custom-kitchen design, manufacture, delivery and installation tailored
+  to each customer’s home and needs
+- Service areas: Rīga, Mārupe, Stopiņi, Ulbroka, Ķekava, Babīte, Garkalne,
+  Salaspils, Ādaži, Jūrmala, Olaine, Piņķi, Carnikava, Ropaži, Ikšķile, Ogre,
+  Baldone, Saulkrasti, Jelgava and Sigulda
+
+No exact brands, prices, warranty duration, production times, certifications,
+reviews, customer examples, legal operator, phone, email or address were
+invented.
+
+## Local QA completed
+
+- Local static-stack policy equivalent: passed
+- HTML documents checked: 23
+- Every document: one H1, title, description and canonical
+- Demand-page content: 573–733 rendered words
+- Homepage content: 787 rendered words
+- JSON-LD syntax: valid
+- Internal links: no broken targets
+- Unresolved template tokens: none
+- Framework references in website source: none
+- Forms: non-transmitting and visibly labelled
+- Preview indexing: blocked by both meta robots and `robots.txt`
+
+## Remaining gates
+
+1. GitHub static-stack policy must pass.
+2. Existing GitHub Pages preview must be replaced with direct static files.
+3. Desktop and mobile visual QA must pass.
+4. Content/SEO comparison must be recorded after deployment.
+5. Owner visual review is then required.
+6. Production still requires final brand, legal/contact/form facts and explicit
+   deployment approval.
+
+**Decision:** do not proceed to visual QA or preview deployment until the exact
+GitHub static-stack policy run passes.
