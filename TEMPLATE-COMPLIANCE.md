@@ -77,6 +77,11 @@ Functional pages are `/ka-mes-stradajam/`, `/realizetie-projekti/`,
 - No unresolved template tokens or framework references remain in site source.
 - No invented prices, reviews, guarantees, response times, projects,
   certifications, legal operator or contact details were introduced.
+- All 25 form instances use the same six fields: name, phone, service area,
+  address, topic and project-details textarea.
+- Every HTML page contains the standard form, including privacy and 404 pages.
+- Every primary header, mobile, sidebar, body and floating CTA targets that
+  page’s local `#lead-form`.
 
 ## Static-stack evidence
 
