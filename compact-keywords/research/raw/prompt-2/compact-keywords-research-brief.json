@@ -1,0 +1,379 @@
+{
+  "domain": "virtuvespecpasutijuma.lv",
+  "business_summary": "Latvian local service website for custom kitchens. The verified offer is kitchen-specific design and planning, manufacture, delivery and installation, tailored to the customer's home and needs. The primary conversion is a consultation request. The preview form is not yet connected to a webhook.",
+  "location": {
+    "country": "Latvia",
+    "cities_or_regions": [
+      "Rīga",
+      "Mārupe",
+      "Stopiņi",
+      "Ulbroka",
+      "Ķekava",
+      "Babīte",
+      "Garkalne",
+      "Salaspils",
+      "Ādaži",
+      "Jūrmala",
+      "Olaine",
+      "Piņķi",
+      "Carnikava",
+      "Ropaži",
+      "Ikšķile",
+      "Ogre",
+      "Baldone",
+      "Saulkrasti",
+      "Jelgava",
+      "Sigulda"
+    ],
+    "language": "Latvian"
+  },
+  "products_and_services": [
+    "complete custom-kitchen projects",
+    "kitchen-specific design and project development",
+    "functional kitchen planning",
+    "made-to-measure kitchen manufacture",
+    "delivery of the manufactured kitchen",
+    "installation as part of the confirmed complete process",
+    "room-integrated built-in kitchens",
+    "corner and L-shaped kitchen planning",
+    "small-kitchen planning",
+    "modern custom-kitchen direction",
+    "kitchen-island planning",
+    "custom cabinet and storage configuration",
+    "kitchen facade selection within a complete project",
+    "kitchen fittings and mechanism selection within a complete project",
+    "kitchen-only interior composition",
+    "custom-kitchen price-factor and quote preparation guidance"
+  ],
+  "features": [
+    "solution tailored to the actual room and household needs",
+    "room geometry and opening assessment",
+    "work-zone and movement planning",
+    "storage planning by actual use",
+    "appliance-position and opening coordination",
+    "cabinet, facade and fittings coordination",
+    "delivery-access planning by exact address",
+    "project scope aligned before manufacture",
+    "design, manufacture, delivery and installation in one confirmed process",
+    "contact initiated within five minutes after a successfully submitted form"
+  ],
+  "audiences": [
+    "homeowners planning a complete made-to-measure kitchen",
+    "apartment owners with compact-space or access constraints",
+    "private-house owners with open-plan rooms",
+    "new-build owners coordinating room finishes and utility positions",
+    "renovators planning a replacement or room-integrated kitchen without assuming demolition or construction services",
+    "households comparing layout, storage, design, manufacture, installation and cost decisions"
+  ],
+  "industries": [
+    "residential custom-kitchen services"
+  ],
+  "problems_and_outcomes": [
+    "fit a kitchen to actual room dimensions",
+    "create an efficient work-zone sequence",
+    "avoid conflicts between doors, drawers, appliances and walkways",
+    "use compact or awkward space effectively",
+    "plan corner, L-shaped and island configurations",
+    "coordinate storage with household habits",
+    "integrate appliances and fixed room elements",
+    "understand what affects a custom-kitchen quote",
+    "prepare the property for delivery and installation",
+    "coordinate the project from design through installation",
+    "choose facades, cabinets and fittings in a complete-project context"
+  ],
+  "integrations": [],
+  "known_competitors": [],
+  "existing_pages": [
+    {
+      "url": "/",
+      "purpose": "Broad end-to-end custom-kitchen commercial entry page.",
+      "possible_keyword_theme": "virtuves pēc pasūtījuma; custom kitchen provider"
+    },
+    {
+      "url": "/pakalpojumi/",
+      "purpose": "Browsable service hub linking all service and decision pages.",
+      "possible_keyword_theme": "virtuves pakalpojumi"
+    },
+    {
+      "url": "/pakalpojumi/virtuves-iekartas-pec-pasutijuma/",
+      "purpose": "Complete made-to-measure kitchen-unit system.",
+      "possible_keyword_theme": "virtuves iekārtas pēc pasūtījuma"
+    },
+    {
+      "url": "/pakalpojumi/virtuves-izgatavosana/",
+      "purpose": "Manufacture, approved production input and production scope.",
+      "possible_keyword_theme": "virtuves izgatavošana"
+    },
+    {
+      "url": "/pakalpojumi/iebuvetas-virtuves/",
+      "purpose": "Kitchen integration with walls, niches, heights and fixed room constraints.",
+      "possible_keyword_theme": "iebūvējamās virtuves iekārtas"
+    },
+    {
+      "url": "/pakalpojumi/virtuves-cenas/",
+      "purpose": "Custom-kitchen cost factors, scope comparison and quote preparation without invented prices.",
+      "possible_keyword_theme": "virtuves cenas; virtuves pēc pasūtījuma cenas"
+    },
+    {
+      "url": "/pakalpojumi/virtuves-dizains-un-projektesana/",
+      "purpose": "Kitchen-specific design and project development; excludes general interior design.",
+      "possible_keyword_theme": "virtuves interjera dizains; virtuves projektēšana"
+    },
+    {
+      "url": "/pakalpojumi/virtuves-planosana/",
+      "purpose": "Functional layout, work zones, clearances, storage and movement.",
+      "possible_keyword_theme": "virtuves plānošana; virtuves plānojums; virtuves iekārtojums"
+    },
+    {
+      "url": "/pakalpojumi/virtuves-uzstadisana/",
+      "purpose": "Installation preparation and scope as part of the complete project; installation-only availability is unknown.",
+      "possible_keyword_theme": "virtuves uzstādīšana; virtuves iekārtas uzstādīšana cena"
+    },
+    {
+      "url": "/pakalpojumi/stura-un-l-veida-virtuves/",
+      "purpose": "Corner and L-shaped kitchen configuration.",
+      "possible_keyword_theme": "stūra virtuves iekārtas; L veida virtuves"
+    },
+    {
+      "url": "/pakalpojumi/mazas-virtuves/",
+      "purpose": "Custom-kitchen decisions for limited space.",
+      "possible_keyword_theme": "maza virtuves iekārta; mazas virtuves"
+    },
+    {
+      "url": "/pakalpojumi/modernas-virtuves/",
+      "purpose": "Modern custom-kitchen visual direction.",
+      "possible_keyword_theme": "modernas virtuves"
+    },
+    {
+      "url": "/pakalpojumi/virtuves-ar-salu/",
+      "purpose": "Kitchen-island feasibility, circulation, storage, work and seating roles.",
+      "possible_keyword_theme": "virtuves saliņa; virtuve ar salu"
+    },
+    {
+      "url": "/pakalpojumi/virtuves-skapisi/",
+      "purpose": "Custom cabinet and internal-storage configuration; excludes retail cabinet sales.",
+      "possible_keyword_theme": "virtuves skapīši"
+    },
+    {
+      "url": "/pakalpojumi/virtuves-fasades/",
+      "purpose": "Facade appearance, proportion and care within a complete project.",
+      "possible_keyword_theme": "virtuves fasādes"
+    },
+    {
+      "url": "/pakalpojumi/virtuves-furnitura/",
+      "purpose": "Fittings and mechanisms by load and use; no unverified brands.",
+      "possible_keyword_theme": "virtuves furnitūra"
+    },
+    {
+      "url": "/pakalpojumi/virtuves-interjers/",
+      "purpose": "Kitchen-only color, material, scale and adjacent-room composition.",
+      "possible_keyword_theme": "virtuves interjērs"
+    },
+    {
+      "url": "/pilsetas/",
+      "purpose": "Service-area hub linking every verified location page.",
+      "possible_keyword_theme": "virtuves pēc pasūtījuma Rīgā un apkalpošanas teritorijās"
+    },
+    {
+      "url": "/pilsetas/virtuves-iekarta-riga/",
+      "purpose": "Rīga coverage, building-type and delivery-access guidance.",
+      "possible_keyword_theme": "virtuves iekārta Rīga; virtuves pēc pasūtījuma Rīga"
+    },
+    {
+      "url": "/pilsetas/virtuves-iekarta-marupe/",
+      "purpose": "Mārupe coverage, new-build and private-access guidance.",
+      "possible_keyword_theme": "virtuves iekārta Mārupe"
+    },
+    {
+      "url": "/pilsetas/virtuves-iekarta-stopini/",
+      "purpose": "Stopiņi coverage and exact pagasts/address guidance.",
+      "possible_keyword_theme": "virtuves iekārta Stopiņi"
+    },
+    {
+      "url": "/pilsetas/virtuves-iekarta-ulbroka/",
+      "purpose": "Ulbroka coverage and apartment/private-house distinction.",
+      "possible_keyword_theme": "virtuves iekārta Ulbroka"
+    },
+    {
+      "url": "/pilsetas/virtuves-iekarta-kekava/",
+      "purpose": "Ķekava coverage, finish readiness and utility-position guidance.",
+      "possible_keyword_theme": "virtuves iekārta Ķekava"
+    },
+    {
+      "url": "/pilsetas/virtuves-iekarta-babite/",
+      "purpose": "Babīte coverage and final delivery-segment guidance.",
+      "possible_keyword_theme": "virtuves iekārta Babīte"
+    },
+    {
+      "url": "/pilsetas/virtuves-iekarta-garkalne/",
+      "purpose": "Garkalne coverage, place/pagasts precision and driveway access.",
+      "possible_keyword_theme": "virtuves iekārta Garkalne"
+    },
+    {
+      "url": "/pilsetas/virtuves-iekarta-salaspils/",
+      "purpose": "Salaspils coverage and apartment/private-house workflow.",
+      "possible_keyword_theme": "virtuves iekārta Salaspils"
+    },
+    {
+      "url": "/pilsetas/virtuves-iekarta-adazi/",
+      "purpose": "Ādaži coverage, open-plan storage and access guidance.",
+      "possible_keyword_theme": "virtuves iekārta Ādaži"
+    },
+    {
+      "url": "/pilsetas/virtuves-iekarta-jurmala/",
+      "purpose": "Jūrmala coverage, building construction and seasonal-use guidance.",
+      "possible_keyword_theme": "virtuves iekārta Jūrmala"
+    },
+    {
+      "url": "/pilsetas/virtuves-iekarta-olaine/",
+      "purpose": "Olaine coverage and compact-apartment access guidance.",
+      "possible_keyword_theme": "virtuves iekārta Olaine"
+    },
+    {
+      "url": "/pilsetas/virtuves-iekarta-pinki/",
+      "purpose": "Piņķi coverage, new/existing house and final-measurement guidance.",
+      "possible_keyword_theme": "virtuves iekārta Piņķi"
+    },
+    {
+      "url": "/pilsetas/virtuves-iekarta-carnikava/",
+      "purpose": "Carnikava coverage, outdoor openings and seasonal-use guidance.",
+      "possible_keyword_theme": "virtuves iekārta Carnikava"
+    },
+    {
+      "url": "/pilsetas/virtuves-iekarta-ropazi/",
+      "purpose": "Ropaži coverage, village/pagasts distinction and delivery guidance.",
+      "possible_keyword_theme": "virtuves iekārta Ropaži"
+    },
+    {
+      "url": "/pilsetas/virtuves-iekarta-ikskile/",
+      "purpose": "Ikšķile coverage, windows, access and retained-utility guidance.",
+      "possible_keyword_theme": "virtuves iekārta Ikšķile"
+    },
+    {
+      "url": "/pilsetas/virtuves-iekarta-ogre/",
+      "purpose": "Ogre coverage, relief, mixed housing and opening preservation.",
+      "possible_keyword_theme": "virtuves iekārta Ogre"
+    },
+    {
+      "url": "/pilsetas/virtuves-iekarta-baldone/",
+      "purpose": "Baldone coverage, slopes, level changes and renovation readiness.",
+      "possible_keyword_theme": "virtuves iekārta Baldone"
+    },
+    {
+      "url": "/pilsetas/virtuves-iekarta-saulkrasti/",
+      "purpose": "Saulkrasti coverage, elongated territory, side roads and seasonal use.",
+      "possible_keyword_theme": "virtuves iekārta Saulkrasti"
+    },
+    {
+      "url": "/pilsetas/virtuves-iekarta-jelgava/",
+      "purpose": "Jelgava coverage, housing variety and delivery openings.",
+      "possible_keyword_theme": "virtuves iekārta Jelgava"
+    },
+    {
+      "url": "/pilsetas/virtuves-iekarta-sigulda/",
+      "purpose": "Sigulda coverage, terrain, entry levels, windows and views.",
+      "possible_keyword_theme": "virtuves iekārta Sigulda"
+    },
+    {
+      "url": "/ka-mes-stradajam/",
+      "purpose": "High-level project process.",
+      "possible_keyword_theme": "virtuves projekta process"
+    },
+    {
+      "url": "/buj/",
+      "purpose": "General verified questions and answers.",
+      "possible_keyword_theme": "jautājumi par virtuves projektu"
+    },
+    {
+      "url": "/par-mums/",
+      "purpose": "Verified offer summary without invented company facts.",
+      "possible_keyword_theme": "brand and trust"
+    },
+    {
+      "url": "/kontakti/",
+      "purpose": "Consultation preparation and future contact path.",
+      "possible_keyword_theme": "contact and consultation"
+    },
+    {
+      "url": "/privatuma-politika/",
+      "purpose": "Preview privacy status and production requirements.",
+      "possible_keyword_theme": "privacy"
+    },
+    {
+      "url": "/realizetie-projekti/",
+      "purpose": "Empty-state placeholder for future verified projects; no portfolio evidence exists.",
+      "possible_keyword_theme": "future portfolio and case studies"
+    }
+  ],
+  "seed_keywords": [
+    "virtuves pēc pasūtījuma",
+    "virtuve pēc pasūtījuma",
+    "virtuves mēbeles pēc pasūtījuma",
+    "virtuves iekārtas pēc pasūtījuma",
+    "virtuves izgatavošana",
+    "iebūvējamās virtuves",
+    "iebūvējamās virtuves iekārtas",
+    "virtuves cenas",
+    "virtuves pēc pasūtījuma cenas",
+    "cik maksā virtuves iekārta",
+    "virtuves dizains",
+    "virtuves projektēšana",
+    "virtuves plānošana",
+    "virtuves plānojums",
+    "virtuves iekārtojums",
+    "virtuves uzstādīšana",
+    "stūra virtuves",
+    "L veida virtuves",
+    "mazas virtuves",
+    "modernas virtuves",
+    "virtuve ar salu",
+    "virtuves saliņa",
+    "virtuves skapīši",
+    "virtuves fasādes",
+    "virtuves furnitūra",
+    "virtuves interjers",
+    "taisna virtuves iekārta",
+    "vienas sienas virtuve",
+    "paralēla virtuves iekārta",
+    "gaiteņa tipa virtuve",
+    "U veida virtuve",
+    "virtuve ar pussalu",
+    "atvērta plānojuma virtuve",
+    "virtuve dzīvoklim",
+    "virtuve privātmājai",
+    "virtuve jaunbūvei",
+    "virtuves glabāšanas risinājumi",
+    "iebūvējamās tehnikas izvietojums virtuvē",
+    "virtuves konsultācija",
+    "virtuves tāme",
+    "virtuves piedāvājums"
+  ],
+  "search_console_opportunities": [],
+  "excluded_topics": [
+    "general whole-home interior design",
+    "commercial or professional kitchens",
+    "ready-made retail kitchen sets",
+    "standalone retail cabinets, facades or fittings",
+    "appliance, table, chair, tap, extractor and accessory retail",
+    "electrical work",
+    "plumbing work",
+    "HVAC and ventilation installation",
+    "appliance connection services",
+    "demolition and general renovation work",
+    "installation-only service unless the owner confirms it",
+    "unverified material or hardware brands",
+    "competitor-brand pages without explicit later approval and legal review",
+    "locations outside the verified service area",
+    "city-by-service permutations created only to capture query variations",
+    "B2B, developer, architect, hospitality or landlord services unless confirmed",
+    "informational topics that do not lead naturally to the verified custom-kitchen offer"
+  ],
+  "required_conversion_actions": [
+    "primary: submit the local consultation form",
+    "form CTA label: Pieteikt konsultāciju",
+    "secondary: navigate to a relevant service, planning, price or location page",
+    "production requirement: connect and test a webhook before public launch",
+    "owner-confirmed operational promise: initiate contact within five minutes after successful submission"
+  ],
+  "notes_for_research": "Use Google Latvia and Latvian. The site is currently a noindex preview and robots.txt disallows crawling, so current-ranking results may be empty; label that as an indexation-state limitation rather than evidence of no demand. Earlier DataForSEO research dated 2026-07-28 produced 153 qualified keywords and the existing 16-page demand architecture. A separate 40-phrase location follow-up reported no measurable volume. Preserve low and zero values but do not treat them as proof. Discover competitors from live non-branded SERPs; no competitor list is owner-approved. Distinguish organic keyword difficulty from paid competition. Test whether broad/custom-kitchen, design/planning/interior, manufacture/product, price/installation-price, built-in/custom and component/retail intents overlap. Do not make final page decisions."
+}

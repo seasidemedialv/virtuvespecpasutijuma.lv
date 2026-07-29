@@ -1,0 +1,27 @@
+{
+  "endpoint": "dataforseo_labs_google_ranked_keywords",
+  "request": {
+    "target": "virtuvespecpasutijuma.lv",
+    "location_name": "Latvia",
+    "language_code": "lv",
+    "limit": 100,
+    "include_subdomains": true,
+    "item_types": [
+      "organic",
+      "featured_snippet",
+      "local_pack"
+    ]
+  },
+  "response": {
+    "id": "07291342-1514-0381-0000-eca951845829",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "items": []
+  },
+  "resolved": {
+    "location_name": "Latvia",
+    "location_code": 2428,
+    "language_name": "Latvian",
+    "language_code": "lv"
+  }
+}

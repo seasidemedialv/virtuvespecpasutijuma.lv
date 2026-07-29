@@ -1,0 +1,26 @@
+{
+  "request": {
+    "target": "virtuvesjums.lv",
+    "location_name": "Latvia",
+    "language_code": "lv",
+    "limit": 40,
+    "include_subdomains": true,
+    "filters": [
+      [
+        "keyword_data.keyword_info.search_volume",
+        ">=",
+        0
+      ]
+    ],
+    "order_by": [
+      "keyword_data.keyword_info.search_volume,desc"
+    ],
+    "item_types": [
+      "organic",
+      "featured_snippet",
+      "local_pack"
+    ]
+  },
+  "response_capture_status": "Full unmodified response was returned in the DataForSEO tool transcript but could not be serialized by the available tool interface. Only rows explicitly transcribed into normalized outputs were used.",
+  "request_id": "07291353-1514-0381-0000-92f8061b97e4"
+}

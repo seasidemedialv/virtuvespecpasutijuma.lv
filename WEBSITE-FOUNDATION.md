@@ -12,6 +12,18 @@
 
 Nezināma informācija paliek `TBD` un netiek publicēta kā fakts.
 
+## 2026-07-29 compact-keyword precizējums
+
+Pēc pilnas 36 vaicājumu SERP validācijas īpašnieks apstiprināja prioritāro
+astoņu vienību plānu. Sākumlapa pārņem piecus viena nolūka pamata
+formulējumus, tāpēc konkurējošā sinonīmu lapa
+`/pakalpojumi/virtuves-iekartas-pec-pasutijuma/` ir konsolidēta un izņemta no
+nepalaistās URL kopas. Izveidots viens atsevišķs, datos pamatots informatīvs
+ceļvedis `/celvedis/virtuves-dizains/`; projektēšanas pakalpojuma lapa turpmāk
+fokusējas uz projektu un konsultāciju pirms izgatavošanas. Aktuālā karte ir
+`docs/KEYWORD-TO-PAGE-MAP.csv`, bet pilnais lēmums —
+`compact-keywords/page-map/prioritized-page-map.md`.
+
 ## 1. Projekts un biznesa patiesība
 
 - Domēns: `https://virtuvespecpasutijuma.lv/`
@@ -42,7 +54,7 @@ Automātiskais review sākotnēji ieteica konservatīvu vienas lapas arhitektūr
 ## 3. Realizētās pieprasījuma lapas
 
 1. `/` — virtuves pēc pasūtījuma
-2. `/pakalpojumi/virtuves-iekartas-pec-pasutijuma/`
+2. `/celvedis/virtuves-dizains/`
 3. `/pakalpojumi/virtuves-izgatavosana/`
 4. `/pakalpojumi/iebuvetas-virtuves/`
 5. `/pakalpojumi/virtuves-cenas/`

@@ -1,5 +1,16 @@
 # Template Compliance — virtuvespecpasutijuma.lv
 
+## Compact-keyword implementation addendum — 2026-07-29
+
+The owner-approved pilot preserves the static template system and canonical
+form contract. The former G1 synonym service document was consolidated into
+the homepage. The new `/celvedis/virtuves-dizains/index.html` maps to the
+template's long-form content pattern: breadcrumb hero, dense guide sections,
+decision table, contextual links, FAQ, verified trust module and the same
+canonical form. Local QA confirms 45 HTML documents, one form signature, valid
+metadata and JSON-LD, no broken internal targets and no obsolete synonym-route
+references. Visual comparison remains a post-deployment gate.
+
 **Status:** VISUAL QA BLOCKED
 **Template repository:** `seasidemedialv/website-template`
 **Template commit:** `6164a5664c46ca45a8386c829646facf1c9b4dca`
@@ -44,7 +55,7 @@ The static source contains the approved homepage plus fifteen DataForSEO-backed
 demand pages:
 
 1. `/`
-2. `/pakalpojumi/virtuves-iekartas-pec-pasutijuma/`
+2. `/celvedis/virtuves-dizains/`
 3. `/pakalpojumi/virtuves-izgatavosana/`
 4. `/pakalpojumi/iebuvetas-virtuves/`
 5. `/pakalpojumi/virtuves-cenas/`

@@ -11,7 +11,24 @@ All volume figures are dated DataForSEO estimates from 2026-07-28. They are not 
 - **Conversion:** consultation/request preparation.
 - **Boundary:** overview only; specialist detail belongs to child pages.
 
-## 2. Custom kitchen units `/pakalpojumi/virtuves-iekartas-pec-pasutijuma/`
+## 2. Consolidated core intent `/`
+
+**2026-07-29 decision:** the former custom-kitchen-unit synonym brief was
+merged into the homepage after complete live-SERP validation grouped it with
+the core custom-kitchen cluster. The obsolete unlaunched service URL is no
+longer an implementation target.
+
+## 2A. Virtuves dizaina ceļvedis `/celvedis/virtuves-dizains/`
+
+- Primary keyword: `virtuves dizains`
+- Intent: informational and visual decision support
+- Required content: colour and material palette, proportions, lighting,
+  visual continuity, decision checklist, common mistakes and a contextual
+  route to project consultation
+- Boundary: does not duplicate the measurement, workflow or pre-manufacturing
+  service intent of `/pakalpojumi/virtuves-dizains-un-projektesana/`
+
+### Archived former brief
 
 - **Primary keyword:** `virtuves iekārtas pēc pasūtījuma` — 90
 - **Intent:** Understand and order the complete made-to-measure kitchen unit.

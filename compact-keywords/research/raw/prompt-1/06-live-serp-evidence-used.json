@@ -1,0 +1,126 @@
+{
+  "resolved": {
+    "location_name": "Latvia",
+    "location_code": 2428,
+    "language_name": "Latvian",
+    "language_code": "lv"
+  },
+  "endpoint": "serp_organic_live_advanced",
+  "runs": [
+    {
+      "request": {
+        "keyword": "virtuves pēc pasūtījuma",
+        "location_name": "Latvia",
+        "language_code": "lv",
+        "search_engine": "google",
+        "device": "desktop",
+        "depth": 20
+      },
+      "response_id": "07291342-1514-0139-0000-05b5e862daa3",
+      "organic_domains": [
+        "virtuvesjums.lv",
+        "laurasmebeles.lv",
+        "alanmebeles.lv",
+        "srmebeles.lv",
+        "mkvirtuves.lv",
+        "up-mebeles.lv",
+        "rmebeles.lv",
+        "abvirtuves.lv",
+        "mebelesjums.lv",
+        "santasmebeles.lv",
+        "profurnitura.lv",
+        "4istabas.lv",
+        "skandinavuvirtuves.lv",
+        "seldedze.lv",
+        "getapro.lv",
+        "modernasmebeles.lv",
+        "abc.lv",
+        "rsmebeles.lv",
+        "facebook.com",
+        "virtuvesskapisi.lv"
+      ],
+      "features": [
+        "organic",
+        "local_pack",
+        "images",
+        "related_searches"
+      ]
+    },
+    {
+      "request": {
+        "keyword": "virtuves skapīši",
+        "location_name": "Latvia",
+        "language_code": "lv",
+        "search_engine": "google",
+        "device": "desktop",
+        "depth": 20
+      },
+      "response_id": "07291343-1514-0139-0000-2bc2e2552f4f",
+      "organic_domains": [
+        "ikea.com",
+        "idmebeles.lv",
+        "220.lv",
+        "optimus.lv",
+        "gintaromebeles.lv",
+        "bigbox.lv",
+        "24a.lv",
+        "depo.lv",
+        "ksenukai.lv",
+        "1a.lv",
+        "virtuvesskapisi.lv",
+        "4istabas.lv",
+        "ss.com",
+        "akcijaspreces.lv",
+        "mebeles1.lv",
+        "kurpirkt.lv",
+        "donna.lv"
+      ],
+      "features": [
+        "organic",
+        "related_searches",
+        "knowledge_graph",
+        "google_reviews",
+        "images"
+      ]
+    },
+    {
+      "request": {
+        "keyword": "virtuves izgatavošana",
+        "location_name": "Latvia",
+        "language_code": "lv",
+        "search_engine": "google",
+        "device": "desktop",
+        "depth": 20
+      },
+      "response_id": "07291343-1514-0139-0000-5be1126f10bb",
+      "organic_domains": [
+        "santasmebeles.lv",
+        "laurasmebeles.lv",
+        "virtuvesjums.lv",
+        "mkvirtuves.lv",
+        "virtuvesdizains.lv",
+        "alanmebeles.lv",
+        "up-mebeles.lv",
+        "virtuves.lv",
+        "profurnitura.lv",
+        "seldedze.lv",
+        "rsmebeles.lv",
+        "idmebeles.lv",
+        "mebeles1.lv",
+        "gintaromebeles.lv",
+        "ripo.eu",
+        "getapro.lv",
+        "abc.lv",
+        "optimus.lv",
+        "facebook.com"
+      ],
+      "features": [
+        "local_pack",
+        "organic",
+        "images",
+        "related_searches"
+      ]
+    }
+  ],
+  "note": "Field-preserving SERP evidence summary. Full connector transport responses were returned in-session but the connector does not expose a direct raw-download handle."
+}

@@ -1,0 +1,20 @@
+{
+  "request": {
+    "target": "virtuvespecpasutijuma.lv",
+    "location_name": "Latvia",
+    "language_code": "lv",
+    "limit": 100,
+    "include_subdomains": true,
+    "item_types": [
+      "organic",
+      "featured_snippet",
+      "local_pack"
+    ]
+  },
+  "response": {
+    "id": "07291352-1514-0381-0000-025ea383ba34",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "items": []
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "status": "complete_query_validation_with_connector_export_limitation",
+  "validated_queries": 36,
+  "explanation": "All 36 queries were executed against DataForSEO SERP Organic Live Advanced. The connector returned provider responses to the execution transcript but did not expose the complete response bodies as downloadable byte objects. Therefore the package contains every exact request and the complete normalized SERP evidence used, but cannot honestly label the normalized extract as an unmodified full API response body.",
+  "credentials_exposed": false
+}

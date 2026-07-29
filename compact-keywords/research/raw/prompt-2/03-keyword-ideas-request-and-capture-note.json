@@ -1,0 +1,20 @@
+{
+  "request": {
+    "keywords": [
+      "virtuves pēc pasūtījuma",
+      "virtuves iekārtas pēc pasūtījuma",
+      "virtuves izgatavošana",
+      "virtuves projektēšana",
+      "virtuves plānošana"
+    ],
+    "location_name": "Latvia",
+    "language_code": "lv",
+    "limit": 40,
+    "order_by": [
+      "relevance,desc"
+    ],
+    "include_clickstream_data": false
+  },
+  "response_capture_status": "Full unmodified response was returned in the DataForSEO tool transcript but could not be serialized by the available tool interface. Only rows explicitly transcribed into normalized outputs were used.",
+  "request_id": "07291352-1514-0400-0000-926983228a6c"
+}

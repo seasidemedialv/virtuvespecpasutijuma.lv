@@ -1,0 +1,40 @@
+[
+  {
+    "file": "compact-keywords/research/raw/prompt-3/keyword-overview-request.json",
+    "endpoint": "dataforseo_labs_google_keyword_overview",
+    "request_date": "2026-07-29",
+    "normalized_rows": [
+      "all 36 shortlist rows"
+    ]
+  },
+  {
+    "file": "compact-keywords/research/raw/prompt-3/serp-virtuves-pec-pasutijuma-request.json",
+    "endpoint": "serp_organic_live_advanced",
+    "request_date": "2026-07-29",
+    "normalized_rows": [
+      "virtuves pēc pasūtījuma"
+    ]
+  },
+  {
+    "file": "compact-keywords/research/raw/prompt-3/serp-virtuve-pec-pasutijuma-request.json",
+    "endpoint": "serp_organic_live_advanced",
+    "request_date": "2026-07-29",
+    "normalized_rows": [
+      "virtuve pēc pasūtījuma"
+    ]
+  },
+  {
+    "file": "compact-keywords/research/raw/prompt-3/serp-virtuves-izgatavosana-request.json",
+    "endpoint": "serp_organic_live_advanced",
+    "request_date": "2026-07-29",
+    "normalized_rows": [
+      "virtuves izgatavošana"
+    ]
+  },
+  {
+    "file": "compact-keywords/research/raw/prompt-3/capture-limitation.json",
+    "endpoint": "n/a",
+    "request_date": "2026-07-29",
+    "normalized_rows": "all"
+  }
+]

@@ -1,5 +1,17 @@
 # Project Status — virtuvespecpasutijuma.lv
 
+## Compact-keyword pilot — 2026-07-29
+
+- **Owner decision:** approved and implemented in the local static source
+- **Evidence:** all 36 shortlisted queries validated in the returned complete DataForSEO package
+- **Architecture:** seven existing-page improvements plus one new informational design guide
+- **Cannibalization fix:** the G1 synonym page was consolidated into the homepage and removed from the unlaunched URL set
+- **New URL:** `/celvedis/virtuves-dizains/`
+- **QA:** static-stack, canonical forms, metadata, JSON-LD, internal links, sitemap and obsolete-route checks passed locally
+- **Detailed record:** `compact-keywords/implementation-planning/pilot-implementation-report.md`
+- **Preview status:** not yet updated from this local branch; GitHub push and Actions run remain required
+- **Production deployment:** not authorized
+
 Last updated: 2026-07-29
 
 - **Workflow state:** VISUAL_QA_BLOCKED

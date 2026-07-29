@@ -1,0 +1,22 @@
+{
+  "resolved_location_name": "Latvia",
+  "resolved_location_code": 2428,
+  "resolved_language_name": "Latvian",
+  "resolved_language_code": "lv",
+  "full_candidates_rows": 123,
+  "rejected_rows": 25,
+  "shortlist_rows": 36,
+  "files": [
+    "prompt-2-full-candidates.csv",
+    "prompt-2-rejected-candidates.csv",
+    "prompt-3-shortlist.csv",
+    "compact-keywords/research/raw/prompt-2/prompt-1-normalized-keywords.csv",
+    "compact-keywords/research/raw/prompt-2/compact-keywords-research-brief.json",
+    "compact-keywords/research/raw/prompt-2/03-keyword-ideas-request-and-capture-note.json",
+    "compact-keywords/research/raw/prompt-2/04-virtuvesjums-ranked-keywords-request-and-capture-note.json",
+    "compact-keywords/research/raw/prompt-2/02-local-keyword-overview.json",
+    "compact-keywords/research/raw/prompt-2/prompt-1-competitor-list.csv",
+    "compact-keywords/research/raw/prompt-2/01-target-ranked-keywords.json",
+    "compact-keywords/research/reports/prompt-2-competitor-mining-and-expansion.md"
+  ]
+}

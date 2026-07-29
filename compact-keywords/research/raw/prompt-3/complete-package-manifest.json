@@ -1,0 +1,360 @@
+{
+  "project": "compact-keywords",
+  "prompt": 3,
+  "status": "complete_query_validation",
+  "target": "virtuvespecpasutijuma.lv",
+  "resolved_location": {
+    "name": "Latvia",
+    "code": 2428
+  },
+  "resolved_language": {
+    "name": "Latvian",
+    "code": "lv"
+  },
+  "request_date": "2026-07-29",
+  "normalized_output": "compact-keywords/research/normalized/compact-keyword-candidates.csv",
+  "report": "compact-keywords/research/reports/prompt-3-live-serp-validation.md",
+  "row_count": 36,
+  "raw_files": [
+    {
+      "file": "compact-keywords/research/raw/prompt-3/01-serp-virtuves-pec-pasutijuma-request.json",
+      "endpoint": "SERP Organic Live Advanced",
+      "request_date": "2026-07-29",
+      "normalized_rows": [
+        "virtuves pēc pasūtījuma"
+      ]
+    },
+    {
+      "file": "compact-keywords/research/raw/prompt-3/02-serp-virtuve-pec-pasutijuma-request.json",
+      "endpoint": "SERP Organic Live Advanced",
+      "request_date": "2026-07-29",
+      "normalized_rows": [
+        "virtuve pēc pasūtījuma"
+      ]
+    },
+    {
+      "file": "compact-keywords/research/raw/prompt-3/03-serp-virtuves-uz-pasutijumu-request.json",
+      "endpoint": "SERP Organic Live Advanced",
+      "request_date": "2026-07-29",
+      "normalized_rows": [
+        "virtuves uz pasūtījumu"
+      ]
+    },
+    {
+      "file": "compact-keywords/research/raw/prompt-3/04-serp-virtuves-mebeles-pec-pasutijuma-request.json",
+      "endpoint": "SERP Organic Live Advanced",
+      "request_date": "2026-07-29",
+      "normalized_rows": [
+        "virtuves mēbeles pēc pasūtījuma"
+      ]
+    },
+    {
+      "file": "compact-keywords/research/raw/prompt-3/05-serp-virtuves-iekartas-pec-pasutijuma-request.json",
+      "endpoint": "SERP Organic Live Advanced",
+      "request_date": "2026-07-29",
+      "normalized_rows": [
+        "virtuves iekārtas pēc pasūtījuma"
+      ]
+    },
+    {
+      "file": "compact-keywords/research/raw/prompt-3/06-serp-virtuves-izgatavosana-request.json",
+      "endpoint": "SERP Organic Live Advanced",
+      "request_date": "2026-07-29",
+      "normalized_rows": [
+        "virtuves izgatavošana"
+      ]
+    },
+    {
+      "file": "compact-keywords/research/raw/prompt-3/07-serp-virtuves-iekartas-izgatavosana-request.json",
+      "endpoint": "SERP Organic Live Advanced",
+      "request_date": "2026-07-29",
+      "normalized_rows": [
+        "virtuves iekārtas izgatavošana"
+      ]
+    },
+    {
+      "file": "compact-keywords/research/raw/prompt-3/08-serp-virtuves-mebelu-izgatavosana-request.json",
+      "endpoint": "SERP Organic Live Advanced",
+      "request_date": "2026-07-29",
+      "normalized_rows": [
+        "virtuves mēbeļu izgatavošana"
+      ]
+    },
+    {
+      "file": "compact-keywords/research/raw/prompt-3/09-serp-iebuvejamas-virtuves-request.json",
+      "endpoint": "SERP Organic Live Advanced",
+      "request_date": "2026-07-29",
+      "normalized_rows": [
+        "iebūvējamās virtuves"
+      ]
+    },
+    {
+      "file": "compact-keywords/research/raw/prompt-3/10-serp-iebuvejamas-virtuves-iekartas-request.json",
+      "endpoint": "SERP Organic Live Advanced",
+      "request_date": "2026-07-29",
+      "normalized_rows": [
+        "iebūvējamās virtuves iekārtas"
+      ]
+    },
+    {
+      "file": "compact-keywords/research/raw/prompt-3/11-serp-iebuvejamas-virtuves-cenas-request.json",
+      "endpoint": "SERP Organic Live Advanced",
+      "request_date": "2026-07-29",
+      "normalized_rows": [
+        "iebūvējamās virtuves cenas"
+      ]
+    },
+    {
+      "file": "compact-keywords/research/raw/prompt-3/12-serp-virtuves-dizains-request.json",
+      "endpoint": "SERP Organic Live Advanced",
+      "request_date": "2026-07-29",
+      "normalized_rows": [
+        "virtuves dizains"
+      ]
+    },
+    {
+      "file": "compact-keywords/research/raw/prompt-3/13-serp-virtuves-projektesana-request.json",
+      "endpoint": "SERP Organic Live Advanced",
+      "request_date": "2026-07-29",
+      "normalized_rows": [
+        "virtuves projektēšana"
+      ]
+    },
+    {
+      "file": "compact-keywords/research/raw/prompt-3/14-serp-virtuves-planosana-request.json",
+      "endpoint": "SERP Organic Live Advanced",
+      "request_date": "2026-07-29",
+      "normalized_rows": [
+        "virtuves plānošana"
+      ]
+    },
+    {
+      "file": "compact-keywords/research/raw/prompt-3/15-serp-funkcionals-virtuves-planojums-request.json",
+      "endpoint": "SERP Organic Live Advanced",
+      "request_date": "2026-07-29",
+      "normalized_rows": [
+        "funkcionāls virtuves plānojums"
+      ]
+    },
+    {
+      "file": "compact-keywords/research/raw/prompt-3/16-serp-virtuves-konsultacija-request.json",
+      "endpoint": "SERP Organic Live Advanced",
+      "request_date": "2026-07-29",
+      "normalized_rows": [
+        "virtuves konsultācija"
+      ]
+    },
+    {
+      "file": "compact-keywords/research/raw/prompt-3/17-serp-virtuves-tame-request.json",
+      "endpoint": "SERP Organic Live Advanced",
+      "request_date": "2026-07-29",
+      "normalized_rows": [
+        "virtuves tāme"
+      ]
+    },
+    {
+      "file": "compact-keywords/research/raw/prompt-3/18-serp-virtuves-cenas-aprekins-request.json",
+      "endpoint": "SERP Organic Live Advanced",
+      "request_date": "2026-07-29",
+      "normalized_rows": [
+        "virtuves cenas aprēķins"
+      ]
+    },
+    {
+      "file": "compact-keywords/research/raw/prompt-3/19-serp-virtuves-piegade-un-uzstadisana-request.json",
+      "endpoint": "SERP Organic Live Advanced",
+      "request_date": "2026-07-29",
+      "normalized_rows": [
+        "virtuves piegāde un uzstādīšana"
+      ]
+    },
+    {
+      "file": "compact-keywords/research/raw/prompt-3/20-serp-virtuves-izgatavosana-un-uzstadisana-request.json",
+      "endpoint": "SERP Organic Live Advanced",
+      "request_date": "2026-07-29",
+      "normalized_rows": [
+        "virtuves izgatavošana un uzstādīšana"
+      ]
+    },
+    {
+      "file": "compact-keywords/research/raw/prompt-3/21-serp-virtuves-uzstadisanas-cena-request.json",
+      "endpoint": "SERP Organic Live Advanced",
+      "request_date": "2026-07-29",
+      "normalized_rows": [
+        "virtuves uzstādīšanas cena"
+      ]
+    },
+    {
+      "file": "compact-keywords/research/raw/prompt-3/22-serp-stura-virtuves-request.json",
+      "endpoint": "SERP Organic Live Advanced",
+      "request_date": "2026-07-29",
+      "normalized_rows": [
+        "stūra virtuves"
+      ]
+    },
+    {
+      "file": "compact-keywords/research/raw/prompt-3/23-serp-l-veida-virtuve-request.json",
+      "endpoint": "SERP Organic Live Advanced",
+      "request_date": "2026-07-29",
+      "normalized_rows": [
+        "L veida virtuve"
+      ]
+    },
+    {
+      "file": "compact-keywords/research/raw/prompt-3/24-serp-u-veida-virtuve-request.json",
+      "endpoint": "SERP Organic Live Advanced",
+      "request_date": "2026-07-29",
+      "normalized_rows": [
+        "U veida virtuve"
+      ]
+    },
+    {
+      "file": "compact-keywords/research/raw/prompt-3/25-serp-virtuve-ar-salu-request.json",
+      "endpoint": "SERP Organic Live Advanced",
+      "request_date": "2026-07-29",
+      "normalized_rows": [
+        "virtuve ar salu"
+      ]
+    },
+    {
+      "file": "compact-keywords/research/raw/prompt-3/26-serp-virtuves-sala-request.json",
+      "endpoint": "SERP Organic Live Advanced",
+      "request_date": "2026-07-29",
+      "normalized_rows": [
+        "virtuves sala"
+      ]
+    },
+    {
+      "file": "compact-keywords/research/raw/prompt-3/27-serp-virtuve-ar-pussalu-request.json",
+      "endpoint": "SERP Organic Live Advanced",
+      "request_date": "2026-07-29",
+      "normalized_rows": [
+        "virtuve ar pussalu"
+      ]
+    },
+    {
+      "file": "compact-keywords/research/raw/prompt-3/28-serp-vienas-sienas-virtuve-request.json",
+      "endpoint": "SERP Organic Live Advanced",
+      "request_date": "2026-07-29",
+      "normalized_rows": [
+        "vienas sienas virtuve"
+      ]
+    },
+    {
+      "file": "compact-keywords/research/raw/prompt-3/29-serp-paralela-virtuve-request.json",
+      "endpoint": "SERP Organic Live Advanced",
+      "request_date": "2026-07-29",
+      "normalized_rows": [
+        "paralēla virtuve"
+      ]
+    },
+    {
+      "file": "compact-keywords/research/raw/prompt-3/30-serp-gaitena-tipa-virtuve-request.json",
+      "endpoint": "SERP Organic Live Advanced",
+      "request_date": "2026-07-29",
+      "normalized_rows": [
+        "gaiteņa tipa virtuve"
+      ]
+    },
+    {
+      "file": "compact-keywords/research/raw/prompt-3/31-serp-virtuve-mazam-dzivoklim-request.json",
+      "endpoint": "SERP Organic Live Advanced",
+      "request_date": "2026-07-29",
+      "normalized_rows": [
+        "virtuve mazam dzīvoklim"
+      ]
+    },
+    {
+      "file": "compact-keywords/research/raw/prompt-3/32-serp-virtuves-iekartas-hruscovkam-request.json",
+      "endpoint": "SERP Organic Live Advanced",
+      "request_date": "2026-07-29",
+      "normalized_rows": [
+        "virtuves iekārtas hruščovkām"
+      ]
+    },
+    {
+      "file": "compact-keywords/research/raw/prompt-3/33-serp-virtuve-privatmajai-request.json",
+      "endpoint": "SERP Organic Live Advanced",
+      "request_date": "2026-07-29",
+      "normalized_rows": [
+        "virtuve privātmājai"
+      ]
+    },
+    {
+      "file": "compact-keywords/research/raw/prompt-3/34-serp-virtuve-jaunbuvei-request.json",
+      "endpoint": "SERP Organic Live Advanced",
+      "request_date": "2026-07-29",
+      "normalized_rows": [
+        "virtuve jaunbūvei"
+      ]
+    },
+    {
+      "file": "compact-keywords/research/raw/prompt-3/35-serp-atverta-planojuma-virtuve-request.json",
+      "endpoint": "SERP Organic Live Advanced",
+      "request_date": "2026-07-29",
+      "normalized_rows": [
+        "atvērta plānojuma virtuve"
+      ]
+    },
+    {
+      "file": "compact-keywords/research/raw/prompt-3/36-serp-virtuves-pec-pasutijuma-riga-request.json",
+      "endpoint": "SERP Organic Live Advanced",
+      "request_date": "2026-07-29",
+      "normalized_rows": [
+        "virtuves pēc pasūtījuma Rīga"
+      ]
+    },
+    {
+      "file": "compact-keywords/research/raw/prompt-3/serp-normalized-response-evidence.json",
+      "endpoint": "SERP Organic Live Advanced",
+      "request_date": "2026-07-29",
+      "normalized_rows": [
+        "virtuves pēc pasūtījuma",
+        "virtuve pēc pasūtījuma",
+        "virtuves uz pasūtījumu",
+        "virtuves mēbeles pēc pasūtījuma",
+        "virtuves iekārtas pēc pasūtījuma",
+        "virtuves izgatavošana",
+        "virtuves iekārtas izgatavošana",
+        "virtuves mēbeļu izgatavošana",
+        "iebūvējamās virtuves",
+        "iebūvējamās virtuves iekārtas",
+        "iebūvējamās virtuves cenas",
+        "virtuves dizains",
+        "virtuves projektēšana",
+        "virtuves plānošana",
+        "funkcionāls virtuves plānojums",
+        "virtuves konsultācija",
+        "virtuves tāme",
+        "virtuves cenas aprēķins",
+        "virtuves piegāde un uzstādīšana",
+        "virtuves izgatavošana un uzstādīšana",
+        "virtuves uzstādīšanas cena",
+        "stūra virtuves",
+        "L veida virtuve",
+        "U veida virtuve",
+        "virtuve ar salu",
+        "virtuves sala",
+        "virtuve ar pussalu",
+        "vienas sienas virtuve",
+        "paralēla virtuve",
+        "gaiteņa tipa virtuve",
+        "virtuve mazam dzīvoklim",
+        "virtuves iekārtas hruščovkām",
+        "virtuve privātmājai",
+        "virtuve jaunbūvei",
+        "atvērta plānojuma virtuve",
+        "virtuves pēc pasūtījuma Rīga"
+      ]
+    },
+    {
+      "file": "compact-keywords/research/raw/prompt-3/raw-response-export-limitation.json",
+      "endpoint": "connector limitation record",
+      "request_date": "2026-07-29",
+      "normalized_rows": []
+    }
+  ],
+  "limitations": [
+    "All 36 queries were executed against DataForSEO SERP Organic Live Advanced. The connector returned provider responses to the execution transcript but did not expose the complete response bodies as downloadable byte objects. Therefore the package contains every exact request and the complete normalized SERP evidence used, but cannot honestly label the normalized extract as an unmodified full API response body."
+  ]
+}

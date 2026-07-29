@@ -1,0 +1,20 @@
+{
+  "resolved_location_name": "Latvia",
+  "resolved_location_code": 2428,
+  "resolved_language_name": "Latvian",
+  "resolved_language_code": "lv",
+  "domain_ranking_status": "empty because current preview is noindex/robots-disallowed; not interpreted as no demand",
+  "files": [
+    "prompt-1-normalized-keywords.csv",
+    "prompt-2-competitor-list.csv",
+    "prompt-1-current-rankings-and-competitors.md",
+    "compact-keywords/research/reports/prompt-1-current-rankings-and-competitors.md",
+    "compact-keywords/research/raw/prompt-1/README.md",
+    "compact-keywords/research/raw/prompt-1/03-relevant-pages.json",
+    "compact-keywords/research/raw/prompt-1/04-bulk-keyword-difficulty.json",
+    "compact-keywords/research/raw/prompt-1/05-keyword-overview-values-used.json",
+    "compact-keywords/research/raw/prompt-1/01-ranked-keywords.json",
+    "compact-keywords/research/raw/prompt-1/06-live-serp-evidence-used.json",
+    "compact-keywords/research/raw/prompt-1/02-competitors-domain.json"
+  ]
+}

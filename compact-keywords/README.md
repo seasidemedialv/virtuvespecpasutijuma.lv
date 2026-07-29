@@ -3,21 +3,16 @@
 - **Domain:** `https://virtuvespecpasutijuma.lv/`
 - **Market:** Latvia
 - **Research locale:** Google Latvia, Latvian (`lv`)
-- **Current stage:** website audit and DataForSEO handoff prepared
+- **Current stage:** owner-approved pilot implemented; preview publication pending
 - **Last updated:** 2026-07-29
-- **Implementation approval:** not granted
+- **Implementation approval:** granted 2026-07-29 for the eight-item pilot
 
 ## Current decision
 
-The website has been audited, but no compact-keyword page map has been
-approved. Do not change website architecture, copy, navigation or URLs until:
-
-1. all three DataForSEO prompts have been run;
-2. untouched evidence is returned to the matching `research/raw/prompt-*`
-   folders;
-3. normalized results and reports are prepared;
-4. a page map is proposed; and
-5. the owner explicitly approves the pilot.
+The returned DataForSEO packages remain preserved, normalized and reviewed.
+The owner approved the eight-item pilot after all 36 shortlisted queries were
+validated. The approved page-map decisions have been applied to the static
+source and locally audited. Production deployment is still not authorized.
 
 ## Important files
 
@@ -26,6 +21,14 @@ approved. Do not change website architecture, copy, navigation or URLs until:
 - `prompts/dataforseo-prompt-1.md` — current rankings and competitors
 - `prompts/dataforseo-prompt-2.md` — competitor mining and expansion
 - `prompts/dataforseo-prompt-3.md` — live SERP validation and normalized output
+- `research/raw/prompt-*/original-package.zip` — untouched returned packages
+- `research/raw/prompt-3/original-complete-package.zip` — untouched complete-query package
+- `research/normalized/` — copied normalized tables
+- `research/reports/` — returned narrative reports
+- `research/reports/prompt-3-complete-evidence-review.md` — completeness reconciliation
+- `page-map/prioritized-page-map.md` — decision record and proposed pilot
+- `page-map/prioritized-page-map.csv` — machine-readable page map
+- `implementation-planning/pilot-implementation-report.md` — implemented changes and QA evidence
 
 ## Evidence handling
 
@@ -43,6 +46,6 @@ approved. Do not change website architecture, copy, navigation or URLs until:
 - Public business identity, contact information, pricing, warranties,
   production timing, material/hardware brands, projects and testimonials are
   not verified.
-- Known competitors have not been approved; Prompt 1 must discover them from
-  current Latvia/Latvian organic results.
-
+- Full unmodified Prompt 3 provider response bodies could not be exported by
+  the connector; every request and the normalized evidence for all 36 queries
+  are present.

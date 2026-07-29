@@ -1,0 +1,6 @@
+{
+  "status": "partial_connector_capture",
+  "validated_serp_rows": 3,
+  "shortlist_rows": 36,
+  "note": "The DataForSEO connector returned response bodies in the tool transcript but did not expose them as writable objects. Only three SERP calls were completed before packaging; unvalidated rows are explicitly marked and no SERP values were estimated."
+}

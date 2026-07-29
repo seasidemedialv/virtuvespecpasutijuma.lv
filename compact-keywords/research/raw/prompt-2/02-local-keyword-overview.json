@@ -1,0 +1,45 @@
+{
+  "request": {
+    "keywords": [
+      "virtuves pēc pasūtījuma Rīga",
+      "virtuves pēc pasūtījuma Mārupe",
+      "virtuves pēc pasūtījuma Stopiņi",
+      "virtuves pēc pasūtījuma Ulbroka",
+      "virtuves pēc pasūtījuma Ķekava",
+      "virtuves pēc pasūtījuma Babīte",
+      "virtuves pēc pasūtījuma Garkalne",
+      "virtuves pēc pasūtījuma Salaspils",
+      "virtuves pēc pasūtījuma Ādaži",
+      "virtuves pēc pasūtījuma Jūrmala",
+      "virtuves pēc pasūtījuma Olaine",
+      "virtuves pēc pasūtījuma Piņķi",
+      "virtuves pēc pasūtījuma Carnikava",
+      "virtuves pēc pasūtījuma Ropaži",
+      "virtuves pēc pasūtījuma Ikšķile",
+      "virtuves pēc pasūtījuma Ogre",
+      "virtuves pēc pasūtījuma Baldone",
+      "virtuves pēc pasūtījuma Saulkrasti",
+      "virtuves pēc pasūtījuma Jelgava",
+      "virtuves pēc pasūtījuma Sigulda",
+      "virtuves izgatavošana Rīga",
+      "virtuves izgatavošana Mārupe",
+      "virtuves izgatavošana Ķekava",
+      "virtuves izgatavošana Jūrmala",
+      "virtuves izgatavošana Jelgava",
+      "virtuves iekārtas pēc pasūtījuma Rīga",
+      "virtuves iekārtas pēc pasūtījuma Mārupe",
+      "virtuves iekārtas pēc pasūtījuma Ķekava",
+      "virtuves iekārtas pēc pasūtījuma Jūrmala",
+      "virtuves iekārtas pēc pasūtījuma Jelgava"
+    ],
+    "location_name": "Latvia",
+    "language_code": "lv",
+    "include_clickstream_data": false
+  },
+  "response": {
+    "id": "07291353-1514-0607-0000-0280df0bcfb7",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "items": []
+  }
+}

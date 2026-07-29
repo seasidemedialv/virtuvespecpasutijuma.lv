@@ -1,0 +1,189 @@
+{
+  "endpoint": "dataforseo_labs_bulk_keyword_difficulty",
+  "request": {
+    "keywords": [
+      "virtuves pēc pasūtījuma",
+      "virtuve pēc pasūtījuma",
+      "virtuves mēbeles pēc pasūtījuma",
+      "virtuves iekārtas pēc pasūtījuma",
+      "virtuves izgatavošana",
+      "iebūvējamās virtuves",
+      "iebūvējamās virtuves iekārtas",
+      "virtuves cenas",
+      "virtuves pēc pasūtījuma cenas",
+      "cik maksā virtuves iekārta",
+      "virtuves dizains",
+      "virtuves projektēšana",
+      "virtuves plānošana",
+      "virtuves plānojums",
+      "virtuves iekārtojums",
+      "virtuves uzstādīšana",
+      "stūra virtuves",
+      "L veida virtuves",
+      "mazas virtuves",
+      "modernas virtuves",
+      "virtuve ar salu",
+      "virtuves saliņa",
+      "virtuves skapīši",
+      "virtuves fasādes",
+      "virtuves furnitūra",
+      "virtuves interjers",
+      "taisna virtuves iekārta",
+      "vienas sienas virtuve",
+      "paralēla virtuves iekārta",
+      "gaiteņa tipa virtuve",
+      "U veida virtuve",
+      "virtuve ar pussalu",
+      "atvērta plānojuma virtuve",
+      "virtuve dzīvoklim",
+      "virtuve privātmājai",
+      "virtuve jaunbūvei",
+      "virtuves glabāšanas risinājumi",
+      "iebūvējamās tehnikas izvietojums virtuvē",
+      "virtuves konsultācija",
+      "virtuves tāme",
+      "virtuves piedāvājums"
+    ],
+    "location_name": "Latvia",
+    "language_code": "lv"
+  },
+  "response": {
+    "id": "07291343-1514-0366-0000-77cc7bd0e5d2",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "items": [
+      {
+        "keyword": "cik maksā virtuves iekārta"
+      },
+      {
+        "keyword": "iebūvējamās virtuves"
+      },
+      {
+        "keyword": "iebūvējamās virtuves iekārtas"
+      },
+      {
+        "keyword": "l veida virtuves"
+      },
+      {
+        "keyword": "mazas virtuves",
+        "keyword_difficulty": 5
+      },
+      {
+        "keyword": "modernas virtuves"
+      },
+      {
+        "keyword": "stūra virtuves"
+      },
+      {
+        "keyword": "u veida virtuve"
+      },
+      {
+        "keyword": "virtuve ar salu"
+      },
+      {
+        "keyword": "virtuve pēc pasūtījuma",
+        "keyword_difficulty": 3
+      },
+      {
+        "keyword": "virtuves cenas"
+      },
+      {
+        "keyword": "virtuves dizains"
+      },
+      {
+        "keyword": "virtuves fasādes"
+      },
+      {
+        "keyword": "virtuves furnitūra"
+      },
+      {
+        "keyword": "virtuves iekārtas pēc pasūtījuma"
+      },
+      {
+        "keyword": "virtuves iekārtojums"
+      },
+      {
+        "keyword": "virtuves interjers"
+      },
+      {
+        "keyword": "virtuves izgatavošana"
+      },
+      {
+        "keyword": "virtuves mēbeles pēc pasūtījuma"
+      },
+      {
+        "keyword": "virtuves plānojums"
+      },
+      {
+        "keyword": "virtuves plānošana"
+      },
+      {
+        "keyword": "virtuves projektēšana"
+      },
+      {
+        "keyword": "virtuves pēc pasūtījuma"
+      },
+      {
+        "keyword": "virtuves saliņa"
+      },
+      {
+        "keyword": "virtuves skapīši"
+      },
+      {
+        "keyword": "virtuves uzstādīšana",
+        "keyword_difficulty": 32
+      },
+      {
+        "keyword": "virtuves pēc pasūtījuma cenas"
+      },
+      {
+        "keyword": "taisna virtuves iekārta"
+      },
+      {
+        "keyword": "vienas sienas virtuve"
+      },
+      {
+        "keyword": "paralēla virtuves iekārta"
+      },
+      {
+        "keyword": "gaiteņa tipa virtuve"
+      },
+      {
+        "keyword": "virtuve ar pussalu"
+      },
+      {
+        "keyword": "atvērta plānojuma virtuve"
+      },
+      {
+        "keyword": "virtuve dzīvoklim"
+      },
+      {
+        "keyword": "virtuve privātmājai"
+      },
+      {
+        "keyword": "virtuve jaunbūvei"
+      },
+      {
+        "keyword": "virtuves glabāšanas risinājumi"
+      },
+      {
+        "keyword": "iebūvējamās tehnikas izvietojums virtuvē"
+      },
+      {
+        "keyword": "virtuves konsultācija"
+      },
+      {
+        "keyword": "virtuves tāme"
+      },
+      {
+        "keyword": "virtuves piedāvājums"
+      }
+    ]
+  },
+  "resolved": {
+    "location_name": "Latvia",
+    "location_code": 2428,
+    "language_name": "Latvian",
+    "language_code": "lv"
+  }
+}

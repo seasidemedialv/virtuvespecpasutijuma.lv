@@ -1,5 +1,11 @@
 # Measured-Demand SEO Build Plan
 
+> **Superseded architecture notice (2026-07-29):** the complete compact-keyword
+> live-SERP validation and owner-approved pilot now govern implementation.
+> Use `compact-keywords/page-map/prioritized-page-map.md` and
+> `docs/KEYWORD-TO-PAGE-MAP.csv` as the current source of truth. The table below
+> is retained as historical evidence of the earlier research stage.
+
 **Project:** virtuvespecpasutijuma.lv  
 **Research source:** `virtuvespecpasutijuma-full-research-2026-07-28`  
 **Status:** Owner-directed required build scope  
