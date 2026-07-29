@@ -30,3 +30,7 @@ There is no framework-conversion exception. Do not proceed to visual QA and do n
 ## Project autonomy and evidence
 
 The agent owns research-to-build delivery. DataForSEO research and AI review remain the source for SEO architecture and page briefs. Never invent business facts, reviews, prices, guarantees, credentials, projects or contact details. Production launch remains subject to explicit owner approval.
+
+## Mandatory form contract
+
+Follow `seasidemedialv/website-template/FORM-STANDARD.md`. Every qualifying page must contain the same canonical `#lead-form`. The mandatory required fields, in order, are name, phone, address, requested service and more information. Service area may remain as an additional field. Every primary lead CTA must point to the current page's own `#lead-form`. Verify this across all HTML pages and record the result before visual approval.
