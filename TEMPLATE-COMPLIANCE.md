@@ -114,8 +114,9 @@ Functional pages are `/ka-mes-stradajam/`, `/realizetie-projekti/`,
   same `/pakalpojumi/` and `/pilsetas/` hierarchy.
 - All 20 verified service areas have distinct city-page titles, H1s,
   descriptions, canonicals, local context, address/access guidance, local FAQ
-  wording and source attribution. The set contains 646–673 rendered words per
-  page and is reviewed in `CITY-CONTENT-REVIEW.md`.
+  wording, source attribution and local risk-and-decision guidance. The set
+  contains 755–785 rendered words per page and is reviewed in
+  `CITY-CONTENT-REVIEW.md`.
 - The supplied Wikipedia pages are used only for paraphrased administrative,
   geographic and settlement context. No encyclopedia copy is reproduced as
   generic filler, and local facts do not replace the project-specific room and

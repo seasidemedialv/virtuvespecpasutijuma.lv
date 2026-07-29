@@ -108,10 +108,9 @@ production promise while retaining the non-transmitting demo notice.
 - Preview indexing: blocked by both meta robots and `robots.txt`
 - City pages: 20 unique routes, titles, descriptions, H1s, canonicals, FAQ
   schemas, source notes and local planning/access sections
-- City-page rendered-text range: 646–673 words
-- City content depth: useful for preview, but `PREMIUM_EXPANSION_RECOMMENDED`
-  before production; add verified local decision value rather than Wikipedia
-  or generic SEO padding
+- City-page rendered-text range: 755–785 words
+- City content depth: `PREMIUM_CONTENT_QA_PASS`; every page includes a unique
+  local risk-and-decision section without Wikipedia or generic SEO padding
 - City source and differentiation review: recorded in
   `CITY-CONTENT-REVIEW.md`
 - Sitemap: all 20 city routes included exactly once
@@ -166,8 +165,7 @@ The owner-authorized 20-page city expansion is implemented and locally audited.
 The pages use the supplied Wikipedia sources for limited local context and
 independently written kitchen-planning guidance. Shared header, form, process
 and verified trust components remain consistent. The city set is
-`CONTENT_QA_PASS`, `PREMIUM_EXPANSION_RECOMMENDED` and
-`VISUAL_REVIEW_PENDING`.
+`PREMIUM_CONTENT_QA_PASS` and `VISUAL_REVIEW_PENDING`.
 
 ## City-route and contrast correction
 
