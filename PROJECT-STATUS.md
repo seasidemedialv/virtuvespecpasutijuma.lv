@@ -29,8 +29,11 @@ those checks pass.
 - Approved demand architecture: homepage plus 15 supporting pages
 - Service architecture: 15 supporting demand pages are grouped under
   `/pakalpojumi/`, with `/pakalpojumi/` as the service hub
-- Location pages: deferred; `/pilsetas/` is the service-area hub and future
-  approved location pages must use `/pilsetas/virtuves-pec-pasutijuma-<vieta>/`
+- Location architecture: 20 owner-approved, verified service-area pages under
+  `/pilsetas/virtuves-pec-pasutijuma-<vieta>/`, linked from `/pilsetas/`
+- Location-demand note: the earlier API follow-up showed no measurable local
+  phrase volume; these pages are owner-directed coverage pages and are not
+  represented as DataForSEO demand-backed architecture
 
 ## Current static source
 
@@ -72,7 +75,7 @@ production promise while retaining the non-transmitting demo notice.
 ## Local QA completed
 
 - Local static-stack policy equivalent: passed
-- HTML documents checked after the hierarchy change: 25
+- HTML documents checked after the city expansion: 45
 - Every document: one H1, title, description and canonical
 - Service-page content: 687–853 rendered words; 11,198 words across the 15
   DataForSEO-backed service pages
@@ -103,6 +106,12 @@ production promise while retaining the non-transmitting demo notice.
   shared navigation, forms, verified process language and trust components are
   treated as deliberate site-wide interface content
 - Preview indexing: blocked by both meta robots and `robots.txt`
+- City pages: 20 unique routes, titles, descriptions, H1s, canonicals, FAQ
+  schemas, source notes and local planning/access sections
+- City-page rendered-text range: 646–673 words
+- City source and differentiation review: recorded in
+  `CITY-CONTENT-REVIEW.md`
+- Sitemap: all 20 city routes included exactly once
 
 ## GitHub checks completed
 
@@ -141,3 +150,11 @@ The required rewrite is implemented and recorded page by page in
 trust, content and static SEO checks. They remain `VISUAL_REVIEW_PENDING`, so
 premium preview approval is not granted until desktop and mobile visual QA can
 be completed.
+
+## City-content review
+
+The owner-authorized 20-page city expansion is implemented and locally audited.
+The pages use the supplied Wikipedia sources for limited local context and
+independently written kitchen-planning guidance. Shared header, form, process
+and verified trust components remain consistent. The city set is
+`CONTENT_QA_PASS` and `VISUAL_REVIEW_PENDING`.

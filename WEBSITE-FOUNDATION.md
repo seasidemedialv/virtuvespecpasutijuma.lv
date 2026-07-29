@@ -64,6 +64,12 @@ Apkalpošanas teritoriju hub lapa ir `/pilsetas/`. Ja pēc atsevišķa pētījum
 unikāla briefa tiks apstiprināta pilsētas lapa, tās standarta ceļš būs
 `/pilsetas/virtuves-pec-pasutijuma-<vieta>/`.
 
+2026-07-29 īpašnieks apstiprināja atsevišķu lapu izveidi visām 20 pārbaudītajām
+apkalpošanas teritorijām un piegādāja katras vietas avotu. Tās realizētas zem
+minētā `/pilsetas/` standarta. Šīs lapas balstās patiesā pakalpojuma pārklājumā
+un vietai noderīgā saturā; tās netiek nepatiesi pasniegtas kā izmērāma lokālā
+atslēgvārdu pieprasījuma rezultāts.
+
 Katrai lapai ir savs primārais nolūks, title, meta description, H1, ievads, trīs satura sadaļas, divi FAQ un iekšējo saišu loma. Precīzie atslēgvārdi un robežas ir kartē un lapu briefos.
 
 ## 4. Satura un kanibalizācijas noteikumi
@@ -85,10 +91,12 @@ Atsevišķas SEO lapas nav izveidotas:
 - krēsliem, galdiem, tehnikai, maisītājiem, nosūcējiem un aksesuāriem;
 - konkurentu un veikalu nosaukumiem;
 - U veida, klasiskām, privātmāju un dzīvokļu sēriju lapām, jo pabeigtais datasets tām neuzrādīja pārbaudītu pieprasījumu;
-- lokāciju lapām, jo 40 pārbaudītajām lokālajām frāzēm nebija uzrādāma apjoma.
+- papildu lokācijām ārpus 20 īpašnieka apstiprinātajām apkalpošanas teritorijām.
 
-Visas 20 vietas ir norādītas kā patiesas apkalpošanas teritorijas bez izdomātām lokālām īpašībām.
-Tās apkopotas `/pilsetas/` hub lapā; atsevišķi pilsētu SEO URL nav publicēti.
+Visām 20 vietām ir atsevišķs URL un saite no `/pilsetas/` hub lapas. Vietējie
+fakti ir pārfrāzēti no īpašnieka norādītajiem Vikipēdijas avotiem; tie sasaistīti
+ar konkrētiem mērīšanas, telpas, adreses un piegādes jautājumiem, nevis izmantoti
+kā nesaistīts vietvārdu pildījums.
 
 ## 6. Realizētās funkcionālās lapas
 

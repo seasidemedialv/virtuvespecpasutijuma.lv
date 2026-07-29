@@ -32,7 +32,7 @@ compilation, server or build command.
 | `service-page.html` | fifteen `pakalpojumi/<slug>/index.html` files with breadcrumb hero, brief-led long-form content, practical guide, decision matrix, failure-mode cards, preparation panel, contextual internal links, FAQ schema, trust evidence and one canonical form |
 | `prices.html` | `pakalpojumi/virtuves-cenas/index.html`: price factors and six comparable scope categories without invented monetary values |
 | `faq.html` | `buj/index.html` plus visible, intent-specific FAQ sections on every demand page |
-| `geo-page.html` | `/pilsetas/index.html` is the substantive verified-coverage hub; individual geo pages remain deferred until independently approved |
+| `geo-page.html` | `/pilsetas/index.html` plus twenty `/pilsetas/virtuves-pec-pasutijuma-<vieta>/index.html` pages with local context, planning constraints, delivery checks, source notes, FAQs, trust content and canonical forms |
 | `styles.css` | root `styles.css`: adapted template layout, typography, cards, forms, conversion sections, navigation, responsive grids and focus states |
 | `script.js` | root `script.js`: sticky header, mobile menu, FAQ accordions, floating mobile CTA and explicitly non-transmitting preview forms |
 | Template images | root `images/`: three compressed WebP illustrations, visibly disclosed as illustrative rather than completed projects |
@@ -65,7 +65,7 @@ Hierarchy and hub mapping:
 - `service-page.html` → `/pakalpojumi/<service-slug>/index.html`
 - service overview/hub → `/pakalpojumi/index.html`
 - location overview/hub → `/pilsetas/index.html`
-- future independently briefed location pages →
+- twenty owner-approved location pages →
   `/pilsetas/virtuves-pec-pasutijuma-<vieta>/index.html`
 
 Functional pages are `/ka-mes-stradajam/`, `/realizetie-projekti/`,
@@ -73,7 +73,7 @@ Functional pages are `/ka-mes-stradajam/`, `/realizetie-projekti/`,
 
 ## Content and SEO evidence
 
-- All 25 HTML documents have exactly one H1, a title, description and canonical.
+- All 45 HTML documents have exactly one H1, a title, description and canonical.
 - Homepage rendered-text count: 787 words.
 - Service-page rendered-text range: 687–853 words; total: 11,198 words.
 - Each demand page preserves its unique primary keyword, supporting terms,
@@ -112,6 +112,14 @@ Functional pages are `/ka-mes-stradajam/`, `/realizetie-projekti/`,
 - Internal-link crawl passed with no obsolete root-level service URLs.
 - The 15 service pages, both hubs, canonicals, breadcrumbs and sitemap use the
   same `/pakalpojumi/` and `/pilsetas/` hierarchy.
+- All 20 verified service areas have distinct city-page titles, H1s,
+  descriptions, canonicals, local context, address/access guidance, local FAQ
+  wording and source attribution. The set contains 646–673 rendered words per
+  page and is reviewed in `CITY-CONTENT-REVIEW.md`.
+- The supplied Wikipedia pages are used only for paraphrased administrative,
+  geographic and settlement context. No encyclopedia copy is reproduced as
+  generic filler, and local facts do not replace the project-specific room and
+  delivery checks.
 - Because the site has not launched publicly, obsolete flat preview routes are
   removed rather than retained as duplicate HTML; production redirects are not
   required for an unlaunched URL set.
