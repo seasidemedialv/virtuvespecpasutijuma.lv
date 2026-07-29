@@ -5,41 +5,28 @@ This website follows `seasidemedialv/website-building-guide`.
 ## Mandatory turn preflight
 
 1. Read the central guide's `README.md`, `AGENTS.md`, and `WORKFLOW-GATES.md`.
-2. Read this repository's `PROJECT-STATUS.md`, `PROJECT-BRIEF.md`, and `WEBSITE-FOUNDATION.md`.
-3. Read `seasidemedialv/website-seo-plugin-dataforseo/AGENTS.md`, `README.md`, and `AI-REVIEW-WORKFLOW.md`.
-4. Verify the current workflow state and its evidence before acting.
-5. Perform only the mandatory next action allowed by that state and update `PROJECT-STATUS.md`.
+2. Read this repository's `PROJECT-STATUS.md`, `PROJECT-BRIEF.md`, `WEBSITE-FOUNDATION.md`, and `TEMPLATE-COMPLIANCE.md`.
+3. Read `website-template/AGENTS.md` and its actual HTML/CSS/JS source.
+4. Inspect the repository source; do not trust status claims that contradict it.
+5. Perform only the next action allowed by the recorded state and update status.
 
-## Project autonomy
+## Current blocking state — static rebuild required
 
-The Work agent is responsible for the complete research-to-build process. It must create the keyword map, page briefs, architecture, Latvian content, design, imagery, code, SEO implementation and QA itself. The owner is not responsible for keyword classification, URL mapping, briefs, copywriting or routine technical work.
+The current source is rejected because it contains Next.js, React, Vinext, Vite, TypeScript/TSX, Wrangler, Drizzle and npm build tooling. A framework that renders a template-like page is not template compliance.
 
-Continue autonomously through every permitted workflow gate. Ask only when a genuinely unknowable business fact, missing credential, consequential paid/irreversible action, material brand choice or production approval blocks progress.
+The mandatory next action is a complete static-source rebuild:
 
-## Current rebuild gate
+- preserve approved research, verified facts, SEO page briefs, valid Latvian content and suitable static images;
+- discard the application framework and build/runtime layer;
+- copy and adapt the actual `website-template` HTML/CSS/JS files;
+- create a root `index.html`, root `styles.css`, root `script.js`, and individual static HTML pages for every approved URL;
+- use only static assets and optional static JSON;
+- deploy the static files directly with GitHub Pages;
+- run `.github/workflows/static-stack-policy.yml`;
+- update `TEMPLATE-COMPLIANCE.md` only after the policy passes.
 
-The implementation committed in `e82378357d386e644885ce94215ec209dcd654e3` used a Sites/Vinext starter instead of the required website template. It is a rejected preview, not an approved implementation.
+There is no framework-conversion exception. Do not proceed to visual QA and do not call the site rebuilt, completed, premium, compliant or approved while the policy fails.
 
-Before continuing:
+## Project autonomy and evidence
 
-- Read the restored `seasidemedialv/website-template`, including `AGENTS.md`, `NICHE-SETUP.md`, `IMAGE-PROMPTS.md` and all page templates.
-- Audit the current build file by file against that template.
-- Rebuild or adapt the implementation to the template's structure, density, conversion flow and SEO/content system.
-- Preserve valid research and verified facts, but rewrite thin or generic content from approved page briefs.
-- Create and complete `TEMPLATE-COMPLIANCE.md`.
-- Compare the rendered result to the owner-approved reference family in `PROJECT-STATUS.md`.
-- Do not describe the current preview as completed, premium or approved.
-
-## Previous research gate
-
-DataForSEO research and its AI review are mandatory. Until the successful result and reports exist, `reviews/<research-id>.md` has `review_status: approved`, the evidence is recorded in this repository, and `WEBSITE-FOUNDATION.md` is approved:
-
-- `Build allowed` remains `NO`.
-- Do not finalize architecture or the SEO page map.
-- Do not write production SEO copy or full page content.
-- Do not build production pages.
-- Do not deploy.
-
-If repository access, credentials, workflow execution, outputs, or review evidence are unavailable, stop and report the exact blocker. Do not replace the research with assumptions, generic web research, owner-supplied keywords, or an old research file.
-
-“Continue,” “continue building,” and similar instructions mean continue with the next permitted gate; they do not override this file.
+The agent owns research-to-build delivery. DataForSEO research and AI review remain the source for SEO architecture and page briefs. Never invent business facts, reviews, prices, guarantees, credentials, projects or contact details. Production launch remains subject to explicit owner approval.
