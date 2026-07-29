@@ -65,6 +65,10 @@ No exact brands, prices, warranty duration, production times, certifications,
 reviews, customer examples, legal operator, phone, email or address were
 invented.
 
+Owner-confirmed response commitment: contact is initiated within five minutes
+after a successfully submitted enquiry form. The preview displays this planned
+production promise while retaining the non-transmitting demo notice.
+
 ## Local QA completed
 
 - Local static-stack policy equivalent: passed
@@ -82,6 +86,8 @@ invented.
 - Required controls: name, phone, address, service and project details
 - Every service-area dropdown ends with the stable `other` value labelled `Cits`
 - Primary CTA targets: all resolve to the current page’s `#lead-form`
+- Every page repeats the five-minute response message in its notification bar,
+  a prominent conversion strip and directly beside the canonical form
 - Preview indexing: blocked by both meta robots and `robots.txt`
 
 ## GitHub checks completed

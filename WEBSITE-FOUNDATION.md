@@ -20,6 +20,9 @@ Nezināma informācija paliek `TBD` un netiek publicēta kā fakts.
 - Apstiprinātais pakalpojums: pēc pasūtījuma izgatavotu virtuvju projektēšana, izgatavošana, piegāde un uzstādīšana, pielāgojot katra klienta mājoklim un vajadzībām
 - Apstiprinātās teritorijas: Rīga, Mārupe, Stopiņi, Ulbroka, Ķekava, Babīte, Garkalne, Salaspils, Ādaži, Jūrmala, Olaine, Piņķi, Carnikava, Ropaži, Ikšķile, Ogre, Baldone, Saulkrasti, Jelgava un Sigulda
 - Kontakti, cenas, garantijas, termiņi, materiāli, partneri, atsauksmes un projektu pierādījumi: TBD
+- Apstiprināts saziņas solījums: pēc veiksmīgas formas nosūtīšanas sazināmies
+  piecu minūšu laikā; pirms produkcijas palaišanas jāpārbauda webhook un
+  operatīvais process
 
 ## 2. Pētījuma avots un lēmums
 

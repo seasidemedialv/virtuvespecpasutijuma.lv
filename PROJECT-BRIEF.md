@@ -42,7 +42,8 @@ Use `TBD` for unknown information. Do not invent missing facts.
 - Years in business: TBD
 - Guarantees: TBD
 - Pricing: TBD
-- Response time: TBD
+- Response time: Contact is initiated within five minutes after a successfully
+  submitted enquiry form
 - Verified service areas: Rīga, Mārupe, Stopiņi, Ulbroka, Ķekava, Babīte, Garkalne, Salaspils, Ādaži, Jūrmala, Olaine, Piņķi, Carnikava, Ropaži, Ikšķile, Ogre, Baldone, Saulkrasti, Jelgava, Sigulda
 
 ## Proof and trust
