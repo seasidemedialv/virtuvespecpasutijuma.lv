@@ -2,7 +2,7 @@
 
 Last updated: 2026-07-29
 
-- **Workflow state:** VISUAL_QA_BLOCKED
+- **Workflow state:** QA
 - **Build allowed:** Static source passed the hard policy gate
 - **Preview:** direct static preview deployed; visual approval pending
 - **Production deployment:** NO
@@ -11,9 +11,11 @@ Last updated: 2026-07-29
 
 ## Mandatory next action
 
-Allow cloud-browser access to `seasidemedialv.github.io`, then complete desktop
-and mobile visual comparison, interaction checks and console review. Do not
-mark the preview compliant before those checks pass.
+1. Update every canonical form so name, phone, address, requested service and
+   more-information controls are all marked required and validate consistently.
+2. Pass the canonical-form and local-CTA automated policy across every HTML page.
+3. Then complete desktop/mobile visual comparison, interaction and console QA.
+4. Do not mark the preview compliant before these checks pass.
 
 ## Research and architecture preserved
 
@@ -67,9 +69,10 @@ invented.
 - Unresolved template tokens: none
 - Framework references in website source: none
 - Forms: non-transmitting and visibly labelled
-- Forms: 25 identical instances across all 23 HTML pages
-- Standard fields: name, phone, service area, address, topic and project details
-- Primary CTA targets: all resolve to the current page’s `#lead-form`
+- Forms: 25 visually consistent instances reported across 23 HTML pages
+- Standard fields are present: name, phone, service area, address, service and project details
+- **Form validation gate: NOT PASSED** — the five mandatory controls are not all marked `required`
+- Primary CTA targets were reported as resolving to the current page's `#lead-form`; the new automated policy must verify this
 - Preview indexing: blocked by both meta robots and `robots.txt`
 
 ## GitHub checks completed
