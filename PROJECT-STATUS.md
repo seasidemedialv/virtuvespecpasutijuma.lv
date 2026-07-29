@@ -35,6 +35,9 @@ those checks pass.
 ## Current static source
 
 - Root `index.html`, `styles.css`, `script.js`
+- Owner-supplied PNG logo in `public/images/logo.png` is used in every header
+  and footer
+- Owner-supplied `favicon.png` is used as the favicon on every page
 - One directory `index.html` for every approved URL
 - Service pages use the standard `/pakalpojumi/<slug>/` hierarchy
 - The `/pakalpojumi/` and `/pilsetas/` hub pages provide navigation,

@@ -36,6 +36,7 @@ compilation, server or build command.
 | `styles.css` | root `styles.css`: adapted template layout, typography, cards, forms, conversion sections, navigation, responsive grids and focus states |
 | `script.js` | root `script.js`: sticky header, mobile menu, FAQ accordions, floating mobile CTA and explicitly non-transmitting preview forms |
 | Template images | root `images/`: three compressed WebP illustrations, visibly disclosed as illustrative rather than completed projects |
+| Brand assets | owner-supplied `public/images/logo.png` in every header/footer and owner-supplied root `favicon.png` in every document head |
 
 ## Approved page inventory
 
