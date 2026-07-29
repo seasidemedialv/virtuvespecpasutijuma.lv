@@ -114,3 +114,7 @@ production promise while retaining the non-transmitting demo notice.
 **Decision:** static policy and deployment gates passed. Visual QA cannot
 continue because the saved browser permission blocks the preview domain and
 forbids a workaround.
+
+## Premium-content finding
+
+The existing service pages are acceptable scaffolding but are not approved premium content. Their approximately 500–660-word bodies rely too heavily on repeated process and CTA language, several sections are thin, and visitor-facing internal SEO terminology remains. All 15 service pages are now `PREMIUM_CONTENT_REWRITE_REQUIRED` until independently reviewed and rewritten from their approved research-backed briefs. Verified trust signals may be added; fabricated reviews or claims remain forbidden.
