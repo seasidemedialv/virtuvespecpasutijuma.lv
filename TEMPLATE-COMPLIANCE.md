@@ -28,11 +28,11 @@ compilation, server or build command.
 
 | Template source/system | Exact static implementation |
 |---|---|
-| `index.html` | root `index.html`: announcement bar, sticky navigation, mobile navigation, dense hero, embedded form, benefit list, trust bar, service cards, process, planning content, all demand-page links, service areas, FAQ and repeated form |
-| `service-page.html` | fifteen `<slug>/index.html` files with breadcrumb hero, brief-led long-form content, keyword boundary, topic entities, internal links, process, FAQ schema and repeated form |
-| `prices.html` | `virtuves-cenas/index.html`: price factors and six comparable scope categories without invented monetary values |
+| `index.html` | root `index.html`: announcement bar, sticky navigation, mobile navigation, dense hero, one canonical embedded form, benefit list, trust bar, service cards, process, planning content, all demand-page links, service areas and FAQ |
+| `service-page.html` | fifteen `pakalpojumi/<slug>/index.html` files with breadcrumb hero, brief-led long-form content, keyword boundary, topic entities, internal links, process, FAQ schema and one canonical form |
+| `prices.html` | `pakalpojumi/virtuves-cenas/index.html`: price factors and six comparable scope categories without invented monetary values |
 | `faq.html` | `buj/index.html` plus visible, intent-specific FAQ sections on every demand page |
-| `geo-page.html` | no geo pages generated; all 20 verified areas appear on the homepage because the approved research did not support unique location URLs |
+| `geo-page.html` | `/pilsetas/index.html` is the substantive verified-coverage hub; individual geo pages remain deferred until independently approved |
 | `styles.css` | root `styles.css`: adapted template layout, typography, cards, forms, conversion sections, navigation, responsive grids and focus states |
 | `script.js` | root `script.js`: sticky header, mobile menu, FAQ accordions, floating mobile CTA and explicitly non-transmitting preview forms |
 | Template images | root `images/`: three compressed WebP illustrations, visibly disclosed as illustrative rather than completed projects |
@@ -43,28 +43,36 @@ The static source contains the approved homepage plus fifteen DataForSEO-backed
 demand pages:
 
 1. `/`
-2. `/virtuves-iekartas-pec-pasutijuma/`
-3. `/virtuves-izgatavosana/`
-4. `/iebuvetas-virtuves/`
-5. `/virtuves-cenas/`
-6. `/virtuves-dizains-un-projektesana/`
-7. `/virtuves-planosana/`
-8. `/virtuves-uzstadisana/`
-9. `/stura-un-l-veida-virtuves/`
-10. `/mazas-virtuves/`
-11. `/modernas-virtuves/`
-12. `/virtuves-ar-salu/`
-13. `/virtuves-skapisi/`
-14. `/virtuves-fasades/`
-15. `/virtuves-furnitura/`
-16. `/virtuves-interjers/`
+2. `/pakalpojumi/virtuves-iekartas-pec-pasutijuma/`
+3. `/pakalpojumi/virtuves-izgatavosana/`
+4. `/pakalpojumi/iebuvetas-virtuves/`
+5. `/pakalpojumi/virtuves-cenas/`
+6. `/pakalpojumi/virtuves-dizains-un-projektesana/`
+7. `/pakalpojumi/virtuves-planosana/`
+8. `/pakalpojumi/virtuves-uzstadisana/`
+9. `/pakalpojumi/stura-un-l-veida-virtuves/`
+10. `/pakalpojumi/mazas-virtuves/`
+11. `/pakalpojumi/modernas-virtuves/`
+12. `/pakalpojumi/virtuves-ar-salu/`
+13. `/pakalpojumi/virtuves-skapisi/`
+14. `/pakalpojumi/virtuves-fasades/`
+15. `/pakalpojumi/virtuves-furnitura/`
+16. `/pakalpojumi/virtuves-interjers/`
+
+Hierarchy and hub mapping:
+
+- `service-page.html` → `/pakalpojumi/<service-slug>/index.html`
+- service overview/hub → `/pakalpojumi/index.html`
+- location overview/hub → `/pilsetas/index.html`
+- future independently briefed location pages →
+  `/pilsetas/virtuves-pec-pasutijuma-<vieta>/index.html`
 
 Functional pages are `/ka-mes-stradajam/`, `/realizetie-projekti/`,
 `/par-mums/`, `/kontakti/`, `/privatuma-politika/` and `/buj/`.
 
 ## Content and SEO evidence
 
-- All 23 HTML documents have exactly one H1, a title, description and canonical.
+- All 25 HTML documents have exactly one H1, a title, description and canonical.
 - Homepage rendered-text count: 787 words.
 - Demand-page rendered-text range: 573–733 words.
 - Each demand page preserves its unique primary keyword, supporting terms,
@@ -77,11 +85,20 @@ Functional pages are `/ka-mes-stradajam/`, `/realizetie-projekti/`,
 - No unresolved template tokens or framework references remain in site source.
 - No invented prices, reviews, guarantees, response times, projects,
   certifications, legal operator or contact details were introduced.
-- All 25 form instances use the same six fields: name, phone, service area,
-  address, topic and project-details textarea.
+- All 25 form instances use the same ordered schema: name, phone, address,
+  optional service area, required service and required project-details
+  textarea.
+- Name, phone, address, service and project details are marked `required`.
+- Every service-area selector ends with `<option value="other">Cits</option>`.
 - Every HTML page contains the standard form, including privacy and 404 pages.
 - Every primary header, mobile, sidebar, body and floating CTA targets that
   page’s local `#lead-form`.
+- Internal-link crawl passed with no obsolete root-level service URLs.
+- The 15 service pages, both hubs, canonicals, breadcrumbs and sitemap use the
+  same `/pakalpojumi/` and `/pilsetas/` hierarchy.
+- Because the site has not launched publicly, obsolete flat preview routes are
+  removed rather than retained as duplicate HTML; production redirects are not
+  required for an unlaunched URL set.
 
 ## Static-stack evidence
 
@@ -89,6 +106,8 @@ Functional pages are `/ka-mes-stradajam/`, `/realizetie-projekti/`,
 - React, Next.js, Vinext, Vite, TypeScript/TSX, Node/npm, Wrangler, Drizzle,
   Cloudflare worker code, Sites files and build output: absent.
 - Local equivalent of `.github/workflows/static-stack-policy.yml`: passed.
+- Local canonical-form, `Cits`, local-CTA and URL-architecture audit: passed
+  across 25 pages, 25 forms and 92 local CTAs.
 - GitHub Actions static-stack policy run `30429879248`: passed.
 - Direct static preview deployment run `30429932394`: passed.
 

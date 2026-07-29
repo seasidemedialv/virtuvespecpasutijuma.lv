@@ -39,21 +39,27 @@ Automātiskais review sākotnēji ieteica konservatīvu vienas lapas arhitektūr
 ## 3. Realizētās pieprasījuma lapas
 
 1. `/` — virtuves pēc pasūtījuma
-2. `/virtuves-iekartas-pec-pasutijuma/`
-3. `/virtuves-izgatavosana/`
-4. `/iebuvetas-virtuves/`
-5. `/virtuves-cenas/`
-6. `/virtuves-dizains-un-projektesana/`
-7. `/virtuves-planosana/`
-8. `/virtuves-uzstadisana/`
-9. `/stura-un-l-veida-virtuves/`
-10. `/mazas-virtuves/`
-11. `/modernas-virtuves/`
-12. `/virtuves-ar-salu/`
-13. `/virtuves-skapisi/`
-14. `/virtuves-fasades/`
-15. `/virtuves-furnitura/`
-16. `/virtuves-interjers/`
+2. `/pakalpojumi/virtuves-iekartas-pec-pasutijuma/`
+3. `/pakalpojumi/virtuves-izgatavosana/`
+4. `/pakalpojumi/iebuvetas-virtuves/`
+5. `/pakalpojumi/virtuves-cenas/`
+6. `/pakalpojumi/virtuves-dizains-un-projektesana/`
+7. `/pakalpojumi/virtuves-planosana/`
+8. `/pakalpojumi/virtuves-uzstadisana/`
+9. `/pakalpojumi/stura-un-l-veida-virtuves/`
+10. `/pakalpojumi/mazas-virtuves/`
+11. `/pakalpojumi/modernas-virtuves/`
+12. `/pakalpojumi/virtuves-ar-salu/`
+13. `/pakalpojumi/virtuves-skapisi/`
+14. `/pakalpojumi/virtuves-fasades/`
+15. `/pakalpojumi/virtuves-furnitura/`
+16. `/pakalpojumi/virtuves-interjers/`
+
+Visas pakalpojumu nolūka lapas atrodas zem `/pakalpojumi/`. Hub lapa
+`/pakalpojumi/` savieno pilno pakalpojuma procesu ar visām 15 atbalsta lapām.
+Apkalpošanas teritoriju hub lapa ir `/pilsetas/`. Ja pēc atsevišķa pētījuma un
+unikāla briefa tiks apstiprināta pilsētas lapa, tās standarta ceļš būs
+`/pilsetas/virtuves-pec-pasutijuma-<vieta>/`.
 
 Katrai lapai ir savs primārais nolūks, title, meta description, H1, ievads, trīs satura sadaļas, divi FAQ un iekšējo saišu loma. Precīzie atslēgvārdi un robežas ir kartē un lapu briefos.
 
@@ -79,6 +85,7 @@ Atsevišķas SEO lapas nav izveidotas:
 - lokāciju lapām, jo 40 pārbaudītajām lokālajām frāzēm nebija uzrādāma apjoma.
 
 Visas 20 vietas ir norādītas kā patiesas apkalpošanas teritorijas bez izdomātām lokālām īpašībām.
+Tās apkopotas `/pilsetas/` hub lapā; atsevišķi pilsētu SEO URL nav publicēti.
 
 ## 6. Realizētās funkcionālās lapas
 

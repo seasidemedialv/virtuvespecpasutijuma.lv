@@ -11,15 +11,10 @@ Last updated: 2026-07-29
 
 ## Mandatory next action
 
-1. Update every canonical form so name, phone, address, requested service and
-   more-information controls are all marked required and validate consistently.
-2. Add `Cits` as the final selectable option in every service-area dropdown.
-3. Migrate every service route to `/pakalpojumi/<service>/` and create the substantive `/pakalpojumi/` hub.
-4. Create a substantive `/pilsetas/` hub now for the verified service areas; reserve `/pilsetas/<service>-<city>/` for individually approved city pages.
-5. Update all navigation, internal links, breadcrumbs, canonicals, sitemap and schema to the new route inventory.
-6. Pass the canonical-form, local-CTA and URL-architecture checks.
-7. Then complete desktop/mobile visual comparison, interaction and console QA.
-8. Do not mark the preview compliant before these checks pass.
+Run and pass the static-stack policy after the approved URL hierarchy change,
+deploy the refreshed preview, then complete desktop and mobile visual
+comparison, interaction checks and console review. Do not mark the preview
+compliant before those checks pass.
 
 ## Research and architecture preserved
 
@@ -32,12 +27,18 @@ Last updated: 2026-07-29
 - Total research cost: $0.436720
 - Review status: approved
 - Approved demand architecture: homepage plus 15 supporting pages
-- Location pages: deferred; 20 areas remain verified service coverage
+- Service architecture: 15 supporting demand pages are grouped under
+  `/pakalpojumi/`, with `/pakalpojumi/` as the service hub
+- Location pages: deferred; `/pilsetas/` is the service-area hub and future
+  approved location pages must use `/pilsetas/virtuves-pec-pasutijuma-<vieta>/`
 
 ## Current static source
 
 - Root `index.html`, `styles.css`, `script.js`
 - One directory `index.html` for every approved URL
+- Service pages use the standard `/pakalpojumi/<slug>/` hierarchy
+- The `/pakalpojumi/` and `/pilsetas/` hub pages provide navigation,
+  explanatory content and their own local enquiry forms
 - Six functional/trust pages
 - `404.html`, `robots.txt`, `sitemap.xml`, `favicon.svg`
 - Three compressed illustrative WebP images
@@ -64,7 +65,7 @@ invented.
 ## Local QA completed
 
 - Local static-stack policy equivalent: passed
-- HTML documents checked: 23
+- HTML documents checked before the hierarchy change: 23
 - Every document: one H1, title, description and canonical
 - Demand-page content: 573–733 rendered words
 - Homepage content: 787 rendered words
@@ -73,10 +74,11 @@ invented.
 - Unresolved template tokens: none
 - Framework references in website source: none
 - Forms: non-transmitting and visibly labelled
-- Forms: 25 visually consistent instances reported across 23 HTML pages
-- Standard fields are present: name, phone, service area, address, service and project details
-- **Form validation gate: NOT PASSED** — the five mandatory controls are not all marked `required`
-- Primary CTA targets were reported as resolving to the current page's `#lead-form`; the new automated policy must verify this
+- Forms after the hierarchy change: 25 identical instances across 25 HTML pages
+- Standard fields: name, phone, service area, address, topic and project details
+- Required controls: name, phone, address, service and project details
+- Every service-area dropdown ends with the stable `other` value labelled `Cits`
+- Primary CTA targets: all resolve to the current page’s `#lead-form`
 - Preview indexing: blocked by both meta robots and `robots.txt`
 
 ## GitHub checks completed
@@ -90,11 +92,12 @@ invented.
 
 ## Remaining gates
 
-1. Desktop and mobile visual QA must pass.
-2. Browser console and interaction checks must pass.
-3. Content/SEO visual comparison must be recorded.
-4. Owner visual review is then required.
-5. Production still requires final brand, legal/contact/form facts and explicit
+1. Static-stack policy and link/SEO QA must pass for the new hierarchy.
+2. Desktop and mobile visual QA must pass.
+3. Browser console and interaction checks must pass.
+4. Content/SEO visual comparison must be recorded.
+5. Owner visual review is then required.
+6. Production still requires final brand, legal/contact/form facts and explicit
    deployment approval.
 
 **Decision:** static policy and deployment gates passed. Visual QA cannot

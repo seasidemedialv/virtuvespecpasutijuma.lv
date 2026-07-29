@@ -19,21 +19,21 @@
 | Priority | Required URL | Primary measured keyword | Volume | Supporting measured keywords | Page intent |
 |---:|---|---|---:|---|---|
 | 1 | `/` | `virtuves pēc pasūtījuma` | 90 | `virtuve pēc pasūtījuma` 90; `virtuves pēc individuāla pasūtījuma` 10 | Main commercial entry point for the complete custom-kitchen offer |
-| 2 | `/virtuves-iekartas-pec-pasutijuma/` | `virtuves iekārtas pēc pasūtījuma` | 90 | `virtuves iekārtas uz pasūtījumu` 50; `virtuves iekārtas pēc individuāla pasūtījuma` 30 | Complete made-to-measure kitchen-unit specification |
-| 3 | `/virtuves-izgatavosana/` | `virtuves izgatavošana` | 90 | `virtuves iekārtas izgatavošana` 70; `virtuves iekārtas izgatavošana cenas` 50 | Manufacturing process and production scope |
-| 4 | `/iebuvetas-virtuves/` | `iebūvējamās virtuves iekārtas` | 70 | `iebūvējamas virtuves` 70; `iebūvējamā virtuve` 70; `iebūvētās virtuves` 50 | Kitchens integrated precisely into the room |
-| 5 | `/virtuves-cenas/` | `iebūvējamās virtuves cenas` | 70 | `virtuves cenas` 50; `cik maksā virtuves iekārta` 40; `virtuves pec pasutijuma cenas` 20 | Price factors, inclusions and verified examples once supplied |
-| 6 | `/virtuves-dizains-un-projektesana/` | `virtuves interjera dizains` | 50 | `virtuves projektēšana` 20; `virtuves projekts` 50; `virtuves iekārtas dizains` 10 | Kitchen-specific design and project development; not general interior design |
-| 7 | `/virtuves-planosana/` | `virtuves iekārtojums` | 90 | `virtuves iekārtošana` 90; `virtuves plāns` 70; `virtuves plānojums` 70; `virtuves plānošana` 50 | Functional layout, work zones, dimensions and planning decisions |
-| 8 | `/virtuves-uzstadisana/` | `virtuves iekārtas uzstādīšana cena` | 40 | `virtuves uzstādīšana` 10 | Installation of the company’s custom kitchens; installation-only availability remains TBD |
-| 9 | `/stura-un-l-veida-virtuves/` | `stūra virtuves iekārtas` | 210 | `L veida virtuves iekārtas` 90; `stūra virtuves iekārtas komplekti` 30 | Corner and L-shaped planning problems and solutions |
-| 10 | `/mazas-virtuves/` | `maza virtuves iekārta` | 140 | — | Custom solutions for limited kitchen space |
-| 11 | `/modernas-virtuves/` | `modernas virtuves` | 50 | `moderna virtuves iekārta` 50 | Modern custom-kitchen style and functional choices |
-| 12 | `/virtuves-ar-salu/` | `virtuves saliņa` | 30 | — | Island planning, circulation, storage and utilities |
-| 13 | `/virtuves-skapisi/` | `virtuves skapīši` | 1,000 | `virtuves stūra skapīši` 70; `virtuves stūra skapis` 70; `piekaramie virtuves skapīši` 20 | Custom cabinet configuration and storage—not retail cabinet sales |
-| 14 | `/virtuves-fasades/` | `virtuves fasādes` | 70 | — | Facade options available within complete kitchen projects |
-| 15 | `/virtuves-furnitura/` | `virtuves furnitūra` | 110 | `virtuves furnitūra trauku žāvētava` 10 | Fittings and mechanisms used within complete kitchen projects |
-| 16 | `/virtuves-interjers/` | `virtuves interjērs` | 70 | `interjers virtuvei` 90; `virtuves interjers krāsas` 10; `dizaina virtuves` 30 | Kitchen-only visual composition; must remain distinct from technical design/project work |
+| 2 | `/pakalpojumi/virtuves-iekartas-pec-pasutijuma/` | `virtuves iekārtas pēc pasūtījuma` | 90 | `virtuves iekārtas uz pasūtījumu` 50; `virtuves iekārtas pēc individuāla pasūtījuma` 30 | Complete made-to-measure kitchen-unit specification |
+| 3 | `/pakalpojumi/virtuves-izgatavosana/` | `virtuves izgatavošana` | 90 | `virtuves iekārtas izgatavošana` 70; `virtuves iekārtas izgatavošana cenas` 50 | Manufacturing process and production scope |
+| 4 | `/pakalpojumi/iebuvetas-virtuves/` | `iebūvējamās virtuves iekārtas` | 70 | `iebūvējamas virtuves` 70; `iebūvējamā virtuve` 70; `iebūvētās virtuves` 50 | Kitchens integrated precisely into the room |
+| 5 | `/pakalpojumi/virtuves-cenas/` | `iebūvējamās virtuves cenas` | 70 | `virtuves cenas` 50; `cik maksā virtuves iekārta` 40; `virtuves pec pasutijuma cenas` 20 | Price factors, inclusions and verified examples once supplied |
+| 6 | `/pakalpojumi/virtuves-dizains-un-projektesana/` | `virtuves interjera dizains` | 50 | `virtuves projektēšana` 20; `virtuves projekts` 50; `virtuves iekārtas dizains` 10 | Kitchen-specific design and project development; not general interior design |
+| 7 | `/pakalpojumi/virtuves-planosana/` | `virtuves iekārtojums` | 90 | `virtuves iekārtošana` 90; `virtuves plāns` 70; `virtuves plānojums` 70; `virtuves plānošana` 50 | Functional layout, work zones, dimensions and planning decisions |
+| 8 | `/pakalpojumi/virtuves-uzstadisana/` | `virtuves iekārtas uzstādīšana cena` | 40 | `virtuves uzstādīšana` 10 | Installation of the company’s custom kitchens; installation-only availability remains TBD |
+| 9 | `/pakalpojumi/stura-un-l-veida-virtuves/` | `stūra virtuves iekārtas` | 210 | `L veida virtuves iekārtas` 90; `stūra virtuves iekārtas komplekti` 30 | Corner and L-shaped planning problems and solutions |
+| 10 | `/pakalpojumi/mazas-virtuves/` | `maza virtuves iekārta` | 140 | — | Custom solutions for limited kitchen space |
+| 11 | `/pakalpojumi/modernas-virtuves/` | `modernas virtuves` | 50 | `moderna virtuves iekārta` 50 | Modern custom-kitchen style and functional choices |
+| 12 | `/pakalpojumi/virtuves-ar-salu/` | `virtuves saliņa` | 30 | — | Island planning, circulation, storage and utilities |
+| 13 | `/pakalpojumi/virtuves-skapisi/` | `virtuves skapīši` | 1,000 | `virtuves stūra skapīši` 70; `virtuves stūra skapis` 70; `piekaramie virtuves skapīši` 20 | Custom cabinet configuration and storage—not retail cabinet sales |
+| 14 | `/pakalpojumi/virtuves-fasades/` | `virtuves fasādes` | 70 | — | Facade options available within complete kitchen projects |
+| 15 | `/pakalpojumi/virtuves-furnitura/` | `virtuves furnitūra` | 110 | `virtuves furnitūra trauku žāvētava` 10 | Fittings and mechanisms used within complete kitchen projects |
+| 16 | `/pakalpojumi/virtuves-interjers/` | `virtuves interjērs` | 70 | `interjers virtuvei` 90; `virtuves interjers krāsas` 10; `dizaina virtuves` 30 | Kitchen-only visual composition; must remain distinct from technical design/project work |
 
 ## Supporting measured terms that stay within the pages above
 
