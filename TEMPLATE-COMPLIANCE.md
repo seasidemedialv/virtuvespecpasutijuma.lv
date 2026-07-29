@@ -95,8 +95,8 @@ Functional pages are `/ka-mes-stradajam/`, `/realizetie-projekti/`,
 - Every primary header, mobile, sidebar, body and floating CTA targets that
   page’s local `#lead-form`.
 - All 25 pages use the exact owner-approved five-minute response message in the
-  notification bar, a compact responsive trust badge and a high-contrast card
-  beside the form.
+  notification bar, a large responsive in-page trust panel and a high-contrast
+  card beside the form.
 - The non-transmitting demo notice remains visible; webhook delivery and the
   five-minute operational process remain production QA requirements.
 - Internal-link crawl passed with no obsolete root-level service URLs.
