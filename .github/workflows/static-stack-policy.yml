@@ -64,6 +64,7 @@ jobs:
           from pathlib import Path
           from html.parser import HTMLParser
           import sys
+          import re
 
           required = ["name", "phone", "address", "service", "message"]
           failures = []
@@ -112,6 +113,18 @@ jobs:
                       failures.append(f"{path}: missing required field {field}")
                   elif not form[field]:
                       failures.append(f"{path}: field {field} lacks required attribute")
+
+              area_selects = re.findall(
+                  r'<select\\b[^>]*\\bname=["\\\'](?:area|district|service_area|location)["\\\'][^>]*>(.*?)</select>',
+                  path.read_text(encoding="utf-8"),
+                  flags=re.IGNORECASE | re.DOTALL,
+              )
+              for body in area_selects:
+                  options = re.findall(r'<option\\b[^>]*>(.*?)</option>', body, flags=re.IGNORECASE | re.DOTALL)
+                  labels = [re.sub(r'<[^>]+>', '', option).strip() for option in options]
+                  selectable = [label for label in labels if label]
+                  if not selectable or selectable[-1].casefold() != "cits":
+                      failures.append(f"{path}: area dropdown must end with selectable option Cits")
 
               if audit.local_ctas < 1:
                   failures.append(f"{path}: no local href=#lead-form CTA")
