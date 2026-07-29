@@ -1,6 +1,6 @@
 # Template Compliance — virtuvespecpasutijuma.lv
 
-**Status:** STATIC POLICY PENDING ON GITHUB
+**Status:** VISUAL QA BLOCKED
 **Template repository:** `seasidemedialv/website-template`
 **Template commit:** `6164a5664c46ca45a8386c829646facf1c9b4dca`
 **Review date:** 2026-07-29
@@ -84,16 +84,19 @@ Functional pages are `/ka-mes-stradajam/`, `/realizetie-projekti/`,
 - React, Next.js, Vinext, Vite, TypeScript/TSX, Node/npm, Wrangler, Drizzle,
   Cloudflare worker code, Sites files and build output: absent.
 - Local equivalent of `.github/workflows/static-stack-policy.yml`: passed.
-- GitHub Actions static-stack policy: pending.
+- GitHub Actions static-stack policy run `30429879248`: passed.
+- Direct static preview deployment run `30429932394`: passed.
 
 ## Remaining gates
 
-- [ ] Exact GitHub `static-stack-policy.yml` run passes
-- [ ] Static preview replaces the rejected framework preview
+- [x] Exact GitHub `static-stack-policy.yml` run passes
+- [x] Static preview replaces the rejected framework preview
 - [ ] Desktop visual comparison passes
 - [ ] Mobile visual comparison passes
 - [ ] Browser console and interaction checks pass
 - [ ] Owner visual review requested
 
-The source must not be described as compliant or completed until these checks
-are resolved.
+Automated browser access to `seasidemedialv.github.io` is blocked by a saved
+user permission setting. The browser explicitly prohibited alternate browser
+surfaces or indirect workarounds. Desktop/mobile visual checks therefore remain
+open, and the site is not marked compliant or completed.
