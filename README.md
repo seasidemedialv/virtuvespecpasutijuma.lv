@@ -4,7 +4,8 @@ Production repository for a Latvian lead-generation website about custom-made ki
 
 ## Current stage
 
-Discovery and foundation. Full production build is blocked until `WEBSITE-FOUNDATION.md` is marked **Gatavs būvniecībai**.
+Static implementation and policy validation. The website is plain HTML, CSS and
+JavaScript and works without installation, compilation or a build command.
 
 ## Project documents
 
@@ -19,3 +20,11 @@ Follow `seasidemedialv/website-building-guide`, including `WORKFLOW-GATES.md`, t
 Mandatory DataForSEO research and an approved AI review are required before final architecture, SEO copy, or production page building. Read this repository's `AGENTS.md` before every continuation.
 
 Unknown business facts stay `TBD`. Do not publish invented claims, contact details, reviews, prices, service areas, guarantees, or structured data.
+
+## Static website
+
+- Open `index.html` directly or serve the repository directory.
+- Every approved URL has its own directory `index.html`.
+- Shared presentation and behaviour live in root `styles.css` and `script.js`.
+- Preview forms intentionally do not transmit data.
+- Frameworks, package managers and build tooling are forbidden.
