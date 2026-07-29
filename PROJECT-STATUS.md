@@ -87,7 +87,8 @@ production promise while retaining the non-transmitting demo notice.
 - Every service-area dropdown ends with the stable `other` value labelled `Cits`
 - Primary CTA targets: all resolve to the current page’s `#lead-form`
 - Every page repeats the five-minute response message in its notification bar,
-  a prominent conversion strip and directly beside the canonical form
+  a compact floating trust badge and a high-contrast card inside the canonical
+  form
 - Preview indexing: blocked by both meta robots and `robots.txt`
 
 ## GitHub checks completed
