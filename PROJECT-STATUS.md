@@ -67,6 +67,9 @@ invented.
 - Unresolved template tokens: none
 - Framework references in website source: none
 - Forms: non-transmitting and visibly labelled
+- Forms: 25 identical instances across all 23 HTML pages
+- Standard fields: name, phone, service area, address, topic and project details
+- Primary CTA targets: all resolve to the current page’s `#lead-form`
 - Preview indexing: blocked by both meta robots and `robots.txt`
 
 ## GitHub checks completed
