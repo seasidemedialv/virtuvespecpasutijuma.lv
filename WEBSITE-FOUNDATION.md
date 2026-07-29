@@ -62,7 +62,7 @@ Visas pakalpojumu nolūka lapas atrodas zem `/pakalpojumi/`. Hub lapa
 `/pakalpojumi/` savieno pilno pakalpojuma procesu ar visām 15 atbalsta lapām.
 Apkalpošanas teritoriju hub lapa ir `/pilsetas/`. Ja pēc atsevišķa pētījuma un
 unikāla briefa tiks apstiprināta pilsētas lapa, tās standarta ceļš būs
-`/pilsetas/virtuves-pec-pasutijuma-<vieta>/`.
+`/pilsetas/virtuves-iekarta-<vieta>/`.
 
 2026-07-29 īpašnieks apstiprināja atsevišķu lapu izveidi visām 20 pārbaudītajām
 apkalpošanas teritorijām un piegādāja katras vietas avotu. Tās realizētas zem

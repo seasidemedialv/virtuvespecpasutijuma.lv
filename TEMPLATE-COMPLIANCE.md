@@ -32,7 +32,7 @@ compilation, server or build command.
 | `service-page.html` | fifteen `pakalpojumi/<slug>/index.html` files with breadcrumb hero, brief-led long-form content, practical guide, decision matrix, failure-mode cards, preparation panel, contextual internal links, FAQ schema, trust evidence and one canonical form |
 | `prices.html` | `pakalpojumi/virtuves-cenas/index.html`: price factors and six comparable scope categories without invented monetary values |
 | `faq.html` | `buj/index.html` plus visible, intent-specific FAQ sections on every demand page |
-| `geo-page.html` | `/pilsetas/index.html` plus twenty `/pilsetas/virtuves-pec-pasutijuma-<vieta>/index.html` pages with local context, planning constraints, delivery checks, source notes, FAQs, trust content and canonical forms |
+| `geo-page.html` | `/pilsetas/index.html` plus twenty `/pilsetas/virtuves-iekarta-<vieta>/index.html` pages with local context, planning constraints, delivery checks, source notes, FAQs, trust content and canonical forms |
 | `styles.css` | root `styles.css`: adapted template layout, typography, cards, forms, conversion sections, navigation, responsive grids and focus states |
 | `script.js` | root `script.js`: sticky header, mobile menu, FAQ accordions, floating mobile CTA and explicitly non-transmitting preview forms |
 | Template images | root `images/`: three compressed WebP illustrations, visibly disclosed as illustrative rather than completed projects |
@@ -66,7 +66,7 @@ Hierarchy and hub mapping:
 - service overview/hub → `/pakalpojumi/index.html`
 - location overview/hub → `/pilsetas/index.html`
 - twenty owner-approved location pages →
-  `/pilsetas/virtuves-pec-pasutijuma-<vieta>/index.html`
+  `/pilsetas/virtuves-iekarta-<vieta>/index.html`
 
 Functional pages are `/ka-mes-stradajam/`, `/realizetie-projekti/`,
 `/par-mums/`, `/kontakti/`, `/privatuma-politika/` and `/buj/`.
@@ -120,6 +120,10 @@ Functional pages are `/ka-mes-stradajam/`, `/realizetie-projekti/`,
   geographic and settlement context. No encyclopedia copy is reproduced as
   generic filler, and local facts do not replace the project-specific room and
   delivery checks.
+- City routes use `/pilsetas/virtuves-iekarta-<vieta>/` consistently across
+  directories, hub links, canonicals, Open Graph URLs and sitemap entries.
+- The light geo hero overrides the template's white-on-dark typography with
+  explicit dark heading, paragraph, breadcrumb and metadata-chip colors.
 - Because the site has not launched publicly, obsolete flat preview routes are
   removed rather than retained as duplicate HTML; production redirects are not
   required for an unlaunched URL set.

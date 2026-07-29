@@ -4,6 +4,19 @@ Review date: 2026-07-29
 Scope: 20 verified service areas  
 Overall state: **CONTENT QA PASS · VISUAL REVIEW PENDING**
 
+## Content-depth decision
+
+The current 646–673-word pages are useful and sufficiently differentiated for
+the preview, but they sit slightly below the template's normal 700–1,100-word
+planning range for narrow service pages. Before production SEO approval, expand
+each page toward roughly 750–950 genuinely useful words where verified local
+information supports it.
+
+Expansion must add local decision value: housing/access patterns, address and
+delivery scenarios, room-planning implications, nearby-area clarification and
+additional questions. Do not reach a word target with city history, tourist
+descriptions, synonym changes or repeated generic kitchen paragraphs.
+
 ## Evidence decision
 
 The earlier DataForSEO location follow-up did not show measurable volume for
@@ -66,6 +79,7 @@ room-planning and delivery guidance more useful.
 - Internal links and relative assets: pass.
 - Static HTML/CSS/JS policy equivalent: pass.
 
-The city set is not approved as a completed premium visual experience until
+The city set is not approved as completed premium content or as a completed
+premium visual experience until the recommended evidence-led expansion,
 desktop and mobile visual QA, table/card wrapping, form behavior, console review
 and owner visual review are complete.

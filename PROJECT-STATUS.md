@@ -30,7 +30,7 @@ those checks pass.
 - Service architecture: 15 supporting demand pages are grouped under
   `/pakalpojumi/`, with `/pakalpojumi/` as the service hub
 - Location architecture: 20 owner-approved, verified service-area pages under
-  `/pilsetas/virtuves-pec-pasutijuma-<vieta>/`, linked from `/pilsetas/`
+  `/pilsetas/virtuves-iekarta-<vieta>/`, linked from `/pilsetas/`
 - Location-demand note: the earlier API follow-up showed no measurable local
   phrase volume; these pages are owner-directed coverage pages and are not
   represented as DataForSEO demand-backed architecture
@@ -109,6 +109,9 @@ production promise while retaining the non-transmitting demo notice.
 - City pages: 20 unique routes, titles, descriptions, H1s, canonicals, FAQ
   schemas, source notes and local planning/access sections
 - City-page rendered-text range: 646–673 words
+- City content depth: useful for preview, but `PREMIUM_EXPANSION_RECOMMENDED`
+  before production; add verified local decision value rather than Wikipedia
+  or generic SEO padding
 - City source and differentiation review: recorded in
   `CITY-CONTENT-REVIEW.md`
 - Sitemap: all 20 city routes included exactly once
@@ -163,4 +166,12 @@ The owner-authorized 20-page city expansion is implemented and locally audited.
 The pages use the supplied Wikipedia sources for limited local context and
 independently written kitchen-planning guidance. Shared header, form, process
 and verified trust components remain consistent. The city set is
-`CONTENT_QA_PASS` and `VISUAL_REVIEW_PENDING`.
+`CONTENT_QA_PASS`, `PREMIUM_EXPANSION_RECOMMENDED` and
+`VISUAL_REVIEW_PENDING`.
+
+## City-route and contrast correction
+
+All 20 city routes use `/pilsetas/virtuves-iekarta-<vieta>/`. Hub links,
+canonicals, Open Graph URLs, sitemap entries and compliance documents use the
+same path family. The light city hero explicitly uses dark heading, paragraph,
+breadcrumb and metadata colors.
