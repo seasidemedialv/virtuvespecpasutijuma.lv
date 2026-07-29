@@ -1,7 +1,7 @@
 # virtuvespecpasutijuma.lv — vietnes pamata dokuments
 
-> **Workflow state:** STATIC_POLICY_PENDING
-> **Privātā būve:** STATISKAIS AVOTS SAGATAVOTS; GITHUB POLICY VĒL JĀIZPILDA
+> **Workflow state:** VISUAL_QA_BLOCKED
+> **Privātā būve:** STATIC-STACK POLICY PASSED; VIZUĀLĀ PĀRBAUDE BLOĶĒTA
 > **Produkcijas publicēšana:** NĒ — vajadzīgs gala zīmola lēmums, palaišanas fakti un skaidrs apstiprinājums  
 > **SEO build scope:** `SEO-BUILD-PLAN.md`  
 > **Keyword-to-page map:** `docs/KEYWORD-TO-PAGE-MAP.csv`  
@@ -113,7 +113,9 @@ Projektu lapa neizliek ilustrācijas par klientu projektiem. Kontaktu forma nav 
 - Pārbaudīti 23 HTML dokumenti, H1, title, description un canonical
 - Iekšējo saišu pārbaude — broken links nav atrasti
 - JSON-LD sintakse — valid
-- GitHub static-stack policy — pending; līdz tam vizuālais QA nav atļauts
+- GitHub static-stack policy run `30429879248` — passed
+- Tiešais statiskais preview deployment run `30429932394` — passed
+- Vizuālais QA bloķēts ar saglabātu pārlūka piekļuves aizliegumu
 
 ## 9. Palaišanas bloķētāji
 
@@ -136,12 +138,13 @@ Pirms publiskas palaišanas jāapstiprina vai jāsaņem:
 - [x] 16 lapu measured-demand scope ir dokumentēts
 - [x] Katrai lapai ir unikāls brief un keyword-to-URL robeža
 - [x] Latvian copy, arhitektūra un statiskā HTML/CSS/JS implementācija ir sagatavota
-- [ ] GitHub static-stack policy ir izpildīta
+- [x] GitHub static-stack policy ir izpildīta
 - [ ] Desktop un mobile vizuālais QA ir izpildīts
 - [ ] Trūkstošie palaišanas biznesa un juridiskie fakti ir apstiprināti
 - [ ] Konversijas process ir savienots un pārbaudīts
 - [ ] Gala zīmols ir apstiprināts
 - [ ] Produkcijas deployment ir skaidri apstiprināts
 
-**Lēmums:** nākamais obligātais solis ir GitHub static-stack policy. Preview
-atjaunošana un vizuālais QA drīkst sākties tikai pēc zaļa policy run.
+**Lēmums:** static-stack un preview deployment vārti ir izpildīti. Desktop un
+mobile vizuālais QA paliek obligāts, bet to pašlaik bloķē pārlūka piekļuves
+iestatījums `seasidemedialv.github.io` domēnam.
