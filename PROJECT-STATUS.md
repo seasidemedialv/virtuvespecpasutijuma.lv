@@ -115,6 +115,12 @@ production promise while retaining the non-transmitting demo notice.
 
 ## GitHub checks completed
 
+- City-page source commit: `4d48dad2909db8adef9c3e902d0cb247c2e3b30e`
+- City-page static-stack policy run `30446969961`: passed
+- City-page preview deployment run `30447014736`: passed
+- Served preview verification: city hub, Rīga, Jūrmala, Stopiņi, Jelgava,
+  Sigulda and the shared stylesheet return HTTP 200; unique Jūrmala local copy
+  and source note are present in served HTML
 - Premium-content source commit: `1f666c390ea80a688b665f5bbcc6af8fb37b079f`
 - Static-stack policy run `30442112887`: passed
 - Refreshed premium-content preview run `30442186176`: passed

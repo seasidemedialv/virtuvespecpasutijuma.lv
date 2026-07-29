@@ -126,6 +126,10 @@ Functional pages are `/ka-mes-stradajam/`, `/realizetie-projekti/`,
 
 ## Static-stack evidence
 
+- City-page static-stack run `30446969961`: passed.
+- City-page GitHub Pages deployment run `30447014736`: passed.
+- The hub and five representative city routes return HTTP 200 with the new
+  local content and shared static assets.
 - Premium-content static-stack run `30442112887`: passed.
 - Premium-content GitHub Pages deployment run `30442186176`: passed.
 - Served HTML spot-check confirms the new page-specific guide and trust content
