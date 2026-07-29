@@ -108,9 +108,11 @@ production promise while retaining the non-transmitting demo notice.
 - Preview indexing: blocked by both meta robots and `robots.txt`
 - City pages: 20 unique routes, titles, descriptions, H1s, canonicals, FAQ
   schemas, source notes and local planning/access sections
-- City-page rendered-text range: 755–785 words
+- City-page rendered-text range: 777–821 words
 - City content depth: `PREMIUM_CONTENT_QA_PASS`; every page includes a unique
   local risk-and-decision section without Wikipedia or generic SEO padding
+- City editorial uniqueness after excluding interface/form/trust copy:
+  77.9%–79.5%; average cross-page five-word phrase overlap: 14.6%
 - City source and differentiation review: recorded in
   `CITY-CONTENT-REVIEW.md`
 - Sitemap: all 20 city routes included exactly once

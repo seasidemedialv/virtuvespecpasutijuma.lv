@@ -6,11 +6,17 @@ Overall state: **PREMIUM CONTENT QA PASS · VISUAL REVIEW PENDING**
 
 ## Content-depth decision
 
-All 20 pages now contain 755–785 rendered words. The expansion adds a distinct
+All 20 pages now contain 777–821 rendered words. The expansion adds a distinct
 local risk-and-decision section to every page: housing/access patterns, address
 and delivery scenarios, room-planning implications and a city-specific project
 verification outcome. It does not use city history, tourist descriptions,
 synonym changes or repeated generic kitchen paragraphs to reach the range.
+
+A second cross-page audit excluded navigation, forms, trust components and the
+response promise. It found 77.9%–79.5% page-specific editorial wording, compared
+with 48.2%–51.1% before the rewrite. Average five-word phrase overlap fell from
+about 40% to 14.6%. The remaining common wording covers verified service facts,
+source disclosure and necessary measurement disclaimers.
 
 ## Evidence decision
 
@@ -32,8 +38,9 @@ room-planning and delivery guidance more useful.
 - Every page has unique local-context, property-access and planning paragraphs.
 - Every page names a distinct local verification focus.
 - FAQ questions and answers include that page’s real address/access issue.
-- Shared navigation, canonical form, verified four-stage service process and
-  trust statements remain deliberately consistent.
+- Shared navigation, canonical form, verified four-stage capability and trust
+  statements remain deliberately consistent; the process explanations
+  themselves are now rewritten for each area.
 - No local reviews, projects, response statistics, prices, guarantees,
   certifications, material claims or contact information were invented.
 
@@ -41,26 +48,26 @@ room-planning and delivery guidance more useful.
 
 | Area | Words | Unique planning/access focus | Result |
 |---|---:|---|---|
-| Rīga | 764 | neighbourhood, building type, lift/stair and delivery route | PASS |
-| Mārupe | 766 | open-plan homes, final measurements and private access | PASS |
-| Stopiņi | 757 | exact settlement, broad pagasts and address reachability | PASS |
-| Ulbroka | 768 | apartment/house distinction and expanded settlement address | PASS |
-| Ķekava | 756 | finish readiness, utility positions and access | PASS |
-| Babīte | 777 | rail/road context and final delivery segment | PASS |
-| Garkalne | 755 | place-versus-pagasts precision and driveway access | PASS |
-| Salaspils | 762 | apartment/house type, storey and workflow | PASS |
-| Ādaži | 766 | divided local structure, open-plan views and storage | PASS |
-| Jūrmala | 783 | neighbourhood, building construction and seasonal use | PASS |
-| Olaine | 764 | compact apartment constraints and common-area access | PASS |
-| Piņķi | 771 | new/existing house distinction, gates and final measurement | PASS |
-| Carnikava | 785 | exact location, outdoor openings and use pattern | PASS |
-| Ropaži | 766 | village/pagasts address distinction and delivery | PASS |
-| Ikšķile | 777 | windows, outdoor access and retained utilities | PASS |
-| Ogre | 771 | relief, mixed housing and opening preservation | PASS |
-| Baldone | 761 | slopes, level changes and renovation readiness | PASS |
-| Saulkrasti | 771 | elongated territory, side roads and seasonal use | PASS |
-| Jelgava | 767 | state-city housing variety, storey and delivery openings | PASS |
-| Sigulda | 768 | terrain, entry levels, windows and views | PASS |
+| Rīga | 797 | neighbourhood, building type, lift/stair and delivery route | PASS |
+| Mārupe | 800 | open-plan homes, final measurements and private access | PASS |
+| Stopiņi | 777 | exact settlement, broad pagasts and address reachability | PASS |
+| Ulbroka | 801 | apartment/house distinction and expanded settlement address | PASS |
+| Ķekava | 784 | finish readiness, utility positions and access | PASS |
+| Babīte | 805 | rail/road context and final delivery segment | PASS |
+| Garkalne | 785 | place-versus-pagasts precision and driveway access | PASS |
+| Salaspils | 787 | apartment/house type, storey and workflow | PASS |
+| Ādaži | 814 | divided local structure, open-plan views and storage | PASS |
+| Jūrmala | 812 | neighbourhood, building construction and seasonal use | PASS |
+| Olaine | 799 | compact apartment constraints and common-area access | PASS |
+| Piņķi | 801 | new/existing house distinction, gates and final measurement | PASS |
+| Carnikava | 821 | exact location, outdoor openings and use pattern | PASS |
+| Ropaži | 793 | village/pagasts address distinction and delivery | PASS |
+| Ikšķile | 809 | windows, outdoor access and retained utilities | PASS |
+| Ogre | 807 | relief, mixed housing and opening preservation | PASS |
+| Baldone | 789 | slopes, level changes and renovation readiness | PASS |
+| Saulkrasti | 800 | elongated territory, side roads and seasonal use | PASS |
+| Jelgava | 789 | state-city housing variety, storey and delivery openings | PASS |
+| Sigulda | 798 | terrain, entry levels, windows and views | PASS |
 
 ## Technical result
 
