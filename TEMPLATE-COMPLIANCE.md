@@ -86,9 +86,10 @@ Functional pages are `/ka-mes-stradajam/`, `/realizetie-projekti/`,
 - No unresolved template tokens or framework references remain in site source.
 - No invented prices, reviews, guarantees, response times, projects,
   certifications, legal operator or contact details were introduced.
-- All 25 form instances use the same ordered schema: name, phone, address,
-  optional service area, required service and required project-details
-  textarea.
+- All 25 form instances use the same ordered schema: name, phone, optional
+  service area, address, required service and required project-details
+  textarea. The service area precedes the street address so visitors select
+  the city or territory first.
 - Name, phone, address, service and project details are marked `required`.
 - Every service-area selector ends with `<option value="other">Cits</option>`.
 - Every HTML page contains the standard form, including privacy and 404 pages.
