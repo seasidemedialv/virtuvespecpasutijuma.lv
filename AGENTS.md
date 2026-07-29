@@ -42,3 +42,7 @@ Follow `seasidemedialv/website-template/URL-STANDARD.md`. Move every service pag
 ## Mandatory response message
 
 Follow `seasidemedialv/website-template/RESPONSE-MESSAGE-STANDARD.md`. Use `Virtuves pēc pasūtījuma — Pēc formas aizpildīšanas sazināmies 5 minūšu laikā!` in the notification bar on every page. Repeat the core message beside every canonical form and once more in a prominent conversion location on every conversion page. Keep the demo notice while forms do not transmit; before production, test the webhook, success/failure states and five-minute operational process.
+
+## Mandatory premium rewrite
+
+Follow `seasidemedialv/website-template/PREMIUM-STANDARD.md`. All 15 service pages require an independent premium-content review and rewrite before approval. Preserve their approved keyword clusters, but replace repeated generic process text and internal SEO-style language with topic-specific customer decisions, comparisons, constraints, mistakes, checklists, pricing factors, verified trust information, unique FAQs, contextual links and useful visuals. Create `PREMIUM-CONTENT-REVIEW.md` and do not proceed to preview approval until every page passes.
