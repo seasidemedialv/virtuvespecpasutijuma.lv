@@ -2,18 +2,18 @@
 
 Last updated: 2026-07-29
 
-- **Workflow state:** STATIC_POLICY_PENDING
-- **Build allowed:** NO until the GitHub static-stack policy passes
-- **Preview:** existing framework preview remains rejected until replaced
+- **Workflow state:** VISUAL_QA_BLOCKED
+- **Build allowed:** Static source passed the hard policy gate
+- **Preview:** direct static preview deployed; visual approval pending
 - **Production deployment:** NO
 - **Template source:** `seasidemedialv/website-template` commit `6164a5664c46ca45a8386c829646facf1c9b4dca`
 - **DataForSEO research:** approved and preserved
 
 ## Mandatory next action
 
-Commit the plain static source and framework removals, inspect the exact
-`.github/workflows/static-stack-policy.yml` run, and proceed to preview
-deployment only if that run succeeds.
+Allow cloud-browser access to `seasidemedialv.github.io`, then complete desktop
+and mobile visual comparison, interaction checks and console review. Do not
+mark the preview compliant before those checks pass.
 
 ## Research and architecture preserved
 
@@ -69,15 +69,24 @@ invented.
 - Forms: non-transmitting and visibly labelled
 - Preview indexing: blocked by both meta robots and `robots.txt`
 
+## GitHub checks completed
+
+- Static source commit: `8e1372e1f5efffa940628b189a911db1a16a9999`
+- Static-stack policy run `30429879248`: passed
+- Direct static preview deployment run `30429932394`: passed
+- Preview homepage, price page, FAQ, stylesheet, script and hero image: HTTP 200
+- Preview URL:
+  `https://seasidemedialv.github.io/website-preview/virtuvespecpasutijuma/`
+
 ## Remaining gates
 
-1. GitHub static-stack policy must pass.
-2. Existing GitHub Pages preview must be replaced with direct static files.
-3. Desktop and mobile visual QA must pass.
-4. Content/SEO comparison must be recorded after deployment.
-5. Owner visual review is then required.
-6. Production still requires final brand, legal/contact/form facts and explicit
+1. Desktop and mobile visual QA must pass.
+2. Browser console and interaction checks must pass.
+3. Content/SEO visual comparison must be recorded.
+4. Owner visual review is then required.
+5. Production still requires final brand, legal/contact/form facts and explicit
    deployment approval.
 
-**Decision:** do not proceed to visual QA or preview deployment until the exact
-GitHub static-stack policy run passes.
+**Decision:** static policy and deployment gates passed. Visual QA cannot
+continue because the saved browser permission blocks the preview domain and
+forbids a workaround.
