@@ -57,3 +57,68 @@ jobs:
           fi
 
           echo "Static stack policy passed."
+
+      - name: Enforce canonical form and local CTA contract
+        shell: python
+        run: |
+          from pathlib import Path
+          from html.parser import HTMLParser
+          import sys
+
+          required = ["name", "phone", "address", "service", "message"]
+          failures = []
+
+          class Audit(HTMLParser):
+              def __init__(self):
+                  super().__init__()
+                  self.forms = []
+                  self.current = None
+                  self.local_ctas = 0
+                  self.lead_anchor = False
+
+              def handle_starttag(self, tag, attrs):
+                  data = dict(attrs)
+                  if data.get("id") == "lead-form":
+                      self.lead_anchor = True
+                  if tag == "a" and data.get("href") == "#lead-form":
+                      self.local_ctas += 1
+                  if tag == "form":
+                      self.current = {}
+                      self.forms.append(self.current)
+                  elif self.current is not None and tag in ("input", "select", "textarea"):
+                      name = data.get("name")
+                      if name:
+                          self.current[name] = "required" in data
+
+              def handle_endtag(self, tag):
+                  if tag == "form":
+                      self.current = None
+
+          for path in sorted(Path(".").rglob("*.html")):
+              if ".git" in path.parts or path.name == "404.html":
+                  continue
+              audit = Audit()
+              audit.feed(path.read_text(encoding="utf-8"))
+
+              if not audit.lead_anchor:
+                  failures.append(f"{path}: missing id=lead-form")
+              if len(audit.forms) != 1:
+                  failures.append(f"{path}: expected exactly one form, found {len(audit.forms)}")
+                  continue
+
+              form = audit.forms[0]
+              for field in required:
+                  if field not in form:
+                      failures.append(f"{path}: missing required field {field}")
+                  elif not form[field]:
+                      failures.append(f"{path}: field {field} lacks required attribute")
+
+              if audit.local_ctas < 1:
+                  failures.append(f"{path}: no local href=#lead-form CTA")
+
+          if failures:
+              for failure in failures:
+                  print(f"::error::{failure}")
+              sys.exit("Canonical form policy failed.")
+
+          print("Canonical form and local CTA policy passed.")
