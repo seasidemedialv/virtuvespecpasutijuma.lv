@@ -1,5 +1,14 @@
 # Template Compliance — virtuvespecpasutijuma.lv
 
+## Bilingual implementation addendum — 2026-07-31
+
+The Latvian static template system is mirrored under `/en/` without a build
+layer or client-side translation. All 45 English documents reuse the same
+header, navigation, content sections, conversion panels, canonical form,
+footer, images, stylesheet and JavaScript behavior. Localized routes,
+canonicals, reciprocal language switches and `hreflang` relationships preserve
+the original page-to-page architecture. Visual comparison remains required.
+
 ## Compact-keyword implementation addendum — 2026-07-29
 
 The owner-approved pilot preserves the static template system and canonical
@@ -46,7 +55,7 @@ compilation, server or build command.
 | `geo-page.html` | `/pilsetas/index.html` plus twenty `/pilsetas/virtuves-iekarta-<vieta>/index.html` pages with local context, planning constraints, delivery checks, source notes, FAQs, trust content and canonical forms |
 | `styles.css` | root `styles.css`: adapted template layout, typography, cards, forms, conversion sections, navigation, responsive grids and focus states |
 | `script.js` | root `script.js`: sticky header, mobile menu, FAQ accordions, floating mobile CTA and explicitly non-transmitting preview forms |
-| Template images | root `images/`: three compressed WebP illustrations, visibly disclosed as illustrative rather than completed projects |
+| Template images | `public/images/projects/`: eight optimized WebP assets selected from an owner-supplied real-project archive; selection and exclusions are recorded in `IMAGE-ASSET-REVIEW.md` |
 | Brand assets | owner-supplied `public/images/logo.png` in every header/footer and owner-supplied root `favicon.png` in every document head |
 
 ## Approved page inventory

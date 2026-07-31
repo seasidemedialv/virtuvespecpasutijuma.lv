@@ -49,7 +49,7 @@ Use `TBD` for unknown information. Do not invent missing facts.
 ## Proof and trust
 
 - Real reviews and sources: TBD
-- Case studies/projects and permission: TBD
+- Case studies/projects and permission: Owner supplied an archive of real completed jobs on 2026-07-31 and instructed selective website use. Client names, locations and technical specifications remain TBD and are not inferred from the images.
 - Team information and permission: TBD
 - Associations, awards, or partner logos and permission: TBD
 - Other verified differentiators: TBD
@@ -72,8 +72,8 @@ Use `TBD` for unknown information. Do not invent missing facts.
 - Preferred colors: TBD
 - Colors/styles to avoid: Generic luxury clichés and unsupported trust badges
 - Logo status: TBD
-- Existing assets and licenses: TBD
-- Image-generation needs: TBD; generated imagery must not imply completed client work
+- Existing assets and licenses: Owner-supplied logo, favicon and real-project photo archive. Selected usage and exclusions are documented in `IMAGE-ASSET-REVIEW.md`; final production rights confirmation remains an owner responsibility.
+- Image-generation needs: Existing generated illustrations may remain only where clearly labelled; real-project photography is now preferred for portfolio and proof placements.
 
 ## Technical setup
 
@@ -110,7 +110,7 @@ Use `TBD` for unknown information. Do not invent missing facts.
 - [ ] Confirm explicit exclusions and detailed boundaries of design, manufacturing, delivery, and installation.
 - [ ] Confirm site language(s); service areas are verified.
 - [ ] Supply verified contact details and enquiry destination.
-- [ ] Supply real proof, portfolio assets, reviews, and usage permissions.
+- [x] Supply real project photography for portfolio proof; reviews and any additional usage/legal documentation remain outstanding.
 - [ ] Confirm pricing, guarantees, process, timing, and differentiators.
 - [ ] Confirm analytics, consent, legal copy, domain, and deployment ownership.
 - [ ] Authorize and configure the required DataForSEO research.

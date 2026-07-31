@@ -1,5 +1,14 @@
 # Project Status — virtuvespecpasutijuma.lv
 
+## English localization — 2026-07-31
+
+- Added a crawlable `/en/` mirror with 45 static English documents.
+- Localized route families use `/en/services/`, `/en/locations/` and `/en/guides/` plus English functional-page slugs.
+- Latvian and English documents have reciprocal language switches and `lv`, `en` and `x-default` `hreflang` links.
+- English titles, descriptions, canonicals, Open Graph locale, navigation, forms, CTAs, trust content and structured data were localized without adding new business claims.
+- Shared design, images, JavaScript behavior and canonical form structure remain unchanged.
+- English route parity, metadata, internal links, forms and CTA checks passed locally; preview deployment and visual review remain required.
+
 ## Compact-keyword pilot — 2026-07-29
 
 - **Owner decision:** approved and implemented in the local static source
@@ -59,7 +68,7 @@ those checks pass.
   explanatory content and their own local enquiry forms
 - Six functional/trust pages
 - `404.html`, `robots.txt`, `sitemap.xml`, `favicon.svg`
-- Three compressed illustrative WebP images
+- Eight optimized real-project WebP images selected from an owner-supplied archive; the portfolio page now presents six distinct finished kitchen views
 - Static-stack policy workflow
 - Project, research, keyword-map and page-brief documentation
 

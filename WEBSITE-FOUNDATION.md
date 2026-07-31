@@ -132,6 +132,11 @@ Projektu lapa neizliek ilustrācijas par klientu projektiem. Kontaktu forma nav 
 
 ## 8. Tehniskais SEO un statiskā avota QA
 
+- Angļu valodas versija: 45 statiskas lapas zem `/en/` ar lokalizētiem URL,
+  kanoniskajiem URL, metadatiem, strukturētajiem datiem un savstarpējiem
+  `hreflang` ierakstiem; dizains un konversijas sistēma ir kopīga ar latviešu
+  versiju
+
 - Latvian `lang=lv`
 - Unikāli title, description, H1 un canonical ieraksti
 - Statisks `sitemap.xml` un `robots.txt`
