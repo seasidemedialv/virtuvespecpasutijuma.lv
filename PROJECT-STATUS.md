@@ -14,6 +14,9 @@
 - Corrected the stale Russian FAQ statement about completed-project imagery.
 - Local schema, metadata, sitemap, internal-link, static-stack and form-policy
   checks pass. Detailed evidence: `SEO-IMPLEMENTATION-REPORT.md`.
+- Independent re-audit synchronized the FAQ schema on all 111 pages that show
+  FAQs, including six previously missing objects and six translated
+  question-text mismatches.
 - The GitHub Pages testing preview remains intentionally blocked from indexing.
   Production crawl enablement still requires explicit production deployment
   authorization.

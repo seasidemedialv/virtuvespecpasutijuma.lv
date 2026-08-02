@@ -28,8 +28,8 @@ systems. No new landing pages or unsupported search intents were introduced.
 - 129 non-home canonical documents: added `BreadcrumbList` schema matching the
   visible breadcrumb navigation.
 - 102 service schemas: added canonical URL and provider relationship.
-- 105 FAQ schemas: confirmed language metadata; visible FAQs remain the source
-  for the schema.
+- 111 FAQ schemas: synchronized every question and answer directly from the
+  visible FAQ content and confirmed language metadata.
 - Three guide/article schemas: added canonical main entity, publisher reference
   and an accurate modification date.
 - Latvian, English and Russian homepages: added a shared `Organization` entity,
@@ -111,6 +111,7 @@ infer.
 - 45 Latvian, 45 English and 45 Russian documents
 - 132 `WebPage` schemas
 - 129 `BreadcrumbList` schemas
+- 111 visible FAQ sections with exact `FAQPage` question-and-answer parity
 - 132 sitemap URLs and 528 sitemap language alternates
 - JSON-LD: structurally valid
 - Sitemap XML: structurally valid
@@ -120,6 +121,21 @@ infer.
 - Canonical form and local CTA policy: passed
 - Static-stack policy: passed locally
 - `git diff --check`: passed
+
+## Independent re-audit — 2026-08-02
+
+A second validator did not rely on this report or the original implementation
+script. It found and corrected two schema/content parity defects:
+
+- the three language homepages and three language versions of the kitchen
+  design guide had visible FAQs but no `FAQPage` schema;
+- one English service page and five Russian location pages contained translated
+  visible questions that did not exactly match their JSON-LD questions.
+
+All 111 pages containing visible FAQs now have exactly one `FAQPage` object,
+with identical question order and identical visible answer text. The complete
+metadata, canonical, reciprocal `hreflang`, sitemap, schema, link, image, form,
+static-stack and served-file checks were rerun after this correction.
 
 ## Production follow-up
 
