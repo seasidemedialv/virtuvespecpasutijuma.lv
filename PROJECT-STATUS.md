@@ -1,10 +1,50 @@
 # Project Status — virtuvespecpasutijuma.lv
 
+## SEO-guidelines implementation — 2026-08-02
+
+- Applied the current Google, LLM-visibility and retrieval-layer standards from
+  `seasidemedialv/seo-guidelines` across all 135 static HTML documents.
+- Added factual `Organization`, `WebSite`, `WebPage` and `BreadcrumbList`
+  relationships without inventing NAP, hours, profiles, ratings or credentials.
+- Enriched existing `Service`, `FAQPage` and `Article` schema.
+- Added `llms.txt` and regenerated the 132-URL sitemap with complete Latvian,
+  English, Russian and `x-default` alternates.
+- Added complete Twitter/Open Graph image metadata and explicit page-summary
+  semantics; shortened twelve overlong titles.
+- Corrected the stale Russian FAQ statement about completed-project imagery.
+- Local schema, metadata, sitemap, internal-link, static-stack and form-policy
+  checks pass. Detailed evidence: `SEO-IMPLEMENTATION-REPORT.md`.
+- The GitHub Pages testing preview remains intentionally blocked from indexing.
+  Production crawl enablement still requires explicit production deployment
+  authorization.
+
+## Russian localization — 2026-07-31
+
+- Added a crawlable `/ru/` mirror with 45 plain static Russian documents.
+- Russian route families use `/ru/uslugi/`, `/ru/goroda/` and
+  `/ru/rukovodstva/`, with localized functional-page slugs.
+- All 135 Latvian, English and Russian documents now display LV, EN and RU
+  simultaneously; the current language is visibly selected and marked with
+  `aria-current="page"`.
+- Every language version has reciprocal `lv`, `en`, `ru` and `x-default`
+  `hreflang` links, localized canonicals, metadata, navigation, forms, CTAs and
+  structured data.
+- Corrected machine-translated place names and interface phrases in the
+  Russian output; verified all 20 service-area names and localized “Other”
+  form options.
+- Local QA passed for 135 documents, 135 language selectors, route parity,
+  metadata, JSON-LD, internal links, forms and CTAs. The sitemap contains 44
+  indexable English URLs and 44 indexable Russian URLs.
+- The static-stack workflow now validates the final service-area option by
+  document language: `Cits`, `Other` or `Другое`.
+- Preview deployment and desktop/mobile visual review remain required.
+
 ## English localization — 2026-07-31
 
 - Added a crawlable `/en/` mirror with 45 static English documents.
 - Localized route families use `/en/services/`, `/en/locations/` and `/en/guides/` plus English functional-page slugs.
-- Latvian and English documents have reciprocal language switches and `lv`, `en` and `x-default` `hreflang` links.
+- Latvian and English documents have reciprocal language switches and `lv`,
+  `en`, `ru` and `x-default` `hreflang` links.
 - English titles, descriptions, canonicals, Open Graph locale, navigation, forms, CTAs, trust content and structured data were localized without adding new business claims.
 - Shared design, images, JavaScript behavior and canonical form structure remain unchanged.
 - English route parity, metadata, internal links, forms and CTA checks passed locally; preview deployment and visual review remain required.

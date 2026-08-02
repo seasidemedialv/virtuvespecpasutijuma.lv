@@ -12,6 +12,19 @@
 
 Nezināma informācija paliek `TBD` un netiek publicēta kā fakts.
 
+## 2026-07-31 valodu arhitektūra
+
+Vietne ir realizēta trīs valodās kā tieši apkalpojami statiski HTML dokumenti:
+latviski saknē, angliski zem `/en/` un krieviski zem `/ru/`. Katrā valodā ir
+45 dokumenti ar vienādu informācijas arhitektūru, konversijas plūsmu, formu,
+attēliem un komponentēm. Valodu pārslēdzējā vienlaikus redzami LV, EN un RU;
+aktīvā valoda ir vizuāli izcelta un marķēta ar `aria-current="page"`.
+
+Visām ekvivalentajām lapām ir savstarpējas `hreflang` saites (`lv`, `en`, `ru`
+un `x-default`), lokalizēti kanoniskie URL un strukturētie dati. Tulkojumi
+nepaplašina apstiprināto biznesa faktu kopu un neievieš neapstiprinātas cenas,
+termiņus, garantijas, zīmolus, atsauksmes vai kontaktinformāciju.
+
 ## 2026-07-29 compact-keyword precizējums
 
 Pēc pilnas 36 vaicājumu SERP validācijas īpašnieks apstiprināja prioritāro

@@ -123,8 +123,19 @@ jobs:
                   options = re.findall(r'<option\\b[^>]*>(.*?)</option>', body, flags=re.IGNORECASE | re.DOTALL)
                   labels = [re.sub(r'<[^>]+>', '', option).strip() for option in options]
                   selectable = [label for label in labels if label]
-                  if not selectable or selectable[-1].casefold() != "cits":
-                      failures.append(f"{path}: area dropdown must end with selectable option Cits")
+                  language = re.search(
+                      r'<html\b[^>]*\blang=["\']([^"\']+)',
+                      path.read_text(encoding="utf-8"),
+                      re.IGNORECASE,
+                  )
+                  localized_other = {"lv": "cits", "en": "other", "ru": "другое"}
+                  expected_other = localized_other.get(
+                      language.group(1).casefold() if language else "lv", "cits"
+                  )
+                  if not selectable or selectable[-1].casefold() != expected_other:
+                      failures.append(
+                          f"{path}: area dropdown must end with localized option {expected_other}"
+                      )
 
               if audit.local_ctas < 1:
                   failures.append(f"{path}: no local href=#lead-form CTA")

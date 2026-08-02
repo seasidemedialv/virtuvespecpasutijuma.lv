@@ -1,13 +1,15 @@
 # Template Compliance — virtuvespecpasutijuma.lv
 
-## Bilingual implementation addendum — 2026-07-31
+## Trilingual implementation addendum — 2026-07-31
 
-The Latvian static template system is mirrored under `/en/` without a build
-layer or client-side translation. All 45 English documents reuse the same
-header, navigation, content sections, conversion panels, canonical form,
-footer, images, stylesheet and JavaScript behavior. Localized routes,
-canonicals, reciprocal language switches and `hreflang` relationships preserve
-the original page-to-page architecture. Visual comparison remains required.
+The Latvian static template system is mirrored under `/en/` and `/ru/` without
+a build layer or client-side translation. Each language contains 45 static
+documents and reuses the same header, navigation, content sections, conversion
+panels, canonical form, footer, images, stylesheet and JavaScript behavior.
+Localized routes, canonicals and reciprocal `lv`, `en`, `ru` and `x-default`
+`hreflang` relationships preserve exact page-to-page parity. Every desktop and
+mobile navigation exposes all three language choices at once, with the current
+language visibly active. Visual comparison remains required.
 
 ## Compact-keyword implementation addendum — 2026-07-29
 
