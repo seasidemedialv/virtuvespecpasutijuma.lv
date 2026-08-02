@@ -137,6 +137,23 @@ with identical question order and identical visible answer text. The complete
 metadata, canonical, reciprocal `hreflang`, sitemap, schema, link, image, form,
 static-stack and served-file checks were rerun after this correction.
 
+## Third independent audit — 2026-08-02
+
+The third pass compared all source documents with the served preview and then
+added an editorial-quality scan that was deliberately separate from the
+structural SEO validator. Technical source/preview parity was exact, but the
+language scan found several machine-like phrases in the English and Russian
+versions, including a duplicated English service term, malformed Piņķi and
+Ikšķile metadata, repetitive location-FAQ wording and an unnatural Russian
+five-minute trust heading.
+
+The affected visible copy, metadata and structured FAQ answers were corrected.
+Location questions now use natural, city-specific wording while preserving the
+verified service scope and local planning details. No prices, timing beyond the
+owner-approved response statement, warranties, reviews, contact data or other
+unverified claims were introduced. FAQ JSON-LD was resynchronized after the
+editorial changes.
+
 ## Production follow-up
 
 After the owner supplies the missing entity data and authorizes production:

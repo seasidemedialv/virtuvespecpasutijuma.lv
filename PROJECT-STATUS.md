@@ -217,6 +217,18 @@ production promise while retaining the non-transmitting demo notice.
 continue because the saved browser permission blocks the preview domain and
 forbids a workaround.
 
+## Third audit update — 2026-08-02
+
+- Full local crawl: 135 HTML documents and 6,891 links checked with no
+  structural, canonical, form-contract or internal-link errors.
+- FAQ parity: all 111 pages with visible FAQs exactly match their `FAQPage`
+  structured data after the editorial corrections.
+- Editorial corrections: malformed English location metadata, repeated
+  machine-translated location wording and unnatural English/Russian trust and
+  service phrases were corrected without adding unsupported business claims.
+- Static-stack, sitemap, source/preview and served-preview verification must be
+  rerun on the resulting commit before this audit is closed.
+
 ## Premium-content review
 
 The required rewrite is implemented and recorded page by page in
