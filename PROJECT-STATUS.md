@@ -229,6 +229,16 @@ forbids a workaround.
 - Static-stack, sitemap, source/preview and served-preview verification must be
   rerun on the resulting commit before this audit is closed.
 
+## Localized name placeholders — 2026-08-03
+
+- Added the same localized example-name placeholder to the canonical name
+  field on every page: `Jānis Bērziņš` (LV), `John Smith` (EN) and
+  `Иван Иванов` (RU).
+- The placeholders are hints only; native browser behavior hides them as soon
+  as the visitor enters a value.
+- Form-contract, static-stack and served-preview verification must pass on the
+  resulting commit before this change is closed.
+
 ## Premium-content review
 
 The required rewrite is implemented and recorded page by page in

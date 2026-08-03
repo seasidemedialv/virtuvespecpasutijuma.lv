@@ -122,6 +122,9 @@ Functional pages are `/ka-mes-stradajam/`, `/realizetie-projekti/`,
   textarea. The service area precedes the street address so visitors select
   the city or territory first.
 - Name, phone, address, service and project details are marked `required`.
+- Every canonical name field includes a localized example placeholder:
+  `Jānis Bērziņš` in Latvian, `John Smith` in English and `Иван Иванов` in
+  Russian. The placeholder does not prefill or submit a value.
 - Every service-area selector ends with `<option value="other">Cits</option>`.
 - Every HTML page contains the standard form, including privacy and 404 pages.
 - Every primary header, mobile, sidebar, body and floating CTA targets that
