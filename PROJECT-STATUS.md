@@ -1,5 +1,23 @@
 # Project Status — virtuvespecpasutijuma.lv
 
+## ActivePieces form delivery — 2026-08-03
+
+- Activated the owner-supplied ActivePieces webhook for the canonical enquiry
+  form on all 135 Latvian, English and Russian HTML pages through the shared
+  root `script.js`.
+- Every submission sends all canonical fields (`name`, `phone`, `area`,
+  `address`, `service`, `message`) plus page URL, page title, document language
+  and an ISO submission timestamp.
+- Added native required-field validation, a disabled/loading submit state,
+  strict non-2xx failure handling and localized success/failure messages.
+- Replaced the obsolete demo-form notices with localized transmission notices
+  and privacy-policy links.
+- Local source QA passes across 135 pages. A clearly marked live test payload
+  reached the supplied endpoint twice, but ActivePieces returned HTTP 404 with
+  `{}`; the flow must be published/enabled or a valid webhook URL supplied
+  before delivery QA can pass. Production launch authorization remains a
+  separate gate.
+
 ## SEO-guidelines implementation — 2026-08-02
 
 - Applied the current Google, LLM-visibility and retrieval-layer standards from
@@ -157,7 +175,7 @@ production promise while retaining the non-transmitting demo notice.
 - Internal links: no broken targets
 - Unresolved template tokens: none
 - Framework references in website source: none
-- Forms: non-transmitting and visibly labelled
+- Forms: configured to transmit through the owner-supplied ActivePieces webhook
 - Forms after the hierarchy change: 25 identical instances across 25 HTML pages
 - Standard fields: name, phone, service area, address, topic and project details
 - Required controls: name, phone, address, service and project details

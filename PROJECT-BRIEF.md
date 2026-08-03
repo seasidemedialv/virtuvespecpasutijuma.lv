@@ -82,7 +82,7 @@ Use `TBD` for unknown information. Do not invent missing facts.
 - Preview path/URL: TBD
 - Production domain: `https://virtuvespecpasutijuma.lv/` (confirmed website domain; DNS/launch status TBD)
 - Cloudflare project: TBD
-- Form endpoint: TBD
+- Form endpoint: Owner-supplied ActivePieces webhook (configured 2026-08-03)
 - Analytics: TBD
 - Consent/cookie requirements: TBD
 - Other integrations: TBD
@@ -90,7 +90,8 @@ Use `TBD` for unknown information. Do not invent missing facts.
 
 ## Legal and privacy
 
-- Data collected: TBD
+- Data collected: name, phone, service area, street address, requested service,
+  project details, source page URL/title, page language and submission time
 - Privacy policy source/reviewer: TBD
 - Cookie/consent requirements: TBD
 - Terms or disclaimers: TBD

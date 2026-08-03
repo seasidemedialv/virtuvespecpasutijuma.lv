@@ -131,7 +131,10 @@ kā nesaistīts vietvārdu pildījums.
 - `/kontakti/`
 - `/privatuma-politika/`
 
-Projektu lapa neizliek ilustrācijas par klientu projektiem. Kontaktu forma nav aktivizēta, kamēr nav zināms saņēmējs un piekrišanas process. Privātuma lapā nav izdomāti juridiskie rekvizīti.
+Projektu lapa neizliek ilustrācijas par klientu projektiem. Kontaktu forma ir
+aktivizēta ar īpašnieka 2026-08-03 piegādāto ActivePieces webhook; juridiskā
+operatora un privātuma teksta gala pārbaude joprojām ir produkcijas palaišanas
+nosacījums. Privātuma lapā nav izdomāti juridiskie rekvizīti.
 
 ## 7. Dizaina un zīmola sistēma
 
@@ -172,7 +175,7 @@ Pirms publiskas palaišanas jāapstiprina vai jāsaņem:
 - gala zīmola un logotipa virziens;
 - juridiskais operators, publiskais uzņēmuma nosaukums un obligātie rekvizīti;
 - telefons, e-pasts un cita publicējama kontaktinformācija;
-- formas saņēmējs, piekrišanas teksts un lead apstrāde;
+- formas lead apstrādes operatīvā pārbaude un piekrišanas/privātuma teksta gala apstiprinājums;
 - precīzs pakalpojumu apjoms, tostarp vai tiek pieņemta uzstādīšana bez virtuves izgatavošanas;
 - publiski norādāmie materiāli, fasādes un furnitūra;
 - tikai tad, ja vēlas publicēt: reālas cenas, garantijas un izpildes termiņi;

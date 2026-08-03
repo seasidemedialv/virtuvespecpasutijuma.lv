@@ -56,7 +56,7 @@ compilation, server or build command.
 | `faq.html` | `buj/index.html` plus visible, intent-specific FAQ sections on every demand page |
 | `geo-page.html` | `/pilsetas/index.html` plus twenty `/pilsetas/virtuves-iekarta-<vieta>/index.html` pages with local context, planning constraints, delivery checks, source notes, FAQs, trust content and canonical forms |
 | `styles.css` | root `styles.css`: adapted template layout, typography, cards, forms, conversion sections, navigation, responsive grids and focus states |
-| `script.js` | root `script.js`: sticky header, mobile menu, FAQ accordions, floating mobile CTA and explicitly non-transmitting preview forms |
+| `script.js` | root `script.js`: sticky header, mobile menu, FAQ accordions, floating mobile CTA and ActivePieces webhook delivery with localized loading, success and failure states |
 | Template images | `public/images/projects/`: eight optimized WebP assets selected from an owner-supplied real-project archive; selection and exclusions are recorded in `IMAGE-ASSET-REVIEW.md` |
 | Brand assets | owner-supplied `public/images/logo.png` in every header/footer and owner-supplied root `favicon.png` in every document head |
 
@@ -132,8 +132,13 @@ Functional pages are `/ka-mes-stradajam/`, `/realizetie-projekti/`,
 - All 25 pages use the exact owner-approved five-minute response message in the
   notification bar, a large responsive in-page trust panel and a high-contrast
   card beside the form.
-- The non-transmitting demo notice remains visible; webhook delivery and the
-  five-minute operational process remain production QA requirements.
+- The owner-supplied ActivePieces webhook is configured across all 135 forms.
+  Each form sends the six canonical fields plus page URL, page title, language
+  and submission timestamp. Localized loading, success and failure states are
+  implemented. Source QA passes across all 135 pages, but the supplied endpoint
+  returned HTTP 404 to a marked test payload on 2026-08-03. Live delivery and
+  the five-minute operational process therefore remain failed production QA
+  requirements until the ActivePieces flow is enabled or its URL is corrected.
 - Internal-link crawl passed with no obsolete root-level service URLs.
 - The 15 service pages, both hubs, canonicals, breadcrumbs and sitemap use the
   same `/pakalpojumi/` and `/pilsetas/` hierarchy.
